@@ -1,0 +1,64 @@
+services:
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile.server
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./logs:/app/logs
+    deploy:
+      resources:
+        limits:
+          memory: 24g
+
+  client1:
+    build:
+      context: .
+      dockerfile: Dockerfile.client.gpu
+    environment:
+      SERVER_IP: "server:8080"
+      CLIENT_ID: "0"
+    deploy:
+      resources:
+        limits:
+          memory: 12g
+        reservations:
+          devices:
+            - capabilities: [gpu]
+    depends_on:
+      - server
+
+  client2:
+    build:
+      context: .
+      dockerfile: Dockerfile.client.gpu
+    environment:
+      SERVER_IP: "server:8080"
+      CLIENT_ID: "1"
+    deploy:
+      resources:
+        limits:
+          memory: 12g
+        reservations:
+          devices:
+            - capabilities: [gpu]
+    depends_on:
+      - server
+
+  client3:
+    build:
+      context: .
+      dockerfile: Dockerfile.client.gpu
+    environment:
+      SERVER_IP: "server:8080"
+      CLIENT_ID: "2"
+    deploy:
+      resources:
+        limits:
+          memory: 12g
+        reservations:
+          devices:
+            - capabilities: [gpu]
+    depends_on:
+      - server

@@ -1,0 +1,27 @@
+# Base image
+FROM python:3.10-slim
+
+# Avoids interactive prompts during install
+ENV DEBIAN_FRONTEND=noninteractive
+
+WORKDIR /app
+
+# Install system dependencies for PyTorch
+RUN apt-get update && apt-get install -y \
+    git \
+    wget \
+    curl \
+    && apt-get clean
+
+# Install latest pip
+RUN pip install --upgrade pip
+
+# Install latest compatible PyTorch (>=2.6.0) with CUDA 11.8
+RUN pip install torch==2.7.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+
+# Install Flower, Transformers, Datasets, etc.
+RUN pip install flwr transformers datasets hf_xet accelerate>=0.26.0
+
+COPY . .
+
+CMD ["python", "-u", "client.py"]

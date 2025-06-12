@@ -1,0 +1,28 @@
+FROM python:3.10-slim
+
+ENV PIP_DEFAULT_TIMEOUT=100
+
+WORKDIR /app
+COPY server.py .
+
+RUN apt-get update && apt-get install -y \
+    git \
+    wget \
+    curl \
+    && apt-get clean
+
+RUN pip install --no-cache-dir flwr
+
+# Install latest pip
+RUN pip install --upgrade pip
+
+# Install latest compatible PyTorch (>=2.6.0) with CUDA
+RUN pip install torch==2.7.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+
+# Install Flower, Transformers, Datasets, etc.
+RUN pip install transformers datasets hf_xet accelerate>=0.26.0
+
+RUN pip install peft>=0.4.0
+
+EXPOSE 8080
+CMD ["python", "-u", "server.py"]
