@@ -1,0 +1,63 @@
+2025-05-23 20:29:44.803 | WARNING :   DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+2025-05-23 20:29:44.805 | 	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+2025-05-23 20:29:44.805 | 
+2025-05-23 20:29:44.805 | 		$ flower-superlink --insecure
+2025-05-23 20:29:44.805 | 
+2025-05-23 20:29:44.805 | 	To view usage and all available options, run:
+2025-05-23 20:29:44.805 | 
+2025-05-23 20:29:44.805 | 		$ flower-superlink --help
+2025-05-23 20:29:44.805 | 
+2025-05-23 20:29:44.805 | 	Using `start_server()` is deprecated.
+2025-05-23 20:29:44.805 | 
+2025-05-23 20:29:44.805 |             This is a deprecated feature. It will be removed
+2025-05-23 20:29:44.805 |             entirely in future versions of Flower.
+2025-05-23 20:29:44.805 |         
+2025-05-23 20:29:44.805 | INFO :      Starting Flower server, config: num_rounds=5, no round_timeout
+2025-05-23 20:29:44.820 | INFO :      Flower ECE: gRPC server running (5 rounds), SSL is disabled
+2025-05-23 20:29:44.820 | INFO :      [INIT]
+2025-05-23 20:29:44.820 | INFO :      Requesting initial parameters from one random client
+2025-05-23 20:33:22.091 | INFO :      Received initial parameters from one random client
+2025-05-23 20:33:22.091 | INFO :      Starting evaluation of initial global parameters
+2025-05-23 20:33:22.091 | INFO :      Evaluation returned no results (`None`)
+2025-05-23 20:33:22.091 | INFO :      
+2025-05-23 20:33:22.092 | INFO :      [ROUND 1]
+2025-05-23 20:33:57.153 | INFO :      configure_fit: strategy sampled 2 clients (out of 3)
+2025-05-23 20:46:10.104 | INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-23 20:46:19.360 | WARNING :   No fit_metrics_aggregation_fn provided
+2025-05-23 20:46:19.952 | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-23 20:46:49.233 | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-23 20:46:49.233 | WARNING :   No evaluate_metrics_aggregation_fn provided
+2025-05-23 20:46:49.233 | INFO :      
+2025-05-23 20:46:49.234 | INFO :      [ROUND 2]
+2025-05-23 20:46:49.234 | INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-23 21:08:03.806 | INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-23 21:08:21.024 | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-23 21:09:13.307 | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-23 21:09:13.307 | INFO :      
+2025-05-23 21:09:13.307 | INFO :      [ROUND 3]
+2025-05-23 21:09:13.307 | INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-23 21:40:47.144 | INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-23 21:41:02.812 | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-23 21:41:41.890 | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-23 21:41:41.890 | INFO :      
+2025-05-23 21:41:41.890 | INFO :      [ROUND 4]
+2025-05-23 21:41:41.891 | INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-23 22:09:19.157 | INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-23 22:09:32.639 | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-23 22:09:57.662 | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-23 22:09:57.662 | INFO :      
+2025-05-23 22:09:57.662 | INFO :      [ROUND 5]
+2025-05-23 22:09:57.662 | INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-23 22:40:17.835 | INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-23 22:40:29.827 | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-23 22:40:56.898 | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-23 22:40:56.942 | INFO :      
+2025-05-23 22:40:56.942 | INFO :      [SUMMARY]
+2025-05-23 22:40:56.942 | INFO :      Run finished 5 round(s) in 7369.73s
+2025-05-23 22:40:56.946 | INFO :      	History (loss, distributed):
+2025-05-23 22:40:56.946 | INFO :      		round 1: 2.7611066500345864
+2025-05-23 22:40:56.946 | INFO :      		round 2: 2.5906009674072266
+2025-05-23 22:40:56.946 | INFO :      		round 3: 2.57051690419515
+2025-05-23 22:40:56.946 | INFO :      		round 4: 2.594843546549479
+2025-05-23 22:40:56.946 | INFO :      		round 5: 2.6352171897888184
+2025-05-23 22:40:56.946 | INFO :      
