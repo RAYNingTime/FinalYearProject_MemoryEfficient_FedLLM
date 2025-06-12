@@ -1,0 +1,265 @@
+server-1   | WARNING :   DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+server-1   |    Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+server-1   |                                                                                                                 
+server-1   |            $ flower-superlink --insecure                                                                        
+server-1   |                                                                                                                 
+server-1   |    To view usage and all available options, run:
+server-1   |                                                                                                                 
+server-1   |            $ flower-superlink --help                                                                            
+server-1   |                                                                                                                 
+server-1   |    Using `start_server()` is deprecated.                                                                        
+server-1   |                                                                                                                 
+server-1   |             This is a deprecated feature. It will be removed                                                    
+server-1   |             entirely in future versions of Flower.                                                              
+server-1   |                                                                                                                 
+server-1   | INFO :      Starting Flower server, config: num_rounds=5, no round_timeout
+server-1   | INFO :      Flower ECE: gRPC server running (5 rounds), SSL is disabled                                         
+server-1   | INFO :      [INIT]                                                                                              
+server-1   | INFO :      Requesting initial parameters from one random client                                                
+Generating train split: 100%|██████████| 120000/120000 [00:00<00:00, 1242575.72 examples/s]                                  
+Generating test split: 100%|██████████| 7600/7600 [00:00<00:00, 1006527.01 examples/s]
+Generating train split: 100%|██████████| 120000/120000 [00:00<00:00, 1246845.16 examples/s]                                  
+Generating test split: 100%|██████████| 7600/7600 [00:00<00:00, 1021951.47 examples/s]
+Map: 100%|██████████| 200/200 [00:00<00:00, 1062.89 examples/s]                                                              
+Map: 100%|██████████| 200/200 [00:00<00:00, 1787.42 examples/s]
+client1-1  | /app/client.py:45: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+client1-1  |   trainer = Trainer(
+Map: 100%|██████████| 200/200 [00:00<00:00, 923.57 examples/s]                                                               
+client1-1  | WARNING :   DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated. 
+client1-1  |    Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:                                                                                                                            
+client1-1  |    flwr.client.start_client(
+client1-1  |            server_address='<IP>:<PORT>',                                                                        
+client1-1  |            client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+client1-1  |    )                                                                                                            
+client1-1  |    Using `start_numpy_client()` is deprecated.                                                                  
+client1-1  |                                                                                                                 
+client1-1  |             This is a deprecated feature. It will be removed                                                    
+client1-1  |             entirely in future versions of Flower.                                                              
+client1-1  |                                                                                                                 
+client1-1  | WARNING :   DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+client1-1  |    Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:                         
+client1-1  |                                                                                                                 
+client1-1  |            $ flower-supernode --insecure --superlink='<IP>:<PORT>'                                              
+Map: 100%|██████████| 200/200 [00:00<00:00, 1507.06 examples/s]                                                              
+client1-1  |                                                                                                                 
+client1-1  |    To view all available options, run:                                                                          
+client1-1  | 
+client1-1  |            $ flower-supernode --help                                                                            
+client1-1  |                                                                                                                 
+client1-1  |    Using `start_client()` is deprecated.                                                                        
+client1-1  |                                                                                                                 
+client1-1  |             This is a deprecated feature. It will be removed                                                    
+client1-1  |             entirely in future versions of Flower.
+client1-1  |                                                                                                                 
+client1-1  | INFO :                                                                                                          
+client1-1  | INFO :      Received: get_parameters message b5723fa5-6231-4678-b3f3-ef3f626f8ea9                               
+client2-1  | /app/client.py:45: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+client2-1  |   trainer = Trainer(
+client2-1  | WARNING :   DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.                                 
+client2-1  |    Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:                                                                                                                            
+client2-1  |    flwr.client.start_client(
+client2-1  |            server_address='<IP>:<PORT>',                                                                        
+client2-1  |            client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+client2-1  |    )                                                                                                            
+client2-1  |    Using `start_numpy_client()` is deprecated.                                                                  
+client2-1  | 
+client2-1  |             This is a deprecated feature. It will be removed                                                    
+client2-1  |             entirely in future versions of Flower.                                                              
+client2-1  |                                                                                                                 
+client2-1  | WARNING :   DEPRECATED FEATURE: flwr.client.start_client() is deprecated.                                       
+client2-1  |    Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:                         
+client2-1  | 
+client2-1  |            $ flower-supernode --insecure --superlink='<IP>:<PORT>'                                              
+client2-1  |                                                                                                                 
+client2-1  |    To view all available options, run:                                                                          
+client2-1  |                                                                                                                 
+client2-1  |            $ flower-supernode --help                                                                            
+client2-1  |                                                                                                                 
+client2-1  |    Using `start_client()` is deprecated.                                                                        
+client2-1  |                                                                                                                 
+client2-1  |             This is a deprecated feature. It will be removed                                                    
+client2-1  |             entirely in future versions of Flower.                                                              
+client2-1  |                                                                                                                 
+client1-1  | INFO :      Sent reply                                                                                          
+server-1   | INFO :      Received initial parameters from one random client
+server-1   | INFO :      Starting evaluation of initial global parameters
+server-1   | INFO :      Evaluation returned no results (`None`)                                                             
+server-1   | INFO :                                                                                                          
+server-1   | INFO :      [ROUND 1]                                                                                           
+server-1   | INFO :      configure_fit: strategy sampled 2 clients (out of 2)                                                
+client2-1  | INFO :                                                                                                          
+client2-1  | INFO :      Received: train message 487a6474-7013-4248-b59e-506240913138
+client1-1  | INFO :                                                                                                          
+client1-1  | INFO :      Received: train message 6b1a75ae-fa78-42d4-8d10-a32bda42b554
+client2-1  | {'loss': 2.6908, 'grad_norm': 11.105737686157227, 'learning_rate': 4.55e-05, 'epoch': 0.1}                      
+client1-1  | {'loss': 2.9983, 'grad_norm': 21.02812957763672, 'learning_rate': 4.55e-05, 'epoch': 0.1}
+client2-1  | {'loss': 1.5927, 'grad_norm': 11.035597801208496, 'learning_rate': 4.05e-05, 'epoch': 0.2}
+client1-1  | {'loss': 1.5176, 'grad_norm': 15.690275192260742, 'learning_rate': 4.05e-05, 'epoch': 0.2}
+client2-1  | {'loss': 1.6019, 'grad_norm': 14.323103904724121, 'learning_rate': 3.55e-05, 'epoch': 0.3}
+client1-1  | {'loss': 1.3853, 'grad_norm': 12.436856269836426, 'learning_rate': 3.55e-05, 'epoch': 0.3}
+client2-1  | {'loss': 1.5244, 'grad_norm': 13.498409271240234, 'learning_rate': 3.05e-05, 'epoch': 0.4}
+client1-1  | {'loss': 1.589, 'grad_norm': 18.24935531616211, 'learning_rate': 3.05e-05, 'epoch': 0.4}
+client2-1  | {'loss': 1.3509, 'grad_norm': 16.805652618408203, 'learning_rate': 2.5500000000000003e-05, 'epoch': 0.5}
+client1-1  | {'loss': 1.5226, 'grad_norm': 12.825551986694336, 'learning_rate': 2.5500000000000003e-05, 'epoch': 0.5}
+client2-1  | {'loss': 1.4016, 'grad_norm': 13.048684120178223, 'learning_rate': 2.05e-05, 'epoch': 0.6}
+client1-1  | {'loss': 1.4442, 'grad_norm': 13.926714897155762, 'learning_rate': 2.05e-05, 'epoch': 0.6}
+client2-1  | {'loss': 1.441, 'grad_norm': 12.510279655456543, 'learning_rate': 1.55e-05, 'epoch': 0.7}
+client1-1  | {'loss': 1.3567, 'grad_norm': 10.086332321166992, 'learning_rate': 1.55e-05, 'epoch': 0.7}
+client2-1  | {'loss': 1.4614, 'grad_norm': 15.925536155700684, 'learning_rate': 1.05e-05, 'epoch': 0.8}
+client1-1  | {'loss': 1.4934, 'grad_norm': 15.430299758911133, 'learning_rate': 1.05e-05, 'epoch': 0.8}
+client2-1  | {'loss': 1.4312, 'grad_norm': 11.78799819946289, 'learning_rate': 5.500000000000001e-06, 'epoch': 0.9}
+client1-1  | {'loss': 1.5568, 'grad_norm': 16.957902908325195, 'learning_rate': 5.500000000000001e-06, 'epoch': 0.9}
+client2-1  | {'loss': 1.5016, 'grad_norm': 15.743959426879883, 'learning_rate': 5.000000000000001e-07, 'epoch': 1.0}
+client2-1  | {'train_runtime': 105.4276, 'train_samples_per_second': 1.897, 'train_steps_per_second': 0.949, 'train_loss': 1.5997425651550292, 'epoch': 1.0}                                                                                              
+client1-1  | {'loss': 1.2523, 'grad_norm': 10.358586311340332, 'learning_rate': 5.000000000000001e-07, 'epoch': 1.0}
+client1-1  | {'train_runtime': 107.9749, 'train_samples_per_second': 1.852, 'train_steps_per_second': 0.926, 'train_loss': 1.611599750518799, 'epoch': 1.0}                                                                                               
+client2-1  | INFO :      Sent reply
+client1-1  | INFO :      Sent reply
+server-1   | INFO :      aggregate_fit: received 2 results and 0 failures
+server-1   | WARNING :   No fit_metrics_aggregation_fn provided
+server-1   | INFO :      configure_evaluate: no clients selected, skipping evaluation
+server-1   | INFO :      
+server-1   | INFO :      [ROUND 2]                                                                                           
+server-1   | INFO :      configure_fit: strategy sampled 2 clients (out of 2)                                                
+client1-1  | INFO :                                                                                                          
+client1-1  | INFO :      Received: train message e8e0e8c6-00f4-4d72-a8da-077d2a45d09c
+client2-1  | INFO :                                                                                                          
+client2-1  | INFO :      Received: train message d699dbad-d902-4a3b-8647-d10146ac0efb
+client2-1  | {'loss': 0.8205, 'grad_norm': 8.571128845214844, 'learning_rate': 4.55e-05, 'epoch': 0.1}                       
+client1-1  | {'loss': 0.9441, 'grad_norm': 16.74921989440918, 'learning_rate': 4.55e-05, 'epoch': 0.1}
+client2-1  | {'loss': 1.0499, 'grad_norm': 8.542790412902832, 'learning_rate': 4.05e-05, 'epoch': 0.2}
+client1-1  | {'loss': 0.9778, 'grad_norm': 11.372760772705078, 'learning_rate': 4.05e-05, 'epoch': 0.2}
+client2-1  | {'loss': 1.1291, 'grad_norm': 12.4092378616333, 'learning_rate': 3.55e-05, 'epoch': 0.3}
+client1-1  | {'loss': 0.9531, 'grad_norm': 11.212109565734863, 'learning_rate': 3.55e-05, 'epoch': 0.3}
+client2-1  | {'loss': 1.0789, 'grad_norm': 9.978277206420898, 'learning_rate': 3.05e-05, 'epoch': 0.4}
+client1-1  | {'loss': 1.1847, 'grad_norm': 18.35215950012207, 'learning_rate': 3.05e-05, 'epoch': 0.4}
+client2-1  | {'loss': 1.024, 'grad_norm': 12.293010711669922, 'learning_rate': 2.5500000000000003e-05, 'epoch': 0.5}
+client1-1  | {'loss': 1.1568, 'grad_norm': 11.244161605834961, 'learning_rate': 2.5500000000000003e-05, 'epoch': 0.5}
+client2-1  | {'loss': 1.0831, 'grad_norm': 10.664384841918945, 'learning_rate': 2.05e-05, 'epoch': 0.6}
+client1-1  | {'loss': 1.1349, 'grad_norm': 13.06255054473877, 'learning_rate': 2.05e-05, 'epoch': 0.6}
+client2-1  | {'loss': 1.1543, 'grad_norm': 9.691585540771484, 'learning_rate': 1.55e-05, 'epoch': 0.7}
+client1-1  | {'loss': 1.1032, 'grad_norm': 10.099985122680664, 'learning_rate': 1.55e-05, 'epoch': 0.7}
+client2-1  | {'loss': 1.1856, 'grad_norm': 11.03693675994873, 'learning_rate': 1.05e-05, 'epoch': 0.8}
+client1-1  | {'loss': 1.2192, 'grad_norm': 11.315359115600586, 'learning_rate': 1.05e-05, 'epoch': 0.8}
+client2-1  | {'loss': 1.0472, 'grad_norm': 8.378131866455078, 'learning_rate': 5.500000000000001e-06, 'epoch': 0.9}
+client1-1  | {'loss': 1.1761, 'grad_norm': 14.649385452270508, 'learning_rate': 5.500000000000001e-06, 'epoch': 0.9}
+client2-1  | {'loss': 0.8685, 'grad_norm': 9.849294662475586, 'learning_rate': 5.000000000000001e-07, 'epoch': 1.0}
+client2-1  | {'train_runtime': 104.9648, 'train_samples_per_second': 1.905, 'train_steps_per_second': 0.953, 'train_loss': 1.0441098976135255, 'epoch': 1.0}                                                                                              
+client1-1  | {'loss': 0.7391, 'grad_norm': 10.026602745056152, 'learning_rate': 5.000000000000001e-07, 'epoch': 1.0}
+client1-1  | {'train_runtime': 108.4161, 'train_samples_per_second': 1.845, 'train_steps_per_second': 0.922, 'train_loss': 1.058895649909973, 'epoch': 1.0}                                                                                               
+client2-1  | INFO :      Sent reply
+client1-1  | INFO :      Sent reply
+server-1   | INFO :      aggregate_fit: received 2 results and 0 failures
+server-1   | INFO :      configure_evaluate: no clients selected, skipping evaluation
+server-1   | INFO :      
+server-1   | INFO :      [ROUND 3]                                                                                           
+server-1   | INFO :      configure_fit: strategy sampled 2 clients (out of 2)                                                
+client2-1  | INFO :                                                                                                          
+client2-1  | INFO :      Received: train message d74b973b-0560-4d6a-a200-c9e6575ca79e
+client1-1  | INFO :                                                                                                          
+client1-1  | INFO :      Received: train message 9691a226-b1fb-42f3-8001-2a759cea2288
+client2-1  | {'loss': 0.4813, 'grad_norm': 7.507261753082275, 'learning_rate': 4.55e-05, 'epoch': 0.1}                       
+client1-1  | {'loss': 0.5699, 'grad_norm': 12.924100875854492, 'learning_rate': 4.55e-05, 'epoch': 0.1}
+client2-1  | {'loss': 0.6901, 'grad_norm': 8.76162052154541, 'learning_rate': 4.05e-05, 'epoch': 0.2}
+client1-1  | {'loss': 0.6199, 'grad_norm': 12.675800323486328, 'learning_rate': 4.05e-05, 'epoch': 0.2}
+client2-1  | {'loss': 0.8245, 'grad_norm': 11.29935359954834, 'learning_rate': 3.55e-05, 'epoch': 0.3}
+client1-1  | {'loss': 0.6568, 'grad_norm': 9.455453872680664, 'learning_rate': 3.55e-05, 'epoch': 0.3}
+client2-1  | {'loss': 0.815, 'grad_norm': 10.467437744140625, 'learning_rate': 3.05e-05, 'epoch': 0.4}
+client1-1  | {'loss': 0.8908, 'grad_norm': 16.13823890686035, 'learning_rate': 3.05e-05, 'epoch': 0.4}
+client2-1  | {'loss': 0.7996, 'grad_norm': 12.914904594421387, 'learning_rate': 2.5500000000000003e-05, 'epoch': 0.5}
+client1-1  | {'loss': 0.9333, 'grad_norm': 12.089191436767578, 'learning_rate': 2.5500000000000003e-05, 'epoch': 0.5}
+client2-1  | {'loss': 0.9084, 'grad_norm': 10.897132873535156, 'learning_rate': 2.05e-05, 'epoch': 0.6}
+client1-1  | {'loss': 0.9223, 'grad_norm': 10.926477432250977, 'learning_rate': 2.05e-05, 'epoch': 0.6}
+client2-1  | {'loss': 0.9845, 'grad_norm': 9.671819686889648, 'learning_rate': 1.55e-05, 'epoch': 0.7}
+client1-1  | {'loss': 0.9446, 'grad_norm': 10.61201286315918, 'learning_rate': 1.55e-05, 'epoch': 0.7}
+client2-1  | {'loss': 1.0324, 'grad_norm': 11.826384544372559, 'learning_rate': 1.05e-05, 'epoch': 0.8}
+client1-1  | {'loss': 1.0524, 'grad_norm': 9.45207691192627, 'learning_rate': 1.05e-05, 'epoch': 0.8}
+client2-1  | {'loss': 0.8845, 'grad_norm': 8.110055923461914, 'learning_rate': 5.500000000000001e-06, 'epoch': 0.9}
+client1-1  | {'loss': 0.9796, 'grad_norm': 14.399231910705566, 'learning_rate': 5.500000000000001e-06, 'epoch': 0.9}
+client2-1  | {'loss': 0.6467, 'grad_norm': 8.556865692138672, 'learning_rate': 5.000000000000001e-07, 'epoch': 1.0}
+client2-1  | {'train_runtime': 103.7531, 'train_samples_per_second': 1.928, 'train_steps_per_second': 0.964, 'train_loss': 0.8067059898376465, 'epoch': 1.0}                                                                                              
+client1-1  | {'loss': 0.5629, 'grad_norm': 11.030097007751465, 'learning_rate': 5.000000000000001e-07, 'epoch': 1.0}
+client1-1  | {'train_runtime': 104.2702, 'train_samples_per_second': 1.918, 'train_steps_per_second': 0.959, 'train_loss': 0.813246021270752, 'epoch': 1.0}                                                                                               
+client2-1  | INFO :      Sent reply
+client1-1  | INFO :      Sent reply
+server-1   | INFO :      aggregate_fit: received 2 results and 0 failures
+server-1   | INFO :      configure_evaluate: no clients selected, skipping evaluation
+server-1   | INFO :      
+server-1   | INFO :      [ROUND 4]                                                                                           
+server-1   | INFO :      configure_fit: strategy sampled 2 clients (out of 2)                                                
+client2-1  | INFO :                                                                                                          
+client2-1  | INFO :      Received: train message d8ca340f-ed19-406d-9909-bb3415f8c1a6
+client1-1  | INFO :                                                                                                          
+client1-1  | INFO :      Received: train message d411d387-2903-42b6-b4d7-ec8cddcea0ba
+client2-1  | {'loss': 0.2827, 'grad_norm': 6.127644062042236, 'learning_rate': 4.55e-05, 'epoch': 0.1}                       
+client1-1  | {'loss': 0.3717, 'grad_norm': 12.199243545532227, 'learning_rate': 4.55e-05, 'epoch': 0.1}
+client2-1  | {'loss': 0.4911, 'grad_norm': 7.339851379394531, 'learning_rate': 4.05e-05, 'epoch': 0.2}
+client1-1  | {'loss': 0.4024, 'grad_norm': 11.488542556762695, 'learning_rate': 4.05e-05, 'epoch': 0.2}
+client2-1  | {'loss': 0.5854, 'grad_norm': 10.215779304504395, 'learning_rate': 3.55e-05, 'epoch': 0.3}
+client1-1  | {'loss': 0.4795, 'grad_norm': 10.24013614654541, 'learning_rate': 3.55e-05, 'epoch': 0.3}
+client2-1  | {'loss': 0.6013, 'grad_norm': 9.604129791259766, 'learning_rate': 3.05e-05, 'epoch': 0.4}
+client1-1  | {'loss': 0.6913, 'grad_norm': 19.01631736755371, 'learning_rate': 3.05e-05, 'epoch': 0.4}
+client2-1  | {'loss': 0.6367, 'grad_norm': 13.779082298278809, 'learning_rate': 2.5500000000000003e-05, 'epoch': 0.5}
+client1-1  | {'loss': 0.7601, 'grad_norm': 14.646891593933105, 'learning_rate': 2.5500000000000003e-05, 'epoch': 0.5}
+client2-1  | {'loss': 0.7425, 'grad_norm': 11.57777214050293, 'learning_rate': 2.05e-05, 'epoch': 0.6}
+client1-1  | {'loss': 0.764, 'grad_norm': 11.268412590026855, 'learning_rate': 2.05e-05, 'epoch': 0.6}
+client2-1  | {'loss': 0.8351, 'grad_norm': 10.027667999267578, 'learning_rate': 1.55e-05, 'epoch': 0.7}
+client1-1  | {'loss': 0.8075, 'grad_norm': 10.029243469238281, 'learning_rate': 1.55e-05, 'epoch': 0.7}
+client2-1  | {'loss': 0.9081, 'grad_norm': 11.270031929016113, 'learning_rate': 1.05e-05, 'epoch': 0.8}
+client1-1  | {'loss': 0.9118, 'grad_norm': 8.83784008026123, 'learning_rate': 1.05e-05, 'epoch': 0.8}
+client2-1  | {'loss': 0.7483, 'grad_norm': 9.137685775756836, 'learning_rate': 5.500000000000001e-06, 'epoch': 0.9}
+client1-1  | {'loss': 0.8521, 'grad_norm': 14.473198890686035, 'learning_rate': 5.500000000000001e-06, 'epoch': 0.9}
+client2-1  | {'loss': 0.5008, 'grad_norm': 8.09525203704834, 'learning_rate': 5.000000000000001e-07, 'epoch': 1.0}
+client2-1  | {'train_runtime': 103.5495, 'train_samples_per_second': 1.931, 'train_steps_per_second': 0.966, 'train_loss': 0.6332062005996704, 'epoch': 1.0}                                                                                              
+client1-1  | {'loss': 0.4279, 'grad_norm': 6.994553089141846, 'learning_rate': 5.000000000000001e-07, 'epoch': 1.0}
+client1-1  | {'train_runtime': 103.9715, 'train_samples_per_second': 1.924, 'train_steps_per_second': 0.962, 'train_loss': 0.6468372821807862, 'epoch': 1.0}                                                                                              
+client2-1  | INFO :      Sent reply
+client1-1  | INFO :      Sent reply
+server-1   | INFO :      aggregate_fit: received 2 results and 0 failures
+server-1   | INFO :      configure_evaluate: no clients selected, skipping evaluation
+server-1   | INFO :      
+server-1   | INFO :      [ROUND 5]                                                                                           
+server-1   | INFO :      configure_fit: strategy sampled 2 clients (out of 2)                                                
+client1-1  | INFO :                                                                                                          
+client1-1  | INFO :      Received: train message 23cec282-1969-4531-94f4-ca61f58ed8ca
+client2-1  | INFO :                                                                                                          
+client2-1  | INFO :      Received: train message 7da4a1a4-6ee3-410e-9bb5-d6780d8330e2
+client2-1  | {'loss': 0.1605, 'grad_norm': 4.49397087097168, 'learning_rate': 4.55e-05, 'epoch': 0.1}                        
+client1-1  | {'loss': 0.2268, 'grad_norm': 10.191261291503906, 'learning_rate': 4.55e-05, 'epoch': 0.1}
+client2-1  | {'loss': 0.3307, 'grad_norm': 10.089896202087402, 'learning_rate': 4.05e-05, 'epoch': 0.2}
+client1-1  | {'loss': 0.2663, 'grad_norm': 12.071121215820312, 'learning_rate': 4.05e-05, 'epoch': 0.2}
+client1-1  | {'loss': 0.3533, 'grad_norm': 8.268527030944824, 'learning_rate': 3.55e-05, 'epoch': 0.3}
+client2-1  | {'loss': 0.4123, 'grad_norm': 8.248225212097168, 'learning_rate': 3.55e-05, 'epoch': 0.3}
+client1-1  | {'loss': 0.5364, 'grad_norm': 13.37513542175293, 'learning_rate': 3.05e-05, 'epoch': 0.4}
+client2-1  | {'loss': 0.4563, 'grad_norm': 9.665609359741211, 'learning_rate': 3.05e-05, 'epoch': 0.4}
+client2-1  | {'loss': 0.5048, 'grad_norm': 10.199524879455566, 'learning_rate': 2.5500000000000003e-05, 'epoch': 0.5}
+client1-1  | {'loss': 0.5992, 'grad_norm': 10.730978965759277, 'learning_rate': 2.5500000000000003e-05, 'epoch': 0.5}
+client2-1  | {'loss': 0.6152, 'grad_norm': 10.795112609863281, 'learning_rate': 2.05e-05, 'epoch': 0.6}
+client1-1  | {'loss': 0.6102, 'grad_norm': 12.504093170166016, 'learning_rate': 2.05e-05, 'epoch': 0.6}
+client2-1  | {'loss': 0.6743, 'grad_norm': 8.37630844116211, 'learning_rate': 1.55e-05, 'epoch': 0.7}
+client1-1  | {'loss': 0.6833, 'grad_norm': 10.5145902633667, 'learning_rate': 1.55e-05, 'epoch': 0.7}
+client2-1  | {'loss': 0.7952, 'grad_norm': 11.814769744873047, 'learning_rate': 1.05e-05, 'epoch': 0.8}
+client1-1  | {'loss': 0.7971, 'grad_norm': 8.91871166229248, 'learning_rate': 1.05e-05, 'epoch': 0.8}
+client1-1  | {'loss': 0.7299, 'grad_norm': 14.032597541809082, 'learning_rate': 5.500000000000001e-06, 'epoch': 0.9}
+client2-1  | {'loss': 0.6249, 'grad_norm': 7.50042200088501, 'learning_rate': 5.500000000000001e-06, 'epoch': 0.9}
+client1-1  | {'loss': 0.337, 'grad_norm': 7.368166446685791, 'learning_rate': 5.000000000000001e-07, 'epoch': 1.0}
+client1-1  | {'train_runtime': 101.7465, 'train_samples_per_second': 1.966, 'train_steps_per_second': 0.983, 'train_loss': 0.5139456987380981, 'epoch': 1.0}                                                                                              
+client2-1  | {'loss': 0.3806, 'grad_norm': 6.239956855773926, 'learning_rate': 5.000000000000001e-07, 'epoch': 1.0}
+client2-1  | {'train_runtime': 102.8829, 'train_samples_per_second': 1.944, 'train_steps_per_second': 0.972, 'train_loss': 0.4954849374294281, 'epoch': 1.0}                                                                                              
+client2-1  | INFO :      Sent reply
+client1-1  | INFO :      Sent reply
+server-1   | INFO :      aggregate_fit: received 2 results and 0 failures
+server-1   | INFO :      configure_evaluate: no clients selected, skipping evaluation
+server-1   | INFO :      
+server-1   | INFO :      [SUMMARY]                                                                                           
+server-1   | INFO :      Run finished 5 round(s) in 627.78s                                                                  
+server-1   | INFO :                                                                                                          
+client1-1  | INFO :      
+client1-1  | INFO :      Received: reconnect message 78ddbdf8-7337-4827-ba44-5afbb57805d2                                    
+client2-1  | INFO :                                                                                                          
+client2-1  | INFO :      Received: reconnect message 98d172f3-56aa-455f-96bd-e23eeb0929eb
+client1-1  | INFO :      Disconnect and shut down                                                                            
+client2-1  | INFO :      Disconnect and shut down                                                                            
+server-1 exited with code 0
+client2-1 exited with code 0
+client1-1 exited with code 0

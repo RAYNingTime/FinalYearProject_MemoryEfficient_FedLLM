@@ -1,0 +1,608 @@
+server-1    | INFO :      [ROUND 45]                                                                              
+client7-1   | INFO :                                                                                              
+client5-1   | INFO :      Received: train message 0499a60d-03ec-4f93-9eb6-e8e4004e2d4b                            
+client3-1   | INFO :                                                                                              
+client4-1   | INFO :      
+client9-1   | INFO :                                                                                              
+client6-1   | INFO :                                                                                              
+client2-1   | INFO :      Received: train message 993adc66-bf0e-4270-92d5-1777565f1182
+client1-1   | INFO :      
+client8-1   | INFO :      
+client10-1  | INFO :      Received: train message 03d19c1d-883e-412a-b699-6d9e98a5a522
+server-1    | INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+client7-1   | INFO :      Received: train message 23897429-c155-4690-9e4d-05e1b32cb969                            
+client3-1   | INFO :      Received: train message 72efef6f-4cef-46b2-990f-87ba076952ee
+client4-1   | INFO :      Received: train message c5d97c56-a654-4cf1-9d99-f7236fce181d                            
+client9-1   | INFO :      Received: train message 43972b5e-0f20-4866-b670-7d70ca8c8af3                            
+client6-1   | INFO :      Received: train message 9eb49e29-3c54-49fc-8eb1-8d085ca01878
+client1-1   | INFO :      Received: train message 9d29881a-374c-42d8-93b3-5cf506cba212                            
+client8-1   | INFO :      Received: train message ab3c66ca-4b34-4628-8190-8ef06cb4a331
+client5-1   | 1875/1875 - 10s - 6ms/step - accuracy: 1.0000 - loss: 1.7117e-05                                    
+client10-1  | 1875/1875 - 10s - 6ms/step - accuracy: 1.0000 - loss: 2.7458e-05
+client5-1   | INFO :      Sent reply
+client3-1   | 1875/1875 - 10s - 6ms/step - accuracy: 1.0000 - loss: 1.7881e-05                                    
+client1-1   | 1875/1875 - 10s - 6ms/step - accuracy: 1.0000 - loss: 2.3452e-05
+client3-1   | INFO :      Sent reply
+client9-1   | 1875/1875 - 10s - 6ms/step - accuracy: 1.0000 - loss: 1.7003e-05                                    
+client6-1   | 1875/1875 - 10s - 6ms/step - accuracy: 1.0000 - loss: 1.8088e-05
+client6-1   | INFO :      Sent reply                                                                              
+client9-1   | INFO :      Sent reply
+client7-1   | 1875/1875 - 10s - 6ms/step - accuracy: 0.9971 - loss: 0.0092                                        
+client7-1   | INFO :      Sent reply
+client4-1   | 1875/1875 - 10s - 6ms/step - accuracy: 1.0000 - loss: 1.6726e-05                                    
+client4-1   | INFO :      Sent reply
+client2-1   | 1875/1875 - 11s - 6ms/step - accuracy: 0.9989 - loss: 0.0036                                        
+client8-1   | 1875/1875 - 10s - 6ms/step - accuracy: 1.0000 - loss: 2.2852e-05                                    
+client2-1   | INFO :      Sent reply                                                                              
+client8-1   | INFO :      Sent reply
+client10-1  | INFO :      Sent reply                                                                              
+client1-1   | INFO :      Sent reply
+server-1    | INFO :      aggregate_fit: received 10 results and 0 failures                                       
+server-1    | INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+client7-1   | INFO :                                                                                              
+client3-1   | INFO :                                                                                              
+client7-1   | INFO :      Received: evaluate message 2f764948-77c0-42b2-9175-558059cb81bd                         
+client1-1   | INFO :      
+client2-1   | INFO :                                                                                              
+client8-1   | INFO :                                                                                              
+client3-1   | INFO :      Received: evaluate message 72057c57-5a95-4a30-9b9f-fd2e97623614                         
+client10-1  | INFO :      
+client4-1   | INFO :                                                                                              
+client5-1   | INFO :                                                                                              
+client9-1   | INFO :      
+client1-1   | INFO :      Received: evaluate message 16ccd9cb-1cf2-4fb3-9031-4d1ef0002cec                         
+client6-1   | INFO :                                                                                              
+client2-1   | INFO :      Received: evaluate message 7446b585-f0e4-475f-9ce1-145782bcec9b
+client8-1   | INFO :      Received: evaluate message 32d91b5e-bc76-49c8-9aff-7c4b64f8e25f                         
+client10-1  | INFO :      Received: evaluate message cc057d2e-7589-4852-95ad-fdd53e1546d7                         
+client4-1   | INFO :      Received: evaluate message 4b7f47b5-dcc9-4a07-a053-5f1099e210ad
+client5-1   | INFO :      Received: evaluate message d8158c7f-8efe-4d69-a7cb-dabace0087fc                         
+client9-1   | INFO :      Received: evaluate message ace33930-34a3-464e-8e99-57bd183a58b8                         
+client6-1   | INFO :      Received: evaluate message 381e7606-5065-437e-bc75-cac3c8f3c932
+client4-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9822 - loss: 0.1123                                           
+client3-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9822 - loss: 0.1123
+client4-1   | INFO :      Sent reply                                                                              
+client10-1  | 313/313 - 1s - 2ms/step - accuracy: 0.9822 - loss: 0.1123                                           
+client10-1  | INFO :      Sent reply
+client1-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9822 - loss: 0.1123                                           
+client2-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9822 - loss: 0.1123
+client5-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9822 - loss: 0.1123
+client2-1   | INFO :      Sent reply                                                                              
+client5-1   | INFO :      Sent reply                                                                              
+client9-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9822 - loss: 0.1123                                           
+client8-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9822 - loss: 0.1123
+client9-1   | INFO :      Sent reply                                                                              
+client7-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9822 - loss: 0.1123                                           
+client8-1   | INFO :      Sent reply
+client7-1   | INFO :      Sent reply                                                                              
+client6-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9822 - loss: 0.1123                                           
+client6-1   | INFO :      Sent reply                                                                              
+client3-1   | INFO :      Sent reply                                                                              
+client1-1   | INFO :      Sent reply
+server-1    | INFO :      aggregate_evaluate: received 10 results and 0 failures
+server-1    | INFO :                                                                                              
+client2-1   | INFO :                                                                                              
+client3-1   | INFO :      
+server-1    | INFO :      [ROUND 46]                                                                              
+client6-1   | INFO :                                                                                              
+client5-1   | INFO :                                                                                              
+client7-1   | INFO :      
+client8-1   | INFO :                                                                                              
+client2-1   | INFO :      Received: train message c833a9ab-38b7-4272-a37e-ce9eb5e564b3                            
+client1-1   | INFO :      
+client4-1   | INFO :      
+client9-1   | INFO :      
+client10-1  | INFO :      
+client3-1   | INFO :      Received: train message 89ee84f0-04e3-4484-b3b2-4f5b6aa4788d                            
+server-1    | INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+client6-1   | INFO :      Received: train message 15cfcfe8-ff38-4f45-b4bd-139e8ad10d73                            
+client5-1   | INFO :      Received: train message 4057d571-cd93-4c12-83f2-c635e9a9a212                            
+client7-1   | INFO :      Received: train message 7b70ea84-1158-4381-9f98-b2e3562983cd
+client8-1   | INFO :      Received: train message 286a52e3-148b-4087-bcbf-2f441f4a7673                            
+client1-1   | INFO :      Received: train message b462fdd4-9103-4826-94a5-e229b33c9bd3
+client4-1   | INFO :      Received: train message 7cd795a4-ba4a-476c-a882-4aad5f8692b1
+client9-1   | INFO :      Received: train message 62d7662f-78bb-4d43-9cef-4ae99d87728a                            
+client10-1  | INFO :      Received: train message 95b563e9-a221-4bc1-b33e-f1532e55a92a
+client7-1   | 1875/1875 - 10s - 5ms/step - accuracy: 1.0000 - loss: 2.1238e-05
+client5-1   | 1875/1875 - 10s - 5ms/step - accuracy: 1.0000 - loss: 1.3808e-05
+client5-1   | INFO :      Sent reply
+client10-1  | 1875/1875 - 10s - 5ms/step - accuracy: 1.0000 - loss: 1.4168e-05
+client6-1   | 1875/1875 - 10s - 5ms/step - accuracy: 1.0000 - loss: 1.3714e-05                                    
+client6-1   | INFO :      Sent reply
+client3-1   | 1875/1875 - 10s - 5ms/step - accuracy: 1.0000 - loss: 1.3598e-05                                    
+client8-1   | 1875/1875 - 10s - 5ms/step - accuracy: 1.0000 - loss: 1.4295e-05
+client3-1   | INFO :      Sent reply
+client4-1   | 1875/1875 - 10s - 5ms/step - accuracy: 1.0000 - loss: 1.5425e-05                                    
+client8-1   | INFO :      Sent reply                                                                              
+client1-1   | 1875/1875 - 10s - 5ms/step - accuracy: 1.0000 - loss: 1.4308e-05
+client2-1   | 1875/1875 - 10s - 5ms/step - accuracy: 1.0000 - loss: 8.0424e-05                                    
+client1-1   | INFO :      Sent reply                                                                              
+client2-1   | INFO :      Sent reply                                                                              
+client9-1   | 1875/1875 - 10s - 5ms/step - accuracy: 1.0000 - loss: 1.4237e-05
+client9-1   | INFO :      Sent reply
+client7-1   | INFO :      Sent reply                                                                              
+client10-1  | INFO :      Sent reply
+client4-1   | INFO :      Sent reply
+server-1    | INFO :      aggregate_fit: received 10 results and 0 failures
+server-1    | INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)                             
+client2-1   | INFO :                                                                                              
+client6-1   | INFO :                                                                                              
+client10-1  | INFO :      
+client2-1   | INFO :      Received: evaluate message 5c005452-7284-4514-a46f-3cbe5696be73                         
+client3-1   | INFO :                                                                                              
+client9-1   | INFO :                                                                                              
+client8-1   | INFO :      
+client6-1   | INFO :      Received: evaluate message f8a7fe6f-438a-4010-88b1-85b86daf3144                         
+client7-1   | INFO :                                                                                              
+client5-1   | INFO :      
+client4-1   | INFO :                                                                                              
+client10-1  | INFO :      Received: evaluate message 8c5dbc3e-76d2-47b2-8f0b-58fcf40458d8
+client1-1   | INFO :                                                                                              
+client3-1   | INFO :      Received: evaluate message b63e7ad5-90be-436c-a27f-65044eee17ab                         
+client9-1   | INFO :      Received: evaluate message 041258fe-87ab-43b8-a6f6-2e08e6b64297
+client8-1   | INFO :      Received: evaluate message f2cc0841-b83f-4048-a0ed-9887280fbcad                         
+client7-1   | INFO :      Received: evaluate message 175732e3-e777-40c5-926c-b1e4533aa23b                         
+client5-1   | INFO :      Received: evaluate message f4453b5f-46d9-4ad4-a27d-da07f1d3879c
+client4-1   | INFO :      Received: evaluate message 1ee8ef1c-2402-4889-8a4f-e20c7d530974                         
+client1-1   | INFO :      Received: evaluate message a92a0d6c-f206-40d8-9255-02738112033d                         
+client3-1   | 313/313 - 1s - 3ms/step - accuracy: 0.9822 - loss: 0.1142                                           
+client10-1  | 313/313 - 1s - 3ms/step - accuracy: 0.9822 - loss: 0.1142
+client7-1   | 313/313 - 1s - 3ms/step - accuracy: 0.9822 - loss: 0.1142                                           
+client7-1   | INFO :      Sent reply
+client9-1   | 313/313 - 1s - 3ms/step - accuracy: 0.9822 - loss: 0.1142                                           
+client8-1   | 313/313 - 1s - 3ms/step - accuracy: 0.9822 - loss: 0.1142
+client5-1   | 313/313 - 1s - 3ms/step - accuracy: 0.9822 - loss: 0.1142                                           
+client4-1   | 313/313 - 1s - 3ms/step - accuracy: 0.9822 - loss: 0.1142
+client6-1   | 313/313 - 1s - 3ms/step - accuracy: 0.9822 - loss: 0.1142                                           
+client9-1   | INFO :      Sent reply                                                                              
+client5-1   | INFO :      Sent reply                                                                              
+client8-1   | INFO :      Sent reply
+client6-1   | INFO :      Sent reply                                                                              
+client2-1   | 313/313 - 1s - 3ms/step - accuracy: 0.9822 - loss: 0.1142                                           
+client2-1   | INFO :      Sent reply                                                                              
+client1-1   | 313/313 - 1s - 3ms/step - accuracy: 0.9822 - loss: 0.1142                                           
+client1-1   | INFO :      Sent reply
+client3-1   | INFO :      Sent reply                                                                              
+client10-1  | INFO :      Sent reply
+client4-1   | INFO :      Sent reply                                                                              
+server-1    | INFO :      aggregate_evaluate: received 10 results and 0 failures
+server-1    | INFO :      
+client7-1   | INFO :                                                                                              
+client3-1   | INFO :                                                                                              
+client4-1   | INFO :      
+server-1    | INFO :      [ROUND 47]                                                                              
+client9-1   | INFO :                                                                                              
+client5-1   | INFO :                                                                                              
+client7-1   | INFO :      Received: train message 1257e173-266a-44aa-9221-f6541b21e367
+client6-1   | INFO :                                                                                              
+client1-1   | INFO :                                                                                              
+client2-1   | INFO :      
+client10-1  | INFO :                                                                                              
+client3-1   | INFO :      Received: train message cd172688-2232-41ad-95bd-93aa88b8b99d
+client8-1   | INFO :      
+client4-1   | INFO :      Received: train message facccc52-d50b-4414-8810-56e43cd22311
+server-1    | INFO :      configure_fit: strategy sampled 10 clients (out of 10)                                  
+client9-1   | INFO :      Received: train message a9b897c5-c7be-47cf-9204-ca8a1e424d38
+client5-1   | INFO :      Received: train message 798ac661-b46e-4dbe-934e-f3f93573ee2e
+client6-1   | INFO :      Received: train message f5473f5a-7a72-4a66-a88c-17179246bcab
+client1-1   | INFO :      Received: train message 40674045-daac-47c8-822e-8660bc19a94a
+client2-1   | INFO :      Received: train message d89acb86-79cf-4d91-ad28-e7b55141541a
+client10-1  | INFO :      Received: train message 5bf38602-359f-4017-8148-d37d936e03a4
+client8-1   | INFO :      Received: train message cab6c056-7000-4408-b32c-bf9bc99f1811                            
+client10-1  | 1875/1875 - 10s - 6ms/step - accuracy: 1.0000 - loss: 1.0421e-05
+client3-1   | 1875/1875 - 10s - 6ms/step - accuracy: 1.0000 - loss: 1.0600e-05
+client5-1   | 1875/1875 - 11s - 6ms/step - accuracy: 0.9977 - loss: 0.0080
+client9-1   | 1875/1875 - 11s - 6ms/step - accuracy: 0.9972 - loss: 0.0102
+client1-1   | 1875/1875 - 11s - 6ms/step - accuracy: 1.0000 - loss: 1.0287e-05
+client4-1   | 1875/1875 - 11s - 6ms/step - accuracy: 0.9976 - loss: 0.0081
+client7-1   | 1875/1875 - 11s - 6ms/step - accuracy: 1.0000 - loss: 1.0326e-05
+client4-1   | INFO :      Sent reply                                                                              
+client7-1   | INFO :      Sent reply                                                                              
+client6-1   | 1875/1875 - 11s - 6ms/step - accuracy: 1.0000 - loss: 1.0730e-05                                    
+client6-1   | INFO :      Sent reply
+client8-1   | 1875/1875 - 11s - 6ms/step - accuracy: 1.0000 - loss: 1.0364e-05
+client8-1   | INFO :      Sent reply                                                                              
+client2-1   | 1875/1875 - 11s - 6ms/step - accuracy: 1.0000 - loss: 1.0326e-05                                    
+client2-1   | INFO :      Sent reply
+client9-1   | INFO :      Sent reply                                                                              
+client3-1   | INFO :      Sent reply
+client1-1   | INFO :      Sent reply                                                                              
+client5-1   | INFO :      Sent reply
+client10-1  | INFO :      Sent reply                                                                              
+server-1    | INFO :      aggregate_fit: received 10 results and 0 failures
+server-1    | INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)                             
+client9-1   | INFO :                                                                                              
+client8-1   | INFO :                                                                                              
+client9-1   | INFO :      Received: evaluate message c1368151-a3b5-4423-b9d2-1e29947f5ab5
+client10-1  | INFO :                                                                                              
+client2-1   | INFO :                                                                                              
+client3-1   | INFO :                                                                                              
+client8-1   | INFO :      Received: evaluate message fdea7b48-225b-43c0-8de2-988e0cfd4b49
+client5-1   | INFO :                                                                                              
+client7-1   | INFO :                                                                                              
+client1-1   | INFO :                                                                                              
+client4-1   | INFO :      
+client6-1   | INFO :                                                                                              
+client10-1  | INFO :      Received: evaluate message 72ab3b84-3d9a-4d7e-9587-7c8065d8c7ba                         
+client2-1   | INFO :      Received: evaluate message 705d57a5-eeea-4299-80a0-859c5d80de01
+client3-1   | INFO :      Received: evaluate message 26bbc23c-16dd-42e8-8e84-2aa2de8c2c37                         
+client5-1   | INFO :      Received: evaluate message c58dcf16-01f1-4588-bb39-9228e926888f
+client7-1   | INFO :      Received: evaluate message 3c8f9940-8fb6-4bde-af27-be2c8e32249a                         
+client1-1   | INFO :      Received: evaluate message 0514cd4f-defa-4a2e-b890-f4c26cac3403                         
+client4-1   | INFO :      Received: evaluate message d20e2f0e-c26d-4cc0-b3cf-f3bbc4031167
+client6-1   | INFO :      Received: evaluate message 6d529e83-aa73-4676-b669-794c081e375b                         
+client5-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9822 - loss: 0.1122                                           
+client7-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9822 - loss: 0.1122
+client4-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9822 - loss: 0.1122                                           
+client3-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9822 - loss: 0.1122
+client7-1   | INFO :      Sent reply                                                                              
+client8-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9822 - loss: 0.1122                                           
+client1-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9822 - loss: 0.1122
+client10-1  | 313/313 - 1s - 2ms/step - accuracy: 0.9822 - loss: 0.1122                                           
+client1-1   | INFO :      Sent reply                                                                              
+client10-1  | INFO :      Sent reply                                                                              
+client9-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9822 - loss: 0.1122                                           
+client2-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9822 - loss: 0.1122
+client6-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9822 - loss: 0.1122                                           
+client6-1   | INFO :      Sent reply
+client3-1   | INFO :      Sent reply                                                                              
+client4-1   | INFO :      Sent reply
+client5-1   | INFO :      Sent reply                                                                              
+client9-1   | INFO :      Sent reply
+client2-1   | INFO :      Sent reply                                                                              
+client8-1   | INFO :      Sent reply
+server-1    | INFO :      aggregate_evaluate: received 10 results and 0 failures                                  
+client6-1   | INFO :                                                                                              
+client10-1  | INFO :      
+client8-1   | INFO :                                                                                              
+server-1    | INFO :                                                                                              
+client5-1   | INFO :                                                                                              
+client1-1   | INFO :                                                                                              
+client3-1   | INFO :      
+client6-1   | INFO :      Received: train message 52bcefe3-16fc-46a7-8778-9837be7b566c                            
+client9-1   | INFO :                                                                                              
+client4-1   | INFO :      
+client7-1   | INFO :      
+client10-1  | INFO :      Received: train message f37783e1-68b8-448d-84cd-88e194954a12
+client2-1   | INFO :      
+client8-1   | INFO :      Received: train message fe1d10d0-2053-47be-8bf8-8dea5e66115b
+server-1    | INFO :      [ROUND 48]                                                                              
+client5-1   | INFO :      Received: train message 923d7683-5735-46d6-8ba2-21ecf5dcac47
+client1-1   | INFO :      Received: train message 4b4328e7-1834-4756-b280-3b504948b8c2                            
+client3-1   | INFO :      Received: train message c8f15753-2c42-4843-b86e-c708bcc198e0
+client9-1   | INFO :      Received: train message 53e63769-1c5c-4ec8-aa55-55d30d12a13c                            
+client4-1   | INFO :      Received: train message 1c7a17b3-bbef-42f5-b877-2a10ed0547cc
+client7-1   | INFO :      Received: train message 0f608c62-67ac-4121-bc3d-dcba4401989e                            
+client2-1   | INFO :      Received: train message 7a766273-47aa-43ec-a3c2-656805a7ed0c                            
+server-1    | INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+client1-1   | 1875/1875 - 10s - 5ms/step - accuracy: 1.0000 - loss: 1.0612e-05                                    
+client8-1   | 1875/1875 - 10s - 5ms/step - accuracy: 1.0000 - loss: 1.1760e-05
+client9-1   | 1875/1875 - 10s - 5ms/step - accuracy: 1.0000 - loss: 1.2034e-04
+client10-1  | 1875/1875 - 10s - 5ms/step - accuracy: 1.0000 - loss: 1.1354e-05                                    
+client7-1   | 1875/1875 - 10s - 5ms/step - accuracy: 1.0000 - loss: 1.0797e-05
+client7-1   | INFO :      Sent reply
+client5-1   | 1875/1875 - 10s - 5ms/step - accuracy: 1.0000 - loss: 1.5244e-05
+client5-1   | INFO :      Sent reply
+client3-1   | 1875/1875 - 10s - 5ms/step - accuracy: 0.9977 - loss: 0.0079                                        
+client4-1   | 1875/1875 - 10s - 5ms/step - accuracy: 1.0000 - loss: 1.7438e-05
+client3-1   | INFO :      Sent reply                                                                              
+client4-1   | INFO :      Sent reply
+client6-1   | 1875/1875 - 10s - 5ms/step - accuracy: 0.9983 - loss: 0.0064                                        
+client6-1   | INFO :      Sent reply
+client2-1   | 1875/1875 - 10s - 5ms/step - accuracy: 1.0000 - loss: 1.0793e-05
+client2-1   | INFO :      Sent reply                                                                              
+client10-1  | INFO :      Sent reply                                                                              
+client8-1   | INFO :      Sent reply
+client1-1   | INFO :      Sent reply
+client9-1   | INFO :      Sent reply                                                                              
+server-1    | INFO :      aggregate_fit: received 10 results and 0 failures
+server-1    | INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)                             
+client5-1   | INFO :                                                                                              
+client4-1   | INFO :                                                                                              
+client3-1   | INFO :      
+client5-1   | INFO :      Received: evaluate message 85f6d163-070c-408a-aed4-61c13c24486c                         
+client6-1   | INFO :                                                                                              
+client2-1   | INFO :                                                                                              
+client4-1   | INFO :      Received: evaluate message ecb00c29-9ad2-44cd-b991-f4a78f78e861
+client1-1   | INFO :                                                                                              
+client10-1  | INFO :                                                                                              
+client3-1   | INFO :      Received: evaluate message 10883fae-71d5-4bce-be5e-c4e622568228                         
+client8-1   | INFO :                                                                                              
+client7-1   | INFO :      
+client9-1   | INFO :      
+client6-1   | INFO :      Received: evaluate message 47529605-6780-46b2-8b81-8aa9c3b7ee39                         
+client2-1   | INFO :      Received: evaluate message 2a73eb2a-c579-40c0-9247-4c241df014d8                         
+client1-1   | INFO :      Received: evaluate message d251e003-60c6-428a-90f1-6ce1ed91ca9d
+client10-1  | INFO :      Received: evaluate message dd2d6d67-1ddb-42c0-933e-fb2de8706fd6                         
+client8-1   | INFO :      Received: evaluate message b6acdb17-3ea7-4eca-a3ec-4588ec963f71                         
+client7-1   | INFO :      Received: evaluate message feef06c8-ee24-458a-87e4-d0e68fefae31
+client9-1   | INFO :      Received: evaluate message 3dc48f31-fb76-4def-8878-963135522e67                         
+client4-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9819 - loss: 0.1158                                           
+client4-1   | INFO :      Sent reply
+client5-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9819 - loss: 0.1158
+client7-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9819 - loss: 0.1158
+client7-1   | INFO :      Sent reply                                                                              
+client3-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9819 - loss: 0.1158
+client2-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9819 - loss: 0.1158                                           
+client10-1  | 313/313 - 1s - 2ms/step - accuracy: 0.9819 - loss: 0.1158
+client3-1   | INFO :      Sent reply                                                                              
+client2-1   | INFO :      Sent reply                                                                              
+client6-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9819 - loss: 0.1158                                           
+client6-1   | INFO :      Sent reply
+client9-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9819 - loss: 0.1158                                           
+client9-1   | INFO :      Sent reply
+client1-1   | 313/313 - 1s - 3ms/step - accuracy: 0.9819 - loss: 0.1158                                           
+client8-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9819 - loss: 0.1158
+client1-1   | INFO :      Sent reply
+client8-1   | INFO :      Sent reply                                                                              
+client10-1  | INFO :      Sent reply                                                                              
+client5-1   | INFO :      Sent reply
+server-1    | INFO :      aggregate_evaluate: received 10 results and 0 failures                                  
+server-1    | INFO :                                                                                              
+client2-1   | INFO :      
+client10-1  | INFO :                                                                                              
+client5-1   | INFO :                                                                                              
+server-1    | INFO :      [ROUND 49]                                                                              
+client9-1   | INFO :      
+client4-1   | INFO :                                                                                              
+client8-1   | INFO :                                                                                              
+client2-1   | INFO :      Received: train message 39c6240c-03ff-4977-ac2f-96ddd513dd8b                            
+client3-1   | INFO :      
+client6-1   | INFO :                                                                                              
+client1-1   | INFO :                                                                                              
+client7-1   | INFO :      
+client10-1  | INFO :      Received: train message fa5f97ad-837f-4177-b480-a3c54ad7affb                            
+client5-1   | INFO :      Received: train message 4ee38acf-5976-457f-909d-05dae8d63600
+server-1    | INFO :      configure_fit: strategy sampled 10 clients (out of 10)                                  
+client9-1   | INFO :      Received: train message 0efcfb86-47ce-4dac-ab19-1c85842591f5
+client4-1   | INFO :      Received: train message 56d915b5-4dd2-4deb-b298-98016244c276
+client8-1   | INFO :      Received: train message 0a2d7e1c-ea79-4629-b398-7741307e1576
+client3-1   | INFO :      Received: train message 388c58b7-3156-49cc-99d3-78a6618fadad
+client6-1   | INFO :      Received: train message 00187cb5-fd0d-4c56-857d-31b5bb8a7901
+client1-1   | INFO :      Received: train message aae205ee-30ae-418f-a763-2a586a957d8e
+client7-1   | INFO :      Received: train message 9304b879-83ef-4d83-8639-f9cf473a65b4
+client10-1  | 1875/1875 - 11s - 6ms/step - accuracy: 0.9972 - loss: 0.0096
+client10-1  | INFO :      Sent reply
+client1-1   | 1875/1875 - 11s - 6ms/step - accuracy: 0.9983 - loss: 0.0064                                        
+client9-1   | 1875/1875 - 11s - 6ms/step - accuracy: 1.0000 - loss: 9.6496e-06
+client3-1   | 1875/1875 - 11s - 6ms/step - accuracy: 1.0000 - loss: 1.4689e-05
+client5-1   | 1875/1875 - 11s - 6ms/step - accuracy: 1.0000 - loss: 9.6583e-06                                    
+client3-1   | INFO :      Sent reply
+client8-1   | 1875/1875 - 11s - 6ms/step - accuracy: 0.9979 - loss: 0.0081                                        
+client6-1   | 1875/1875 - 11s - 6ms/step - accuracy: 1.0000 - loss: 1.3173e-05
+client8-1   | INFO :      Sent reply
+client6-1   | INFO :      Sent reply                                                                              
+client4-1   | 1875/1875 - 11s - 6ms/step - accuracy: 1.0000 - loss: 9.5907e-06                                    
+client4-1   | INFO :      Sent reply
+client2-1   | 1875/1875 - 11s - 6ms/step - accuracy: 1.0000 - loss: 9.7562e-06                                    
+client2-1   | INFO :      Sent reply                                                                              
+client7-1   | 1875/1875 - 11s - 6ms/step - accuracy: 1.0000 - loss: 9.3256e-06
+client7-1   | INFO :      Sent reply
+client9-1   | INFO :      Sent reply                                                                              
+client1-1   | INFO :      Sent reply
+client5-1   | INFO :      Sent reply                                                                              
+server-1    | INFO :      aggregate_fit: received 10 results and 0 failures                                       
+server-1    | INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+client7-1   | INFO :                                                                                              
+client3-1   | INFO :                                                                                              
+client4-1   | INFO :      
+client9-1   | INFO :                                                                                              
+client2-1   | INFO :                                                                                              
+client7-1   | INFO :      Received: evaluate message ecf9a292-3c46-4e44-8dd6-eef4533ea087
+client1-1   | INFO :                                                                                              
+client10-1  | INFO :      
+client3-1   | INFO :      Received: evaluate message 71143d90-386f-4afa-9356-f92432ebf5e2                         
+client5-1   | INFO :      
+client6-1   | INFO :      
+client8-1   | INFO :                                                                                              
+client4-1   | INFO :      Received: evaluate message 5ee454a0-f424-494d-9718-12c910e54b89
+client9-1   | INFO :      Received: evaluate message 4a7eb325-3fa3-4925-ad42-0057e839973c                         
+client2-1   | INFO :      Received: evaluate message c4be50ec-a2ce-498b-b62f-fa0cca9785d5                         
+client1-1   | INFO :      Received: evaluate message 9c5f59dd-ea10-4843-b643-edab8e54c7fd
+client10-1  | INFO :      Received: evaluate message c0d4a933-225c-4cc0-88e3-c51a3d6013b0                         
+client5-1   | INFO :      Received: evaluate message 1f9217c3-0d0a-44a5-b9f3-fe76a35cb940
+client6-1   | INFO :      Received: evaluate message b9fe74d0-14a1-4cb5-b6a7-a88c05d95133                         
+client8-1   | INFO :      Received: evaluate message 087e85db-1b16-4a8c-a077-e9f61725155c
+client3-1   | 313/313 - 1s - 3ms/step - accuracy: 0.9821 - loss: 0.1167
+client3-1   | INFO :      Sent reply
+client10-1  | 313/313 - 1s - 3ms/step - accuracy: 0.9821 - loss: 0.1167                                           
+client8-1   | 313/313 - 1s - 3ms/step - accuracy: 0.9821 - loss: 0.1167
+client1-1   | 313/313 - 1s - 3ms/step - accuracy: 0.9821 - loss: 0.1167
+client1-1   | INFO :      Sent reply                                                                              
+client9-1   | 313/313 - 1s - 3ms/step - accuracy: 0.9821 - loss: 0.1167                                           
+client9-1   | INFO :      Sent reply                                                                              
+client4-1   | 313/313 - 1s - 3ms/step - accuracy: 0.9821 - loss: 0.1167
+client4-1   | INFO :      Sent reply                                                                              
+client5-1   | 313/313 - 1s - 3ms/step - accuracy: 0.9821 - loss: 0.1167                                           
+client2-1   | 313/313 - 1s - 3ms/step - accuracy: 0.9821 - loss: 0.1167                                           
+client6-1   | 313/313 - 1s - 3ms/step - accuracy: 0.9821 - loss: 0.1167
+client2-1   | INFO :      Sent reply                                                                              
+client7-1   | 313/313 - 1s - 3ms/step - accuracy: 0.9821 - loss: 0.1167                                           
+client6-1   | INFO :      Sent reply                                                                              
+client7-1   | INFO :      Sent reply
+client10-1  | INFO :      Sent reply                                                                              
+client8-1   | INFO :      Sent reply
+client5-1   | INFO :      Sent reply
+server-1    | INFO :      aggregate_evaluate: received 10 results and 0 failures
+server-1    | INFO :      
+client7-1   | INFO :                                                                                              
+client2-1   | INFO :                                                                                              
+server-1    | INFO :      [ROUND 50]
+client9-1   | INFO :                                                                                              
+client5-1   | INFO :                                                                                              
+client8-1   | INFO :                                                                                              
+client7-1   | INFO :      Received: train message ccf2daee-964e-4ddd-9c49-4833b841d801
+client10-1  | INFO :                                                                                              
+client3-1   | INFO :                                                                                              
+client2-1   | INFO :      Received: train message 4f272047-6eab-4fed-8479-6737b5e459a5
+client4-1   | INFO :                                                                                              
+client1-1   | INFO :      
+client6-1   | INFO :      
+server-1    | INFO :      configure_fit: strategy sampled 10 clients (out of 10)                                  
+client9-1   | INFO :      Received: train message 24195a2f-8666-43e2-b8e8-6c845b94dd15
+client5-1   | INFO :      Received: train message 3e5135aa-57e4-43a7-ae07-b5cd099e1a2d
+client8-1   | INFO :      Received: train message 7f2a43bf-f281-45a6-bfb8-452d6e35dd93                            
+client10-1  | INFO :      Received: train message 898f7858-f624-4ed1-bd13-df8f12336212                            
+client3-1   | INFO :      Received: train message 61229281-9113-4b57-ab47-d34d1e1a2752
+client4-1   | INFO :      Received: train message 660f31a4-d78e-41c8-baac-cdcb5a0f79ea                            
+client1-1   | INFO :      Received: train message b9f3eb78-144e-45a1-a622-576df04e9ea5                            
+client6-1   | INFO :      Received: train message 19ef5923-1be4-4280-8bcf-65073602cd6d
+client9-1   | 1875/1875 - 11s - 6ms/step - accuracy: 1.0000 - loss: 9.4586e-06                                    
+client7-1   | 1875/1875 - 11s - 6ms/step - accuracy: 0.9980 - loss: 0.0081
+client9-1   | INFO :      Sent reply                                                                              
+client8-1   | 1875/1875 - 11s - 6ms/step - accuracy: 1.0000 - loss: 1.0009e-05                                    
+client5-1   | 1875/1875 - 12s - 6ms/step - accuracy: 1.0000 - loss: 9.6450e-06
+client5-1   | INFO :      Sent reply
+client10-1  | 1875/1875 - 12s - 6ms/step - accuracy: 1.0000 - loss: 1.0254e-05                                    
+client3-1   | 1875/1875 - 12s - 6ms/step - accuracy: 1.0000 - loss: 9.8532e-06
+client4-1   | 1875/1875 - 12s - 6ms/step - accuracy: 1.0000 - loss: 9.6127e-06
+client3-1   | INFO :      Sent reply                                                                              
+client4-1   | INFO :      Sent reply                                                                              
+client2-1   | 1875/1875 - 12s - 6ms/step - accuracy: 0.9976 - loss: 0.0080
+client1-1   | 1875/1875 - 12s - 6ms/step - accuracy: 1.0000 - loss: 1.2905e-05
+client2-1   | INFO :      Sent reply                                                                              
+client1-1   | INFO :      Sent reply
+client6-1   | 1875/1875 - 12s - 6ms/step - accuracy: 1.0000 - loss: 9.8112e-06                                    
+client6-1   | INFO :      Sent reply
+client7-1   | INFO :      Sent reply                                                                              
+client10-1  | INFO :      Sent reply
+client8-1   | INFO :      Sent reply                                                                              
+server-1    | INFO :      aggregate_fit: received 10 results and 0 failures
+server-1    | INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+client7-1   | INFO :                                                                                              
+client8-1   | INFO :                                                                                              
+client2-1   | INFO :                                                                                              
+client7-1   | INFO :      Received: evaluate message 34be0d3c-b2fa-4ac6-96fb-2e19233bf000
+client1-1   | INFO :                                                                                              
+client10-1  | INFO :                                                                                              
+client8-1   | INFO :      Received: evaluate message b5f26dcd-5e01-451a-9c8c-03e2660793f3
+client6-1   | INFO :                                                                                              
+client5-1   | INFO :                                                                                              
+client9-1   | INFO :      
+client2-1   | INFO :      Received: evaluate message 07cfb017-c4fe-4642-ba03-6556ed15442e                         
+client4-1   | INFO :                                                                                              
+client3-1   | INFO :      
+client1-1   | INFO :      Received: evaluate message dece8788-1242-445a-be1f-1c667338780b                         
+client10-1  | INFO :      Received: evaluate message 43093401-3110-4401-97e5-df67bcaa0bbd
+client6-1   | INFO :      Received: evaluate message 5ffe6b95-47e8-49ac-b0f1-6e4833679060                         
+client5-1   | INFO :      Received: evaluate message aff33243-f94a-42a3-9e40-c756de629957                         
+client9-1   | INFO :      Received: evaluate message d0be67fb-3bae-4967-b884-42c43cb0ba9d
+client4-1   | INFO :      Received: evaluate message cd828ac6-9358-460c-8eac-8017e8f0c94c                         
+client3-1   | INFO :      Received: evaluate message d5912e95-fc98-4693-8d46-b7408e5a194d                         
+client4-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9821 - loss: 0.1170                                           
+client4-1   | INFO :      Sent reply
+client1-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9821 - loss: 0.1170
+client10-1  | 313/313 - 1s - 3ms/step - accuracy: 0.9821 - loss: 0.1170                                           
+client8-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9821 - loss: 0.1170                                           
+client10-1  | INFO :      Sent reply
+client3-1   | 313/313 - 1s - 3ms/step - accuracy: 0.9821 - loss: 0.1170                                           
+client3-1   | INFO :      Sent reply                                                                              
+client8-1   | INFO :      Sent reply                                                                              
+client6-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9821 - loss: 0.1170
+client6-1   | INFO :      Sent reply                                                                              
+client9-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9821 - loss: 0.1170                                           
+client9-1   | INFO :      Sent reply
+client5-1   | 313/313 - 1s - 2ms/step - accuracy: 0.9821 - loss: 0.1170                                           
+client5-1   | INFO :      Sent reply
+client2-1   | 313/313 - 1s - 3ms/step - accuracy: 0.9821 - loss: 0.1170                                           
+client2-1   | INFO :      Sent reply
+client7-1   | 313/313 - 1s - 3ms/step - accuracy: 0.9821 - loss: 0.1170                                           
+client7-1   | INFO :      Sent reply                                                                              
+client1-1   | INFO :      Sent reply                                                                              
+server-1    | INFO :      aggregate_evaluate: received 10 results and 0 failures
+server-1    | INFO :                                                                                              
+client5-1   | INFO :                                                                                              
+client3-1   | INFO :      
+client4-1   | INFO :                                                                                              
+client2-1   | INFO :      
+server-1    | INFO :      [SUMMARY]                                                                               
+client9-1   | INFO :                                                                                              
+client10-1  | INFO :                                                                                              
+client6-1   | INFO :      
+client5-1   | INFO :      Received: reconnect message eb0c3b0d-cfdd-4b5a-8296-947832c617d5                        
+client7-1   | INFO :                                                                                              
+client8-1   | INFO :                                                                                              
+client1-1   | INFO :      
+client3-1   | INFO :      Received: reconnect message 093b96d0-0afa-47d9-b547-06fbf456f246                        
+client4-1   | INFO :      Received: reconnect message 6b29c73a-56d2-4fb2-8f0c-41b63de02e52                        
+client2-1   | INFO :      Received: reconnect message bae0baf1-2fc8-4794-888b-e7f254032b57                        
+server-1    | INFO :      Run finished 50 round(s) in 955.46s
+client9-1   | INFO :      Received: reconnect message 78d373bb-f0c1-494c-8ef2-a71a47563aff                        
+client10-1  | INFO :      Received: reconnect message e4b392a7-7fd4-448c-8b8b-3eac3bb22977                        
+client6-1   | INFO :      Received: reconnect message 2bfdc578-4568-4fcd-9cfe-50bd514118cd                        
+client5-1   | INFO :      Disconnect and shut down                                                                
+client7-1   | INFO :      Received: reconnect message 4a435198-ac63-41a2-9b07-c130dc0ef8c4
+client8-1   | INFO :      Received: reconnect message 6a626ea4-1fa8-4323-8051-e96391649f96                        
+client1-1   | INFO :      Received: reconnect message 932aadc5-8d6d-4620-852e-ef664e012735                        
+client3-1   | INFO :      Disconnect and shut down                                                                
+client4-1   | INFO :      Disconnect and shut down                                                                
+client2-1   | INFO :      Disconnect and shut down
+server-1    | INFO :            History (loss, distributed):                                                      
+client9-1   | INFO :      Disconnect and shut down                                                                
+client10-1  | INFO :      Disconnect and shut down                                                                
+client6-1   | INFO :      Disconnect and shut down                                                                
+client7-1   | INFO :      Disconnect and shut down
+client8-1   | INFO :      Disconnect and shut down                                                                
+client1-1   | INFO :      Disconnect and shut down                                                                
+server-1    | INFO :                    round 1: 0.1351391077041626                                               
+server-1    | INFO :                    round 2: 0.08317537605762482                                              
+server-1    | INFO :                    round 3: 0.06973778456449509
+server-1    | INFO :                    round 4: 0.06368257850408554                                              
+server-1    | INFO :                    round 5: 0.06301173567771912                                              
+server-1    | INFO :                    round 6: 0.05962827056646347                                              
+server-1    | INFO :                    round 7: 0.060682084411382675                                             
+server-1    | INFO :                    round 8: 0.06120239198207855
+server-1    | INFO :                    round 9: 0.06321320682764053                                              
+server-1    | INFO :                    round 10: 0.06835594773292542                                             
+server-1    | INFO :                    round 11: 0.06921837478876114
+server-1    | INFO :                    round 12: 0.071334108710289                                               
+server-1    | INFO :                    round 13: 0.07266886532306671                                             
+server-1    | INFO :                    round 14: 0.07435619831085205                                             
+server-1    | INFO :                    round 15: 0.0774606317281723
+server-1    | INFO :                    round 16: 0.08032312989234924                                             
+server-1    | INFO :                    round 17: 0.08265945315361023                                             
+server-1    | INFO :                    round 18: 0.08348965644836426                                             
+server-1    | INFO :                    round 19: 0.08505172282457352                                             
+server-1    | INFO :                    round 20: 0.0862167626619339
+server-1    | INFO :                    round 21: 0.08801419287919998                                             
+server-1    | INFO :                    round 22: 0.09084296971559525                                             
+server-1    | INFO :                    round 23: 0.08922956138849258                                             
+server-1    | INFO :                    round 24: 0.09297353774309158                                             
+server-1    | INFO :                    round 25: 0.09349467605352402
+server-1    | INFO :                    round 26: 0.0932643786072731                                              
+server-1    | INFO :                    round 27: 0.09684421867132187                                             
+server-1    | INFO :                    round 28: 0.09472712129354477                                             
+server-1    | INFO :                    round 29: 0.09650752693414688
+server-1    | INFO :                    round 30: 0.09878957271575928                                             
+server-1    | INFO :                    round 31: 0.10044795274734497                                             
+server-1    | INFO :                    round 32: 0.10142654925584793                                             
+server-1    | INFO :                    round 33: 0.10252691805362701                                             
+server-1    | INFO :                    round 34: 0.10543680191040039
+server-1    | INFO :                    round 35: 0.1058647483587265                                              
+server-1    | INFO :                    round 36: 0.10739937424659729                                             
+server-1    | INFO :                    round 37: 0.10771196335554123                                             
+server-1    | INFO :                    round 38: 0.1096353754401207                                              
+server-1    | INFO :                    round 39: 0.10787028819322586
+server-1    | INFO :                    round 40: 0.10967884212732315                                             
+server-1    | INFO :                    round 41: 0.11116001009941101                                             
+server-1    | INFO :                    round 42: 0.11130110919475555                                             
+server-1    | INFO :                    round 43: 0.11310848593711853                                             
+server-1    | INFO :                    round 44: 0.11197122931480408
+server-1    | INFO :                    round 45: 0.11229149252176285                                             
+server-1    | INFO :                    round 46: 0.11418834328651428                                             
+server-1    | INFO :                    round 47: 0.1121625229716301                                              
+server-1    | INFO :                    round 48: 0.11584748327732086
+server-1    | INFO :                    round 49: 0.11670638620853424                                             
+server-1    | INFO :                    round 50: 0.11700441688299179                                             
+server-1    | INFO :                                                                                              
+server-1 exited with code 0
+client1-1 exited with code 0
+client10-1 exited with code 0
+client5-1 exited with code 0
+client7-1 exited with code 0
+client9-1 exited with code 0
+client2-1 exited with code 0
+client6-1 exited with code 0
+client8-1 exited with code 0
+client3-1 exited with code 0
+client4-1 exited with code 0

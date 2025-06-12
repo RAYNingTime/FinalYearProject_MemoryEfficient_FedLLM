@@ -1,0 +1,8 @@
+2025-05-14 00:24:24 server-1   | WARNING :   DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+2025-05-14 00:24:24 server-1   |        Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+2025-05-14 00:24:24 server-1   | 
+2025-05-14 00:26:00 client2-1  | 
+Generating train split:   0%|          | 0/120000 [00:00<?, ? examples/s]
+Generating train split: 100%|██████████| 120000/120000 [00:00<00:00, 1233909.16 examples/s]
+2025-05-14 00:24:24 server-1   |                $ flower-superlink --insecure
+2025-05-14 00:24:24

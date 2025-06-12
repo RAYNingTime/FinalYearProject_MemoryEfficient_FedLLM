@@ -1,0 +1,98 @@
+INFO :      Starting Flower server, config: num_rounds=5, no round_timeout 
+INFO: Starting Flower server, config: num_rounds=5, no round_timeout       
+INFO :      Flower ECE: gRPC server running (5 rounds), SSL is disabled    
+INFO: Flower ECE: gRPC server running (5 rounds), SSL is disabled
+INFO :      [INIT]       
+INFO: [INIT]
+INFO :      Requesting initial parameters from one random client
+INFO: Requesting initial parameters from one random client
+INFO :      Received initial parameters from one random client
+INFO: Received initial parameters from one random client
+INFO :      Starting evaluation of initial global parameters
+INFO: Starting evaluation of initial global parameters
+INFO :      Evaluation returned no results (`None`)
+INFO: Evaluation returned no results (`None`)     
+INFO :
+INFO:
+INFO :      [ROUND 1]    
+INFO: [ROUND 1]
+INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+INFO: configure_fit: strategy sampled 2 clients (out of 2)
+INFO :      aggregate_fit: received 2 results and 0 failures
+INFO: aggregate_fit: received 2 results and 0 failures
+WARNING :   No fit_metrics_aggregation_fn provided
+WARNING: No fit_metrics_aggregation_fn provided   
+INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)      
+INFO: configure_evaluate: strategy sampled 2 clients (out of 2)
+INFO :      aggregate_evaluate: received 2 results and 0 failures
+INFO: aggregate_evaluate: received 2 results and 0 failures
+WARNING :   No evaluate_metrics_aggregation_fn provided
+WARNING: No evaluate_metrics_aggregation_fn provided
+INFO :
+INFO:
+INFO :      [ROUND 2]    
+INFO: [ROUND 2]
+INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+INFO: configure_fit: strategy sampled 2 clients (out of 2)
+INFO :      aggregate_fit: received 2 results and 0 failures
+INFO: aggregate_fit: received 2 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)      
+INFO: configure_evaluate: strategy sampled 2 clients (out of 2)
+INFO :      aggregate_evaluate: received 2 results and 0 failures
+INFO: aggregate_evaluate: received 2 results and 0 failures
+INFO :
+INFO:
+INFO :      [ROUND 3]    
+INFO: [ROUND 3]
+INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+INFO: configure_fit: strategy sampled 2 clients (out of 2)
+INFO :      aggregate_fit: received 2 results and 0 failures
+INFO: aggregate_fit: received 2 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)      
+INFO: configure_evaluate: strategy sampled 2 clients (out of 2)
+INFO :      aggregate_evaluate: received 2 results and 0 failures
+INFO: aggregate_evaluate: received 2 results and 0 failures
+INFO :
+INFO:
+INFO :      [ROUND 4]    
+INFO: [ROUND 4]
+INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+INFO: configure_fit: strategy sampled 2 clients (out of 2)
+INFO :      aggregate_fit: received 2 results and 0 failures
+INFO: aggregate_fit: received 2 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)      
+INFO: configure_evaluate: strategy sampled 2 clients (out of 2)
+INFO :      aggregate_evaluate: received 2 results and 0 failures
+INFO: aggregate_evaluate: received 2 results and 0 failures
+INFO :
+INFO:
+INFO :      [ROUND 5]    
+INFO: [ROUND 5]
+INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+INFO: configure_fit: strategy sampled 2 clients (out of 2)
+INFO :      aggregate_fit: received 2 results and 0 failures
+INFO: aggregate_fit: received 2 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)      
+INFO: configure_evaluate: strategy sampled 2 clients (out of 2)
+INFO :      aggregate_evaluate: received 2 results and 0 failures
+INFO: aggregate_evaluate: received 2 results and 0 failures
+INFO :
+INFO:
+INFO :      [SUMMARY]    
+INFO: [SUMMARY]
+INFO :      Run finished 5 round(s) in 23.33s     
+INFO: Run finished 5 round(s) in 23.33s
+INFO :          History (loss, distributed):      
+INFO:   History (loss, distributed):
+INFO :                  round 1: 0.14312241971492767
+INFO:           round 1: 0.14312241971492767      
+INFO :                  round 2: 0.09356465190649033
+INFO:           round 2: 0.09356465190649033      
+INFO :                  round 3: 0.07564790546894073
+INFO:           round 3: 0.07564790546894073      
+INFO :                  round 4: 0.06719405204057693
+INFO:           round 4: 0.06719405204057693      
+INFO :                  round 5: 0.0677049458026886
+INFO:           round 5: 0.0677049458026886       
+INFO :
+INFO:

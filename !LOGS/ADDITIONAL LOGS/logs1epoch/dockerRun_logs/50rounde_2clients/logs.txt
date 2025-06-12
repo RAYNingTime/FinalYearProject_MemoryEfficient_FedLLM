@@ -1,0 +1,191 @@
+server-1   | INFO :      [ROUND 45]                                                                               
+server-1   | INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+client1-1  | 1875/1875 - 5s - 2ms/step - accuracy: 0.9984 - loss: 0.0064                                          
+client1-1  | INFO :      Sent reply
+client2-1  | 1875/1875 - 5s - 2ms/step - accuracy: 1.0000 - loss: 1.6355e-05                                      
+client2-1  | INFO :      Sent reply                                                                               
+server-1   | INFO :      aggregate_fit: received 2 results and 0 failures
+server-1   | INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)                                
+client2-1  | INFO :                                                                                               
+client1-1  | INFO :                                                                                               
+client2-1  | INFO :      Received: evaluate message 55a7b387-3057-4edf-be5d-07189eaf82bb
+client1-1  | INFO :      Received: evaluate message cd9a3a0f-3eae-4e24-a97a-abb7c0ba4bae                          
+client2-1  | 313/313 - 0s - 1ms/step - accuracy: 0.9813 - loss: 0.1207
+client2-1  | INFO :      Sent reply
+client1-1  | 313/313 - 0s - 1ms/step - accuracy: 0.9813 - loss: 0.1207                                            
+client1-1  | INFO :      Sent reply                                                                               
+server-1   | INFO :      aggregate_evaluate: received 2 results and 0 failures                                    
+client2-1  | INFO :      
+server-1   | INFO :                                                                                               
+client1-1  | INFO :                                                                                               
+client2-1  | INFO :      Received: train message d3f42656-8972-4ae7-8fac-1ec93614006b                             
+server-1   | INFO :      [ROUND 46]
+client1-1  | INFO :      Received: train message f8367c9c-cff1-464b-b9fb-1b999e20d6c0                             
+server-1   | INFO :      configure_fit: strategy sampled 2 clients (out of 2)                                     
+client1-1  | 1875/1875 - 5s - 2ms/step - accuracy: 1.0000 - loss: 1.4388e-04
+client1-1  | INFO :      Sent reply
+client2-1  | 1875/1875 - 5s - 2ms/step - accuracy: 0.9973 - loss: 0.0100                                          
+client2-1  | INFO :      Sent reply
+server-1   | INFO :      aggregate_fit: received 2 results and 0 failures                                         
+server-1   | INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+client1-1  | INFO :                                                                                               
+client2-1  | INFO :                                                                                               
+client1-1  | INFO :      Received: evaluate message d978a4a9-c0fa-40dc-9ef2-2b54737f6ef8                          
+client2-1  | INFO :      Received: evaluate message 7d75bcca-e347-44e2-863b-7e16510db995
+client2-1  | 313/313 - 0s - 1ms/step - accuracy: 0.9810 - loss: 0.1205                                            
+client1-1  | 313/313 - 0s - 1ms/step - accuracy: 0.9810 - loss: 0.1205
+client2-1  | INFO :      Sent reply                                                                               
+client1-1  | INFO :      Sent reply                                                                               
+server-1   | INFO :      aggregate_evaluate: received 2 results and 0 failures                                    
+client2-1  | INFO :                                                                                               
+client1-1  | INFO :      
+server-1   | INFO :                                                                                               
+client2-1  | INFO :      Received: train message 588101cd-f1e9-44d9-910f-2ffe181b6447                             
+client1-1  | INFO :      Received: train message 99750d91-359c-4297-bb45-3587c17169ce
+server-1   | INFO :      [ROUND 47]                                                                               
+server-1   | INFO :      configure_fit: strategy sampled 2 clients (out of 2)                                     
+client1-1  | 1875/1875 - 5s - 2ms/step - accuracy: 0.9984 - loss: 0.0047                                          
+client1-1  | INFO :      Sent reply
+client2-1  | 1875/1875 - 5s - 2ms/step - accuracy: 1.0000 - loss: 8.4074e-05                                      
+client2-1  | INFO :      Sent reply
+server-1   | INFO :      aggregate_fit: received 2 results and 0 failures                                         
+server-1   | INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)                                
+client2-1  | INFO :      
+client1-1  | INFO :                                                                                               
+client2-1  | INFO :      Received: evaluate message c64fd235-1775-4b7e-bfa7-97045ddc7794                          
+client1-1  | INFO :      Received: evaluate message 84e6f83e-167e-4e06-83d8-0c64e847ab43                          
+client1-1  | 313/313 - 0s - 1ms/step - accuracy: 0.9807 - loss: 0.1320
+client1-1  | INFO :      Sent reply
+client2-1  | 313/313 - 0s - 1ms/step - accuracy: 0.9807 - loss: 0.1320                                            
+client2-1  | INFO :      Sent reply                                                                               
+server-1   | INFO :      aggregate_evaluate: received 2 results and 0 failures
+client2-1  | INFO :                                                                                               
+client1-1  | INFO :                                                                                               
+server-1   | INFO :      
+client2-1  | INFO :      Received: train message b7447318-0680-4eee-98b6-94bcf6c71f0e                             
+client1-1  | INFO :      Received: train message cf3acba6-c57f-4724-9a98-ce1f5e6da401                             
+server-1   | INFO :      [ROUND 48]
+server-1   | INFO :      configure_fit: strategy sampled 2 clients (out of 2)                                     
+client1-1  | 1875/1875 - 5s - 2ms/step - accuracy: 1.0000 - loss: 1.6703e-04                                      
+client1-1  | INFO :      Sent reply
+client2-1  | 1875/1875 - 5s - 2ms/step - accuracy: 0.9984 - loss: 0.0047                                          
+client2-1  | INFO :      Sent reply
+server-1   | INFO :      aggregate_fit: received 2 results and 0 failures                                         
+server-1   | INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)                                
+client2-1  | INFO :      
+client1-1  | INFO :                                                                                               
+client2-1  | INFO :      Received: evaluate message 69c1c18c-0fdb-458a-9f3b-07f896653b92                          
+client1-1  | INFO :      Received: evaluate message 2b5dfb89-40dc-486b-b1cb-e3df5a42b12c                          
+client2-1  | 313/313 - 0s - 1ms/step - accuracy: 0.9820 - loss: 0.1306
+client2-1  | INFO :      Sent reply
+client1-1  | 313/313 - 0s - 1ms/step - accuracy: 0.9820 - loss: 0.1306                                            
+client1-1  | INFO :      Sent reply                                                                               
+server-1   | INFO :      aggregate_evaluate: received 2 results and 0 failures
+client2-1  | INFO :                                                                                               
+client1-1  | INFO :                                                                                               
+server-1   | INFO :      
+client2-1  | INFO :      Received: train message baed6228-73ec-430b-b1ae-39b66949acd7                             
+client1-1  | INFO :      Received: train message d6d7e696-418d-48e0-9fbd-de9d17535429                             
+server-1   | INFO :      [ROUND 49]                                                                               
+server-1   | INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+client1-1  | 1875/1875 - 5s - 3ms/step - accuracy: 0.9990 - loss: 0.0036                                          
+client1-1  | INFO :      Sent reply
+client2-1  | 1875/1875 - 5s - 3ms/step - accuracy: 1.0000 - loss: 8.8794e-05
+client2-1  | INFO :      Sent reply
+server-1   | INFO :      aggregate_fit: received 2 results and 0 failures                                         
+server-1   | INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)                                
+client2-1  | INFO :      
+client1-1  | INFO :                                                                                               
+client2-1  | INFO :      Received: evaluate message 8c0586d6-a00d-4c21-9905-af95fbb4bb84                          
+client1-1  | INFO :      Received: evaluate message 5570d1a7-5acc-4866-b2d7-f6bb566c71e6                          
+client1-1  | 313/313 - 0s - 1ms/step - accuracy: 0.9803 - loss: 0.1321
+client2-1  | 313/313 - 0s - 1ms/step - accuracy: 0.9803 - loss: 0.1321
+client1-1  | INFO :      Sent reply                                                                               
+client2-1  | INFO :      Sent reply                                                                               
+server-1   | INFO :      aggregate_evaluate: received 2 results and 0 failures                                    
+client1-1  | INFO :                                                                                               
+client2-1  | INFO :      
+server-1   | INFO :                                                                                               
+client1-1  | INFO :      Received: train message 674dccaf-c1fa-4969-9bee-2181970e9490                             
+client2-1  | INFO :      Received: train message 1e0c0aeb-2845-4e8c-8bee-6d20a3ce378f
+server-1   | INFO :      [ROUND 50]                                                                               
+server-1   | INFO :      configure_fit: strategy sampled 2 clients (out of 2)                                     
+client1-1  | 1875/1875 - 4s - 2ms/step - accuracy: 1.0000 - loss: 1.7342e-04                                      
+client1-1  | INFO :      Sent reply
+client2-1  | 1875/1875 - 4s - 2ms/step - accuracy: 0.9984 - loss: 0.0054                                          
+client2-1  | INFO :      Sent reply
+server-1   | INFO :      aggregate_fit: received 2 results and 0 failures                                         
+server-1   | INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+client2-1  | INFO :                                                                                               
+client1-1  | INFO :                                                                                               
+client2-1  | INFO :      Received: evaluate message af1a4647-e89c-40b2-86d6-76ab87c7d8c4
+client1-1  | INFO :      Received: evaluate message aff8b087-6b36-410f-890f-ea8539f9c5ce                          
+client2-1  | 313/313 - 0s - 1ms/step - accuracy: 0.9807 - loss: 0.1314                                            
+client1-1  | 313/313 - 0s - 1ms/step - accuracy: 0.9807 - loss: 0.1314
+client2-1  | INFO :      Sent reply                                                                               
+client1-1  | INFO :      Sent reply
+server-1   | INFO :      aggregate_evaluate: received 2 results and 0 failures                                    
+client2-1  | INFO :                                                                                               
+client1-1  | INFO :                                                                                               
+server-1   | INFO :      
+client2-1  | INFO :      Received: reconnect message eff56781-87d9-4eb8-8e7a-3e9ebb534a5c                         
+client1-1  | INFO :      Received: reconnect message e92538a0-818b-4f42-9837-1341b62db218                         
+server-1   | INFO :      [SUMMARY]                                                                                
+client2-1  | INFO :      Disconnect and shut down                                                                 
+client1-1  | INFO :      Disconnect and shut down                                                                 
+server-1   | INFO :      Run finished 50 round(s) in 269.40s                                                      
+server-1   | INFO :             History (loss, distributed):
+server-1   | INFO :                     round 1: 0.13732486963272095                                              
+server-1   | INFO :                     round 2: 0.0938330814242363                                               
+server-1   | INFO :                     round 3: 0.07923765480518341                                              
+server-1   | INFO :                     round 4: 0.07349037379026413
+server-1   | INFO :                     round 5: 0.07552853226661682                                              
+server-1   | INFO :                     round 6: 0.06639032810926437                                              
+server-1   | INFO :                     round 7: 0.06892900168895721                                              
+server-1   | INFO :                     round 8: 0.06981778144836426
+server-1   | INFO :                     round 9: 0.07257263362407684                                              
+server-1   | INFO :                     round 10: 0.07690189778804779                                             
+server-1   | INFO :                     round 11: 0.07605021446943283
+server-1   | INFO :                     round 12: 0.0797552764415741                                              
+server-1   | INFO :                     round 13: 0.08029069006443024                                             
+server-1   | INFO :                     round 14: 0.087891586124897
+server-1   | INFO :                     round 15: 0.08677691966295242                                             
+server-1   | INFO :                     round 16: 0.08896820992231369                                             
+server-1   | INFO :                     round 17: 0.09077238291501999                                             
+server-1   | INFO :                     round 18: 0.09206492453813553
+server-1   | INFO :                     round 19: 0.09890147298574448                                             
+server-1   | INFO :                     round 20: 0.10131244361400604                                             
+server-1   | INFO :                     round 21: 0.09755741059780121
+server-1   | INFO :                     round 22: 0.0922473818063736                                              
+server-1   | INFO :                     round 23: 0.09952610731124878                                             
+server-1   | INFO :                     round 24: 0.09309473633766174                                             
+server-1   | INFO :                     round 25: 0.10228181630373001
+server-1   | INFO :                     round 26: 0.10294876992702484                                             
+server-1   | INFO :                     round 27: 0.10086330026388168                                             
+server-1   | INFO :                     round 28: 0.10716620087623596
+server-1   | INFO :                     round 29: 0.10374226421117783                                             
+server-1   | INFO :                     round 30: 0.11082005500793457                                             
+server-1   | INFO :                     round 31: 0.10578836500644684                                             
+server-1   | INFO :                     round 32: 0.10878050327301025
+server-1   | INFO :                     round 33: 0.10869990289211273                                             
+server-1   | INFO :                     round 34: 0.11189518868923187                                             
+server-1   | INFO :                     round 35: 0.10679686069488525                                             
+server-1   | INFO :                     round 36: 0.11929328739643097
+server-1   | INFO :                     round 37: 0.11337806284427643                                             
+server-1   | INFO :                     round 38: 0.10760162025690079                                             
+server-1   | INFO :                     round 39: 0.10845832526683807                                             
+server-1   | INFO :                     round 40: 0.11037437617778778
+server-1   | INFO :                     round 41: 0.1300964653491974                                              
+server-1   | INFO :                     round 42: 0.11944533884525299                                             
+server-1   | INFO :                     round 43: 0.11999156326055527
+server-1   | INFO :                     round 44: 0.1197955533862114                                              
+server-1   | INFO :                     round 45: 0.12074898928403854                                             
+server-1   | INFO :                     round 46: 0.12050468474626541                                             
+server-1   | INFO :                     round 47: 0.13202457129955292
+server-1   | INFO :                     round 48: 0.13062474131584167                                             
+server-1   | INFO :                     round 49: 0.13206176459789276                                             
+server-1   | INFO :                     round 50: 0.1313622146844864
+server-1   | INFO :                                                                                               
+server-1 exited with code 0
+client2-1 exited with code 0
+client1-1 exited with code 0

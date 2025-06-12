@@ -1,0 +1,62 @@
+[+] Building 1.6s (9/10)                                                                                docker:desktop-linux
+ => => exporting manifest sha256:66dfda5bcf41436d99d06f65c9807a70e6a10c2d2e3f2cbef7395e27bbf5ccff                       0.0s
+[+] Building 3.5s (27/28)                                                                               docker:desktop-linux 
+ => [server internal] load build definition from Dockerfile.server                                                      0.0s 
+ => => transferring dockerfile: 208B                                                                                    0.0s
+ => [server internal] load metadata for docker.io/library/python:3.10-slim                                              1.3s 
+ => [server internal] load .dockerignore                                                                                0.0s 
+ => => transferring context: 2B                                                                                         0.0s 
+ => [server 1/4] FROM docker.io/library/python:3.10-slim@sha256:e1013c40c02a7875ae30c78c69b68ea7bee31713e8ac1c0f5469c1  0.0sn
+ => => resolve docker.io/library/python:3.10-slim@sha256:e1013c40c02a7875ae30c78c69b68ea7bee31713e8ac1c0f5469c1206258d  0.0s
+ => [server internal] load build context                                                                                0.0s
+ => => transferring context: 931B                                                                                       0.0s 
+ => CACHED [server 2/4] WORKDIR /app                                                                                    0.0s 
+ => CACHED [server 3/4] COPY server.py .                                                                                0.0s 
+ => CACHED [server 4/4] RUN pip install flwr                                                                            0.0s 
+ => [server] exporting to image                                                                                         0.1s 
+ => => exporting layers                                                                                                 0.0s 
+ => => exporting manifest sha256:66dfda5bcf41436d99d06f65c9807a70e6a10c2d2e3f2cbef7395e27bbf5ccff                       0.0s 
+ => => exporting config sha256:7da69e906e20bba263dea1a1bbf0f7776c3d35f14def80f77bf01a65841f02f1                         0.0s 
+ => => exporting attestation manifest sha256:05993176b204ccda3ac9a83d9eb6b73763ad5c2b399a180bf7e44163d3c020b2           0.0s 
+ => => exporting manifest list sha256:b67805d807b6dfc581a083086460c9eae6bf02dcaa42eb9140a535f24a2ede5c                  0.0s 
+ => => naming to docker.io/library/fl_fyp-server:latest                                                                 0.0s 
+ => => unpacking to docker.io/library/fl_fyp-server:latest                                                              0.0s 
+ => [server] resolving provenance for metadata file                                                                     0.0s 
+ => [client2 internal] load build definition from Dockerfile.client.gpu                                                 0.0s 
+ => => transferring dockerfile: 644B                                                                                    0.0s 
+ => [client1 internal] load build definition from Dockerfile.client.gpu                                                 0.0s 
+ => => transferring dockerfile: 644B                                                                                    0.0s 
+ => [client2 internal] load metadata for docker.io/nvidia/cuda:12.8.1-base-ubuntu22.04                                  0.0s 
+ => [client1 internal] load .dockerignore                                                                               0.0s 
+ => => transferring context: 2B                                                                                         0.0s 
+ => [client2 internal] load .dockerignore                                                                               0.0s 
+ => => transferring context: 2B                                                                                         0.0s 
+ => [client2 1/6] FROM docker.io/nvidia/cuda:12.8.1-base-ubuntu22.04@sha256:001469ea0f3dec85a1ca929aeea3b58ae369d4c112  1.1s 
+ => => resolve docker.io/nvidia/cuda:12.8.1-base-ubuntu22.04@sha256:001469ea0f3dec85a1ca929aeea3b58ae369d4c11228b10aec  1.1s 
+ => [client2 internal] load build context                                                                               0.0s 
+ => => transferring context: 3.06kB                                                                                     0.0s 
+ => [client1 internal] load build context                                                                               0.0s 
+ => => transferring context: 3.06kB                                                                                     0.0s 
+ => CACHED [client1 2/6] RUN apt-get update &&     apt-get install -y python3 python3-pip &&     apt-get clean          0.0s 
+ => CACHED [client1 3/6] RUN pip3 install --no-cache-dir torch torchvision torchaudio --index-url https://download.pyt  0.0s 
+ => CACHED [client1 4/6] RUN pip3 install --no-cache-dir transformers datasets accelerate flwr                          0.0s 
+ => CACHED [client2 5/6] WORKDIR /app                                                                                   0.0s 
+ => [client1 6/6] COPY client.py .                                                                                      0.0s 
+ => [client2] exporting to image                                                                                        0.3s 
+ => => exporting layers                                                                                                 0.1s 
+ => => exporting manifest sha256:908ffec2397041e546ef710f05bde1fa775c69373f918d0f150c908577a2e710                       0.0s 
+ => => exporting config sha256:dcc0aae7122e813cbb9788e683f3d7d8b34a2e6da77aaf2d97e10eb5144c9033                         0.0s 
+ => => exporting attestation manifest sha256:c9127a7bdce502e3eba324952c6f79b9b959b5781d73ad1bd8d42d2ac5b087a4           0.0s 
+ => => exporting manifest list sha256:be97cedc02f7f2361875989478ab2ffd22da90b14d40ee886747f9558c84cd2a                  0.0s 
+ => => naming to docker.io/library/fl_fyp-client2:latest                                                                0.0s 
+ => => unpacking to docker.io/library/fl_fyp-client2:latest                                                             0.0s 
+ => [client1] exporting to image                                                                                        0.3s 
+ => => exporting layers                                                                                                 0.1s 
+ => => exporting manifest sha256:6275403574971e56d2f6c5475cfb93a1f196246d4def75f055668ad29cde874f                       0.0s 
+ => => exporting config sha256:8a34cb8087e4c99f068ef6f29bc41d20aa5d4a98f72ea4744dea6fc7724980a5                         0.0s 
+ => => exporting attestation manifest sha256:d79e562fb4aa18a958dea089e2ad51a94093fe8c1c5be13ab96a84dd5728a814           0.0s 
+ => => exporting manifest list sha256:0e174e9ba80b7a92275edeb3be6ba8b1063086fb21214c566a373e65bc9aa79b                  0.0s 
+ => => naming to docker.io/library/fl_fyp-client1:latest                                                                0.0s 
+ => => unpacking to docker.io/library/fl_fyp-client1:latest                                                             0.0s 
+ => [client1] resolving provenance for metadata file                                                                    0.1s 
+ => [client2] resolving provenance for metadata file                                                                    0.0s

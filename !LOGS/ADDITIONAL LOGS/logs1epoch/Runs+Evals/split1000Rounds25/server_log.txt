@@ -1,0 +1,361 @@
+2025-05-14 00:24:24 WARNING :   DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+2025-05-14 00:24:24 Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+2025-05-14 00:24:24 
+2025-05-14 00:24:24 $ flower-superlink --insecure
+2025-05-14 00:24:24 
+2025-05-14 00:24:24 To view usage and all available options, run:
+2025-05-14 00:24:24 
+2025-05-14 00:24:24 $ flower-superlink --help
+2025-05-14 00:24:24 
+2025-05-14 00:24:24 Using `start_server()` is deprecated.
+2025-05-14 00:24:24 
+2025-05-14 00:24:24             This is a deprecated feature. It will be removed
+2025-05-14 00:24:24             entirely in future versions of Flower.
+2025-05-14 00:24:24         
+2025-05-14 00:24:24 INFO :      Starting Flower server, config: num_rounds=25, no round_timeout
+2025-05-14 00:24:24 INFO :      Flower ECE: gRPC server running (25 rounds), SSL is disabled
+2025-05-14 00:24:24 INFO :      [INIT]
+2025-05-14 00:24:24 INFO :      Requesting initial parameters from one random client
+2025-05-14 00:25:55 INFO :      Received initial parameters from one random client
+2025-05-14 00:25:55 INFO :      Starting evaluation of initial global parameters
+2025-05-14 00:25:55 INFO :      Evaluation returned no results (`None`)
+2025-05-14 00:25:55 INFO :      
+2025-05-14 00:25:55 INFO :      [ROUND 1]
+2025-05-14 00:26:03 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 00:33:31 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 00:33:37 WARNING :   No fit_metrics_aggregation_fn provided
+2025-05-14 00:33:37 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 00:33:56 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 00:33:56 WARNING :   No evaluate_metrics_aggregation_fn provided
+2025-05-14 00:33:56 INFO :      
+2025-05-14 00:33:56 INFO :      [ROUND 2]
+2025-05-14 00:33:56 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 00:41:13 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 00:41:18 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 00:41:38 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 00:41:38 INFO :      
+2025-05-14 00:41:38 INFO :      [ROUND 3]
+2025-05-14 00:41:38 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 00:48:59 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 00:49:04 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 00:49:18 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 00:49:18 INFO :      
+2025-05-14 00:49:18 INFO :      [ROUND 4]
+2025-05-14 00:49:18 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 00:56:44 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 00:56:50 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 00:57:09 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 00:57:09 INFO :      
+2025-05-14 00:57:09 INFO :      [ROUND 5]
+2025-05-14 00:57:09 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 01:04:43 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 01:04:48 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 01:05:08 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 01:05:08 INFO :      
+2025-05-14 01:05:08 INFO :      [ROUND 6]
+2025-05-14 01:05:08 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 01:12:36 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 01:12:41 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 01:13:00 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 01:13:00 INFO :      
+2025-05-14 01:13:00 INFO :      [ROUND 7]
+2025-05-14 01:13:00 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 01:20:26 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 01:20:32 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 01:20:50 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 01:20:50 INFO :      
+2025-05-14 01:20:50 INFO :      [ROUND 8]
+2025-05-14 01:20:50 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 01:33:23 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 01:33:28 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 01:33:47 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 01:33:47 INFO :      
+2025-05-14 01:33:47 INFO :      [ROUND 9]
+2025-05-14 01:33:47 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 01:41:10 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 01:41:15 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 01:41:32 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 01:41:32 INFO :      
+2025-05-14 01:41:32 INFO :      [ROUND 10]
+2025-05-14 01:41:32 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 01:49:02 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 01:49:07 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 01:49:26 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 01:49:26 INFO :      
+2025-05-14 01:49:26 INFO :      [ROUND 11]
+2025-05-14 01:49:26 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 01:56:53 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 01:56:58 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 01:57:17 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 01:57:17 INFO :      
+2025-05-14 01:57:17 INFO :      [ROUND 12]
+2025-05-14 01:57:17 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 02:04:43 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 02:04:49 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 02:05:07 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 02:05:07 INFO :      
+2025-05-14 02:05:07 INFO :      [ROUND 13]
+2025-05-14 02:05:07 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 02:12:33 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 02:12:38 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 02:12:56 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 02:12:56 INFO :      
+2025-05-14 02:12:56 INFO :      [ROUND 14]
+2025-05-14 02:12:56 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 02:20:20 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 02:20:25 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 02:20:41 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 02:20:41 INFO :      
+2025-05-14 02:20:41 INFO :      [ROUND 15]
+2025-05-14 02:20:41 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 02:28:08 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 02:28:13 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 02:28:33 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 02:28:33 INFO :      
+2025-05-14 02:28:33 INFO :      [ROUND 16]
+2025-05-14 02:28:33 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 02:36:00 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 02:36:05 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 02:36:21 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 02:36:21 INFO :      
+2025-05-14 02:36:21 INFO :      [ROUND 17]
+2025-05-14 02:36:21 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 02:43:43 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 02:43:48 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 02:44:08 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 02:44:08 INFO :      
+2025-05-14 02:44:08 INFO :      [ROUND 18]
+2025-05-14 02:44:08 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 02:51:35 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 02:51:40 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 02:51:57 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 02:51:57 INFO :      
+2025-05-14 02:51:57 INFO :      [ROUND 19]
+2025-05-14 02:51:57 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 02:59:23 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 02:59:28 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 02:59:47 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 02:59:47 INFO :      
+2025-05-14 02:59:47 INFO :      [ROUND 20]
+2025-05-14 02:59:47 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 03:07:14 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 03:07:20 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 03:07:38 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 03:07:38 INFO :      
+2025-05-14 03:07:38 INFO :      [ROUND 21]
+2025-05-14 03:07:38 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 03:15:07 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 03:15:12 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 03:15:30 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 03:15:30 INFO :      
+2025-05-14 03:15:30 INFO :      [ROUND 22]
+2025-05-14 03:15:30 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 03:22:56 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 03:23:01 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 03:23:21 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 03:23:21 INFO :      
+2025-05-14 03:23:21 INFO :      [ROUND 23]
+2025-05-14 03:23:21 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 08:37:06 WARNING :   DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+2025-05-14 08:37:06 Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+2025-05-14 08:37:06 
+2025-05-14 08:37:06 $ flower-superlink --insecure
+2025-05-14 08:37:06 
+2025-05-14 08:37:06 To view usage and all available options, run:
+2025-05-14 08:37:06 
+2025-05-14 08:37:06 $ flower-superlink --help
+2025-05-14 08:37:06 
+2025-05-14 08:37:06 Using `start_server()` is deprecated.
+2025-05-14 08:37:06 
+2025-05-14 08:37:06             This is a deprecated feature. It will be removed
+2025-05-14 08:37:06             entirely in future versions of Flower.
+2025-05-14 08:37:06         
+2025-05-14 08:37:06 INFO :      Starting Flower server, config: num_rounds=25, no round_timeout
+2025-05-14 08:37:06 INFO :      Flower ECE: gRPC server running (25 rounds), SSL is disabled
+2025-05-14 08:37:06 INFO :      [INIT]
+2025-05-14 08:37:06 INFO :      Requesting initial parameters from one random client
+2025-05-14 08:37:27 INFO :      Received initial parameters from one random client
+2025-05-14 08:37:27 INFO :      Starting evaluation of initial global parameters
+2025-05-14 08:37:27 INFO :      Evaluation returned no results (`None`)
+2025-05-14 08:37:27 INFO :      
+2025-05-14 08:37:27 INFO :      [ROUND 1]
+2025-05-14 08:37:27 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 08:44:52 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 08:44:57 WARNING :   No fit_metrics_aggregation_fn provided
+2025-05-14 08:44:57 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 08:45:15 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 08:45:15 WARNING :   No evaluate_metrics_aggregation_fn provided
+2025-05-14 08:45:15 INFO :      
+2025-05-14 08:45:15 INFO :      [ROUND 2]
+2025-05-14 08:45:15 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 08:52:25 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 08:52:31 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 08:52:49 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 08:52:49 INFO :      
+2025-05-14 08:52:49 INFO :      [ROUND 3]
+2025-05-14 08:52:49 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 08:59:54 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 09:00:00 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 09:00:17 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 09:00:17 INFO :      
+2025-05-14 09:00:17 INFO :      [ROUND 4]
+2025-05-14 09:00:17 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 09:07:24 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 09:07:29 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 09:07:47 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 09:07:47 INFO :      
+2025-05-14 09:07:47 INFO :      [ROUND 5]
+2025-05-14 09:07:47 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 09:14:54 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 09:15:00 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 09:15:16 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 09:15:16 INFO :      
+2025-05-14 09:15:16 INFO :      [ROUND 6]
+2025-05-14 09:15:16 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 09:22:31 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 09:22:36 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 09:22:52 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 09:22:52 INFO :      
+2025-05-14 09:22:52 INFO :      [ROUND 7]
+2025-05-14 09:22:52 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 09:30:11 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 09:30:16 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 09:30:33 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 09:30:33 INFO :      
+2025-05-14 09:30:33 INFO :      [ROUND 8]
+2025-05-14 09:30:33 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 09:37:50 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 09:37:55 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 09:38:13 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 09:38:13 INFO :      
+2025-05-14 09:38:13 INFO :      [ROUND 9]
+2025-05-14 09:38:13 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 09:45:30 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 09:45:35 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 09:45:52 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 09:45:52 INFO :      
+2025-05-14 09:45:52 INFO :      [ROUND 10]
+2025-05-14 09:45:52 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 09:53:07 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 09:53:12 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 09:53:29 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 09:53:29 INFO :      
+2025-05-14 09:53:29 INFO :      [ROUND 11]
+2025-05-14 09:53:29 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 10:00:40 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 10:00:45 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 10:01:03 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 10:01:03 INFO :      
+2025-05-14 10:01:03 INFO :      [ROUND 12]
+2025-05-14 10:01:03 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 10:08:21 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 10:08:26 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 10:08:43 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 10:08:43 INFO :      
+2025-05-14 10:08:43 INFO :      [ROUND 13]
+2025-05-14 10:08:43 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 10:15:54 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 10:15:59 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 10:16:16 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 10:16:16 INFO :      
+2025-05-14 10:16:16 INFO :      [ROUND 14]
+2025-05-14 10:16:16 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 10:23:32 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 10:23:37 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 10:23:54 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 10:23:54 INFO :      
+2025-05-14 10:23:54 INFO :      [ROUND 15]
+2025-05-14 10:23:54 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 10:31:12 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 10:31:17 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 10:31:33 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 10:31:33 INFO :      
+2025-05-14 10:31:33 INFO :      [ROUND 16]
+2025-05-14 10:31:33 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 10:38:45 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 10:38:50 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 10:39:06 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 10:39:06 INFO :      
+2025-05-14 10:39:06 INFO :      [ROUND 17]
+2025-05-14 10:39:06 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 10:46:23 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 10:46:28 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 10:46:46 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 10:46:46 INFO :      
+2025-05-14 10:46:46 INFO :      [ROUND 18]
+2025-05-14 10:46:46 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 10:53:56 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 10:54:01 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 10:54:18 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 10:54:18 INFO :      
+2025-05-14 10:54:18 INFO :      [ROUND 19]
+2025-05-14 10:54:18 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 11:01:30 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 11:01:35 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 11:01:53 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 11:01:53 INFO :      
+2025-05-14 11:01:53 INFO :      [ROUND 20]
+2025-05-14 11:01:53 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 11:09:08 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 11:09:14 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 11:09:31 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 11:09:31 INFO :      
+2025-05-14 11:09:31 INFO :      [ROUND 21]
+2025-05-14 11:09:31 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 11:16:47 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 11:16:52 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 11:17:10 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 11:17:10 INFO :      
+2025-05-14 11:17:10 INFO :      [ROUND 22]
+2025-05-14 11:17:10 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 11:24:25 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 11:24:30 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 11:24:46 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 11:24:46 INFO :      
+2025-05-14 11:24:46 INFO :      [ROUND 23]
+2025-05-14 11:24:46 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 11:31:55 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 11:32:00 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 11:32:17 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 11:32:17 INFO :      
+2025-05-14 11:32:17 INFO :      [ROUND 24]
+2025-05-14 11:32:17 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 11:39:27 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 11:39:32 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 11:39:51 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 11:39:51 INFO :      
+2025-05-14 11:39:51 INFO :      [ROUND 25]
+2025-05-14 11:39:51 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 11:47:00 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 11:47:05 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 11:47:21 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 11:47:21 INFO :      
+2025-05-14 11:47:21 INFO :      [SUMMARY]
+2025-05-14 11:47:21 INFO :      Run finished 25 round(s) in 11394.40s
+2025-05-14 11:47:21 INFO :      History (loss, distributed):
+2025-05-14 11:47:21 INFO :      round 1: 1.2925191521644592
+2025-05-14 11:47:21 INFO :      round 2: 1.314376175403595
+2025-05-14 11:47:21 INFO :      round 3: 1.3538016080856323
+2025-05-14 11:47:21 INFO :      round 4: 1.39065420627594
+2025-05-14 11:47:21 INFO :      round 5: 1.4345537424087524
+2025-05-14 11:47:21 INFO :      round 6: 1.4776593446731567
+2025-05-14 11:47:21 INFO :      round 7: 1.5218538045883179
+2025-05-14 11:47:21 INFO :      round 8: 1.5691463947296143
+2025-05-14 11:47:21 INFO :      round 9: 1.613837718963623
+2025-05-14 11:47:21 INFO :      round 10: 1.6454881429672241
+2025-05-14 11:47:21 INFO :      round 11: 1.6911630630493164
+2025-05-14 11:47:21 INFO :      round 12: 1.7259140610694885
+2025-05-14 11:47:21 INFO :      round 13: 1.7665103077888489
+2025-05-14 11:47:21 INFO :      round 14: 1.7954522967338562
+2025-05-14 11:47:21 INFO :      round 15: 1.8296563625335693
+2025-05-14 11:47:21 INFO :      round 16: 1.8680872917175293
+2025-05-14 11:47:21 INFO :      round 17: 1.8896172046661377
+2025-05-14 11:47:21 INFO :      round 18: 1.9169358015060425
+2025-05-14 11:47:21 INFO :      round 19: 1.946393370628357
+2025-05-14 11:47:21 INFO :      round 20: 1.979680061340332
+2025-05-14 11:47:21 INFO :      round 21: 1.9982865452766418
+2025-05-14 11:47:21 INFO :      round 22: 2.019896626472473
+2025-05-14 11:47:21 INFO :      round 23: 2.0458929538726807
+2025-05-14 11:47:21 INFO :      round 24: 2.059531092643738
+2025-05-14 11:47:21 INFO :      round 25: 2.0804752111434937
+2025-05-14 11:47:21 INFO :      

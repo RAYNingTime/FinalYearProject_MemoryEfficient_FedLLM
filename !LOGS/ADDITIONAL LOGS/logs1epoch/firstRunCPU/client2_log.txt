@@ -1,0 +1,99 @@
+2025-05-01 16:56:24 
+Generating train split:   0%|          | 0/120000 [00:00<?, ? examples/s]
+Generating train split: 100%|██████████| 120000/120000 [00:00<00:00, 1204126.58 examples/s]
+2025-05-01 16:56:24 
+Generating test split:   0%|          | 0/7600 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 7600/7600 [00:00<00:00, 911622.68 examples/s]
+2025-05-01 16:56:26 
+Map:   0%|          | 0/1000 [00:00<?, ? examples/s]
+Map: 100%|██████████| 1000/1000 [00:00<00:00, 1112.09 examples/s]
+Map: 100%|██████████| 1000/1000 [00:00<00:00, 1107.65 examples/s]
+2025-05-01 16:56:27 
+Map:   0%|          | 0/1000 [00:00<?, ? examples/s]
+Map:  33%|███▎      | 329/1000 [00:00<00:00, 3248.86 examples/s]
+Map:  74%|███████▍  | 738/1000 [00:00<00:00, 1980.87 examples/s]
+Map:  99%|█████████▉| 994/1000 [00:00<00:00, 1866.68 examples/s]
+Map: 100%|██████████| 1000/1000 [00:00<00:00, 1850.22 examples/s]
+2025-05-01 16:56:27 /app/client.py:45: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+2025-05-01 16:56:27   trainer = Trainer(
+2025-05-01 16:56:27 WARNING :   DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated. 
+2025-05-01 16:56:27 Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below: 
+2025-05-01 16:56:27 flwr.client.start_client(
+2025-05-01 16:56:27 server_address='<IP>:<PORT>',
+2025-05-01 16:56:27 client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+2025-05-01 16:56:27 )
+2025-05-01 16:56:27 Using `start_numpy_client()` is deprecated.
+2025-05-01 16:56:27 
+2025-05-01 16:56:27             This is a deprecated feature. It will be removed
+2025-05-01 16:56:27             entirely in future versions of Flower.
+2025-05-01 16:56:27         
+2025-05-01 16:56:27 WARNING :   DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+2025-05-01 16:56:27 Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+2025-05-01 16:56:27 
+2025-05-01 16:56:27 $ flower-supernode --insecure --superlink='<IP>:<PORT>'
+2025-05-01 16:56:27 
+2025-05-01 16:56:27 To view all available options, run:
+2025-05-01 16:56:27 
+2025-05-01 16:56:27 $ flower-supernode --help
+2025-05-01 16:56:27 
+2025-05-01 16:56:27 Using `start_client()` is deprecated.
+2025-05-01 16:56:27 
+2025-05-01 16:56:27             This is a deprecated feature. It will be removed
+2025-05-01 16:56:27             entirely in future versions of Flower.
+2025-05-01 16:56:27         
+2025-05-01 16:56:46 INFO :      
+2025-05-01 16:56:46 INFO :      Received: train message 72c81482-87ef-4360-bb55-910c1d2961dd
+2025-05-01 16:56:48 /usr/local/lib/python3.10/site-packages/torch/utils/data/dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+2025-05-01 16:56:48   warnings.warn(warn_msg)
+2025-05-01 16:57:46 {'loss': 2.6507, 'grad_norm': 18.410554885864258, 'learning_rate': 4.91e-05, 'epoch': 0.02}
+2025-05-01 16:58:25 {'loss': 1.6272, 'grad_norm': 11.60146713256836, 'learning_rate': 4.8100000000000004e-05, 'epoch': 0.04}
+2025-05-01 16:59:03 {'loss': 1.6176, 'grad_norm': 18.06834602355957, 'learning_rate': 4.71e-05, 'epoch': 0.06}
+2025-05-01 16:59:39 {'loss': 1.5085, 'grad_norm': 13.751534461975098, 'learning_rate': 4.61e-05, 'epoch': 0.08}
+2025-05-01 17:00:16 {'loss': 1.5923, 'grad_norm': 17.903371810913086, 'learning_rate': 4.5100000000000005e-05, 'epoch': 0.1}
+2025-05-01 17:00:53 {'loss': 1.4552, 'grad_norm': 16.792016983032227, 'learning_rate': 4.41e-05, 'epoch': 0.12}
+2025-05-01 17:01:34 {'loss': 1.3651, 'grad_norm': 13.322221755981445, 'learning_rate': 4.3100000000000004e-05, 'epoch': 0.14}
+2025-05-01 17:02:16 {'loss': 1.511, 'grad_norm': 12.929309844970703, 'learning_rate': 4.21e-05, 'epoch': 0.16}
+2025-05-01 17:02:54 {'loss': 1.2628, 'grad_norm': 14.289273262023926, 'learning_rate': 4.11e-05, 'epoch': 0.18}
+2025-05-01 17:03:33 {'loss': 1.419, 'grad_norm': 12.311344146728516, 'learning_rate': 4.0100000000000006e-05, 'epoch': 0.2}
+2025-05-01 17:04:11 {'loss': 1.4692, 'grad_norm': 11.786368370056152, 'learning_rate': 3.91e-05, 'epoch': 0.22}
+2025-05-01 17:04:48 {'loss': 1.5406, 'grad_norm': 14.818891525268555, 'learning_rate': 3.8100000000000005e-05, 'epoch': 0.24}
+2025-05-01 17:05:27 {'loss': 1.5594, 'grad_norm': 14.527207374572754, 'learning_rate': 3.71e-05, 'epoch': 0.26}
+2025-05-01 17:06:07 {'loss': 1.3713, 'grad_norm': 11.049809455871582, 'learning_rate': 3.61e-05, 'epoch': 0.28}
+2025-05-01 17:06:46 {'loss': 1.5118, 'grad_norm': 12.844765663146973, 'learning_rate': 3.51e-05, 'epoch': 0.3}
+2025-05-01 17:07:26 {'loss': 1.3935, 'grad_norm': 14.137564659118652, 'learning_rate': 3.41e-05, 'epoch': 0.32}
+2025-05-01 17:08:06 {'loss': 1.6501, 'grad_norm': 13.26268196105957, 'learning_rate': 3.3100000000000005e-05, 'epoch': 0.34}
+2025-05-01 17:08:47 {'loss': 1.4652, 'grad_norm': 13.814018249511719, 'learning_rate': 3.21e-05, 'epoch': 0.36}
+2025-05-01 17:09:26 {'loss': 1.4471, 'grad_norm': 12.128302574157715, 'learning_rate': 3.1100000000000004e-05, 'epoch': 0.38}
+2025-05-01 17:10:06 {'loss': 1.3645, 'grad_norm': 12.29659366607666, 'learning_rate': 3.01e-05, 'epoch': 0.4}
+2025-05-01 17:10:45 {'loss': 1.5836, 'grad_norm': 14.53504467010498, 'learning_rate': 2.91e-05, 'epoch': 0.42}
+2025-05-01 17:11:23 {'loss': 1.6216, 'grad_norm': 19.095598220825195, 'learning_rate': 2.8100000000000005e-05, 'epoch': 0.44}
+2025-05-01 17:12:02 {'loss': 1.437, 'grad_norm': 16.45509910583496, 'learning_rate': 2.7100000000000005e-05, 'epoch': 0.46}
+2025-05-01 17:12:42 {'loss': 1.5453, 'grad_norm': 10.966983795166016, 'learning_rate': 2.61e-05, 'epoch': 0.48}
+2025-05-01 17:13:21 {'loss': 1.4307, 'grad_norm': 11.405953407287598, 'learning_rate': 2.51e-05, 'epoch': 0.5}
+2025-05-01 17:14:01 {'loss': 1.328, 'grad_norm': 12.093626976013184, 'learning_rate': 2.41e-05, 'epoch': 0.52}
+2025-05-01 17:14:40 {'loss': 1.4816, 'grad_norm': 16.62752914428711, 'learning_rate': 2.3100000000000002e-05, 'epoch': 0.54}
+2025-05-01 17:15:20 {'loss': 1.5778, 'grad_norm': 12.53360652923584, 'learning_rate': 2.2100000000000002e-05, 'epoch': 0.56}
+2025-05-01 17:15:59 {'loss': 1.4169, 'grad_norm': 12.441150665283203, 'learning_rate': 2.11e-05, 'epoch': 0.58}
+2025-05-01 17:16:39 {'loss': 1.3949, 'grad_norm': 10.472935676574707, 'learning_rate': 2.01e-05, 'epoch': 0.6}
+2025-05-01 17:17:19 {'loss': 1.4062, 'grad_norm': 11.724580764770508, 'learning_rate': 1.91e-05, 'epoch': 0.62}
+2025-05-01 17:17:59 {'loss': 1.3952, 'grad_norm': 10.576077461242676, 'learning_rate': 1.81e-05, 'epoch': 0.64}
+2025-05-01 17:18:38 {'loss': 1.3605, 'grad_norm': 10.241168975830078, 'learning_rate': 1.7100000000000002e-05, 'epoch': 0.66}
+2025-05-01 17:19:19 {'loss': 1.4642, 'grad_norm': 12.089439392089844, 'learning_rate': 1.6100000000000002e-05, 'epoch': 0.68}
+2025-05-01 17:19:57 {'loss': 1.4127, 'grad_norm': 11.066366195678711, 'learning_rate': 1.51e-05, 'epoch': 0.7}
+2025-05-01 17:20:35 {'loss': 1.2488, 'grad_norm': 13.485359191894531, 'learning_rate': 1.4099999999999999e-05, 'epoch': 0.72}
+2025-05-01 17:21:15 {'loss': 1.5563, 'grad_norm': 13.829299926757812, 'learning_rate': 1.3100000000000002e-05, 'epoch': 0.74}
+2025-05-01 17:21:53 {'loss': 1.3096, 'grad_norm': 14.510336875915527, 'learning_rate': 1.2100000000000001e-05, 'epoch': 0.76}
+2025-05-01 17:22:32 {'loss': 1.4095, 'grad_norm': 11.583829879760742, 'learning_rate': 1.11e-05, 'epoch': 0.78}
+2025-05-01 17:23:11 {'loss': 1.4236, 'grad_norm': 12.480987548828125, 'learning_rate': 1.0100000000000002e-05, 'epoch': 0.8}
+2025-05-01 17:23:49 {'loss': 1.4457, 'grad_norm': 10.934396743774414, 'learning_rate': 9.100000000000001e-06, 'epoch': 0.82}
+2025-05-01 17:24:28 {'loss': 1.3555, 'grad_norm': 12.651087760925293, 'learning_rate': 8.1e-06, 'epoch': 0.84}
+2025-05-01 17:25:07 {'loss': 1.2894, 'grad_norm': 14.05830192565918, 'learning_rate': 7.1e-06, 'epoch': 0.86}
+2025-05-01 17:25:46 {'loss': 1.3515, 'grad_norm': 11.899322509765625, 'learning_rate': 6.1e-06, 'epoch': 0.88}
+2025-05-01 17:26:25 {'loss': 1.2416, 'grad_norm': 10.365636825561523, 'learning_rate': 5.1e-06, 'epoch': 0.9}
+2025-05-01 17:27:03 {'loss': 1.3866, 'grad_norm': 11.998745918273926, 'learning_rate': 4.1000000000000006e-06, 'epoch': 0.92}
+2025-05-01 17:27:41 {'loss': 1.5761, 'grad_norm': 13.492685317993164, 'learning_rate': 3.1e-06, 'epoch': 0.94}
+2025-05-01 17:28:18 {'loss': 1.1803, 'grad_norm': 7.877508163452148, 'learning_rate': 2.1000000000000002e-06, 'epoch': 0.96}
+2025-05-01 17:28:55 {'loss': 1.5159, 'grad_norm': 15.53872013092041, 'learning_rate': 1.1e-06, 'epoch': 0.98}
+2025-05-01 17:29:38 {'loss': 1.3578, 'grad_norm': 11.058860778808594, 'learning_rate': 1.0000000000000001e-07, 'epoch': 1.0}
+2025-05-01 17:29:38 {'train_runtime': 1969.668, 'train_samples_per_second': 0.508, 'train_steps_per_second': 0.254, 'train_loss': 1.4657274646759033, 'epoch': 1.0}
+2025-05-01 17:30:03 INFO :      Sent reply

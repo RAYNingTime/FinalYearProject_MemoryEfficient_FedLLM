@@ -1,0 +1,114 @@
+2025-05-13 12:18:32 
+Generating train split:   0%|          | 0/120000 [00:00<?, ? examples/s]
+Generating train split: 100%|██████████| 120000/120000 [00:00<00:00, 1246845.16 examples/s]
+2025-05-13 12:18:32 
+Generating test split:   0%|          | 0/7600 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 7600/7600 [00:00<00:00, 1021951.47 examples/s]
+2025-05-13 12:18:34 
+Map:   0%|          | 0/200 [00:00<?, ? examples/s]
+Map: 100%|██████████| 200/200 [00:00<00:00, 934.07 examples/s]
+Map: 100%|██████████| 200/200 [00:00<00:00, 923.57 examples/s]
+2025-05-13 12:18:34 
+Map:   0%|          | 0/200 [00:00<?, ? examples/s]
+Map:  84%|████████▍ | 169/200 [00:00<00:00, 1671.23 examples/s]
+Map: 100%|██████████| 200/200 [00:00<00:00, 1507.06 examples/s]
+2025-05-13 12:18:34 /app/client.py:45: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+2025-05-13 12:18:34   trainer = Trainer(
+2025-05-13 12:18:35 WARNING :   DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated. 
+2025-05-13 12:18:35 Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below: 
+2025-05-13 12:18:35 flwr.client.start_client(
+2025-05-13 12:18:35 server_address='<IP>:<PORT>',
+2025-05-13 12:18:35 client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+2025-05-13 12:18:35 )
+2025-05-13 12:18:35 Using `start_numpy_client()` is deprecated.
+2025-05-13 12:18:35 
+2025-05-13 12:18:35             This is a deprecated feature. It will be removed
+2025-05-13 12:18:35             entirely in future versions of Flower.
+2025-05-13 12:18:35         
+2025-05-13 12:18:35 WARNING :   DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+2025-05-13 12:18:35 Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+2025-05-13 12:18:35 
+2025-05-13 12:18:35 $ flower-supernode --insecure --superlink='<IP>:<PORT>'
+2025-05-13 12:18:35 
+2025-05-13 12:18:35 To view all available options, run:
+2025-05-13 12:18:35 
+2025-05-13 12:18:35 $ flower-supernode --help
+2025-05-13 12:18:35 
+2025-05-13 12:18:35 Using `start_client()` is deprecated.
+2025-05-13 12:18:35 
+2025-05-13 12:18:35             This is a deprecated feature. It will be removed
+2025-05-13 12:18:35             entirely in future versions of Flower.
+2025-05-13 12:18:35         
+2025-05-13 12:18:46 INFO :      
+2025-05-13 12:18:46 INFO :      Received: train message 487a6474-7013-4248-b59e-506240913138
+2025-05-13 12:18:58 {'loss': 2.6908, 'grad_norm': 11.105737686157227, 'learning_rate': 4.55e-05, 'epoch': 0.1}
+2025-05-13 12:19:11 {'loss': 1.5927, 'grad_norm': 11.035597801208496, 'learning_rate': 4.05e-05, 'epoch': 0.2}
+2025-05-13 12:19:22 {'loss': 1.6019, 'grad_norm': 14.323103904724121, 'learning_rate': 3.55e-05, 'epoch': 0.3}
+2025-05-13 12:19:31 {'loss': 1.5244, 'grad_norm': 13.498409271240234, 'learning_rate': 3.05e-05, 'epoch': 0.4}
+2025-05-13 12:19:41 {'loss': 1.3509, 'grad_norm': 16.805652618408203, 'learning_rate': 2.5500000000000003e-05, 'epoch': 0.5}
+2025-05-13 12:19:51 {'loss': 1.4016, 'grad_norm': 13.048684120178223, 'learning_rate': 2.05e-05, 'epoch': 0.6}
+2025-05-13 12:20:04 {'loss': 1.441, 'grad_norm': 12.510279655456543, 'learning_rate': 1.55e-05, 'epoch': 0.7}
+2025-05-13 12:20:14 {'loss': 1.4614, 'grad_norm': 15.925536155700684, 'learning_rate': 1.05e-05, 'epoch': 0.8}
+2025-05-13 12:20:23 {'loss': 1.4312, 'grad_norm': 11.78799819946289, 'learning_rate': 5.500000000000001e-06, 'epoch': 0.9}
+2025-05-13 12:20:33 {'loss': 1.5016, 'grad_norm': 15.743959426879883, 'learning_rate': 5.000000000000001e-07, 'epoch': 1.0}
+2025-05-13 12:20:33 {'train_runtime': 105.4276, 'train_samples_per_second': 1.897, 'train_steps_per_second': 0.949, 'train_loss': 1.5997425651550292, 'epoch': 1.0}
+2025-05-13 12:21:08 {'loss': 0.8205, 'grad_norm': 8.571128845214844, 'learning_rate': 4.55e-05, 'epoch': 0.1}
+2025-05-13 12:21:21 {'loss': 1.0499, 'grad_norm': 8.542790412902832, 'learning_rate': 4.05e-05, 'epoch': 0.2}
+2025-05-13 12:21:31 {'loss': 1.1291, 'grad_norm': 12.4092378616333, 'learning_rate': 3.55e-05, 'epoch': 0.3}
+2025-05-13 12:21:41 {'loss': 1.0789, 'grad_norm': 9.978277206420898, 'learning_rate': 3.05e-05, 'epoch': 0.4}
+2025-05-13 12:21:50 {'loss': 1.024, 'grad_norm': 12.293010711669922, 'learning_rate': 2.5500000000000003e-05, 'epoch': 0.5}
+2025-05-13 12:22:00 {'loss': 1.0831, 'grad_norm': 10.664384841918945, 'learning_rate': 2.05e-05, 'epoch': 0.6}
+2025-05-13 12:22:10 {'loss': 1.1543, 'grad_norm': 9.691585540771484, 'learning_rate': 1.55e-05, 'epoch': 0.7}
+2025-05-13 12:22:23 {'loss': 1.1856, 'grad_norm': 11.03693675994873, 'learning_rate': 1.05e-05, 'epoch': 0.8}
+2025-05-13 12:22:33 {'loss': 1.0472, 'grad_norm': 8.378131866455078, 'learning_rate': 5.500000000000001e-06, 'epoch': 0.9}
+2025-05-13 12:22:42 {'loss': 0.8685, 'grad_norm': 9.849294662475586, 'learning_rate': 5.000000000000001e-07, 'epoch': 1.0}
+2025-05-13 12:22:42 {'train_runtime': 104.9648, 'train_samples_per_second': 1.905, 'train_steps_per_second': 0.953, 'train_loss': 1.0441098976135255, 'epoch': 1.0}
+2025-05-13 12:23:14 {'loss': 0.4813, 'grad_norm': 7.507261753082275, 'learning_rate': 4.55e-05, 'epoch': 0.1}
+2025-05-13 12:23:28 {'loss': 0.6901, 'grad_norm': 8.76162052154541, 'learning_rate': 4.05e-05, 'epoch': 0.2}
+2025-05-13 12:23:37 {'loss': 0.8245, 'grad_norm': 11.29935359954834, 'learning_rate': 3.55e-05, 'epoch': 0.3}
+2025-05-13 12:23:47 {'loss': 0.815, 'grad_norm': 10.467437744140625, 'learning_rate': 3.05e-05, 'epoch': 0.4}
+2025-05-13 12:23:57 {'loss': 0.7996, 'grad_norm': 12.914904594421387, 'learning_rate': 2.5500000000000003e-05, 'epoch': 0.5}
+2025-05-13 12:24:06 {'loss': 0.9084, 'grad_norm': 10.897132873535156, 'learning_rate': 2.05e-05, 'epoch': 0.6}
+2025-05-13 12:24:16 {'loss': 0.9845, 'grad_norm': 9.671819686889648, 'learning_rate': 1.55e-05, 'epoch': 0.7}
+2025-05-13 12:24:29 {'loss': 1.0324, 'grad_norm': 11.826384544372559, 'learning_rate': 1.05e-05, 'epoch': 0.8}
+2025-05-13 12:24:39 {'loss': 0.8845, 'grad_norm': 8.110055923461914, 'learning_rate': 5.500000000000001e-06, 'epoch': 0.9}
+2025-05-13 12:24:48 {'loss': 0.6467, 'grad_norm': 8.556865692138672, 'learning_rate': 5.000000000000001e-07, 'epoch': 1.0}
+2025-05-13 12:24:48 {'train_runtime': 103.7531, 'train_samples_per_second': 1.928, 'train_steps_per_second': 0.964, 'train_loss': 0.8067059898376465, 'epoch': 1.0}
+2025-05-13 12:25:19 {'loss': 0.2827, 'grad_norm': 6.127644062042236, 'learning_rate': 4.55e-05, 'epoch': 0.1}
+2025-05-13 12:25:29 {'loss': 0.4911, 'grad_norm': 7.339851379394531, 'learning_rate': 4.05e-05, 'epoch': 0.2}
+2025-05-13 12:25:42 {'loss': 0.5854, 'grad_norm': 10.215779304504395, 'learning_rate': 3.55e-05, 'epoch': 0.3}
+2025-05-13 12:25:52 {'loss': 0.6013, 'grad_norm': 9.604129791259766, 'learning_rate': 3.05e-05, 'epoch': 0.4}
+2025-05-13 12:26:01 {'loss': 0.6367, 'grad_norm': 13.779082298278809, 'learning_rate': 2.5500000000000003e-05, 'epoch': 0.5}
+2025-05-13 12:26:11 {'loss': 0.7425, 'grad_norm': 11.57777214050293, 'learning_rate': 2.05e-05, 'epoch': 0.6}
+2025-05-13 12:26:21 {'loss': 0.8351, 'grad_norm': 10.027667999267578, 'learning_rate': 1.55e-05, 'epoch': 0.7}
+2025-05-13 12:26:30 {'loss': 0.9081, 'grad_norm': 11.270031929016113, 'learning_rate': 1.05e-05, 'epoch': 0.8}
+2025-05-13 12:26:43 {'loss': 0.7483, 'grad_norm': 9.137685775756836, 'learning_rate': 5.500000000000001e-06, 'epoch': 0.9}
+2025-05-13 12:26:53 {'loss': 0.5008, 'grad_norm': 8.09525203704834, 'learning_rate': 5.000000000000001e-07, 'epoch': 1.0}
+2025-05-13 12:26:53 {'train_runtime': 103.5495, 'train_samples_per_second': 1.931, 'train_steps_per_second': 0.966, 'train_loss': 0.6332062005996704, 'epoch': 1.0}
+2025-05-13 12:27:22 {'loss': 0.1605, 'grad_norm': 4.49397087097168, 'learning_rate': 4.55e-05, 'epoch': 0.1}
+2025-05-13 12:27:32 {'loss': 0.3307, 'grad_norm': 10.089896202087402, 'learning_rate': 4.05e-05, 'epoch': 0.2}
+2025-05-13 12:27:45 {'loss': 0.4123, 'grad_norm': 8.248225212097168, 'learning_rate': 3.55e-05, 'epoch': 0.3}
+2025-05-13 12:27:55 {'loss': 0.4563, 'grad_norm': 9.665609359741211, 'learning_rate': 3.05e-05, 'epoch': 0.4}
+2025-05-13 12:28:04 {'loss': 0.5048, 'grad_norm': 10.199524879455566, 'learning_rate': 2.5500000000000003e-05, 'epoch': 0.5}
+2025-05-13 12:28:14 {'loss': 0.6152, 'grad_norm': 10.795112609863281, 'learning_rate': 2.05e-05, 'epoch': 0.6}
+2025-05-13 12:28:23 {'loss': 0.6743, 'grad_norm': 8.37630844116211, 'learning_rate': 1.55e-05, 'epoch': 0.7}
+2025-05-13 12:28:33 {'loss': 0.7952, 'grad_norm': 11.814769744873047, 'learning_rate': 1.05e-05, 'epoch': 0.8}
+2025-05-13 12:28:46 {'loss': 0.6249, 'grad_norm': 7.50042200088501, 'learning_rate': 5.500000000000001e-06, 'epoch': 0.9}
+2025-05-13 12:28:55 {'loss': 0.3806, 'grad_norm': 6.239956855773926, 'learning_rate': 5.000000000000001e-07, 'epoch': 1.0}
+2025-05-13 12:28:55 {'train_runtime': 102.8829, 'train_samples_per_second': 1.944, 'train_steps_per_second': 0.972, 'train_loss': 0.4954849374294281, 'epoch': 1.0}
+2025-05-13 12:20:41 INFO :      Sent reply
+2025-05-13 12:20:56 INFO :      
+2025-05-13 12:20:56 INFO :      Received: train message d699dbad-d902-4a3b-8647-d10146ac0efb
+2025-05-13 12:22:51 INFO :      Sent reply
+2025-05-13 12:23:03 INFO :      
+2025-05-13 12:23:03 INFO :      Received: train message d74b973b-0560-4d6a-a200-c9e6575ca79e
+2025-05-13 12:24:56 INFO :      Sent reply
+2025-05-13 12:25:09 INFO :      
+2025-05-13 12:25:09 INFO :      Received: train message d8ca340f-ed19-406d-9909-bb3415f8c1a6
+2025-05-13 12:26:58 INFO :      Sent reply
+2025-05-13 12:27:11 INFO :      
+2025-05-13 12:27:11 INFO :      Received: train message 7da4a1a4-6ee3-410e-9bb5-d6780d8330e2
+2025-05-13 12:28:59 INFO :      Sent reply
+2025-05-13 12:29:07 INFO :      
+2025-05-13 12:29:07 INFO :      Received: reconnect message 98d172f3-56aa-455f-96bd-e23eeb0929eb
+2025-05-13 12:29:07 INFO :      Disconnect and shut down

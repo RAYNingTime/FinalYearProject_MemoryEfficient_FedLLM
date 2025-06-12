@@ -1,0 +1,203 @@
+2025-05-22 02:49:26 WARNING :   DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+2025-05-22 02:49:26 Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+2025-05-22 02:49:26 
+2025-05-22 02:49:26 $ flower-superlink --insecure
+2025-05-22 02:49:26 
+2025-05-22 02:49:26 To view usage and all available options, run:
+2025-05-22 02:49:26 
+2025-05-22 02:49:26 $ flower-superlink --help
+2025-05-22 02:49:26 
+2025-05-22 02:49:26 Using `start_server()` is deprecated.
+2025-05-22 02:49:26 
+2025-05-22 02:49:26             This is a deprecated feature. It will be removed
+2025-05-22 02:49:26             entirely in future versions of Flower.
+2025-05-22 02:49:26         
+2025-05-22 02:49:26 INFO :      Starting Flower server, config: num_rounds=25, no round_timeout
+2025-05-22 02:49:26 INFO :      Flower ECE: gRPC server running (25 rounds), SSL is disabled
+2025-05-22 02:49:26 INFO :      [INIT]
+2025-05-22 02:49:26 INFO :      Requesting initial parameters from one random client
+2025-05-22 02:52:19 INFO :      Received initial parameters from one random client
+2025-05-22 02:52:19 INFO :      Starting evaluation of initial global parameters
+2025-05-22 02:52:19 INFO :      Evaluation returned no results (`None`)
+2025-05-22 02:52:19 INFO :      
+2025-05-22 02:52:19 INFO :      [ROUND 1]
+2025-05-22 02:52:30 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 03:04:26 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 03:04:38 WARNING :   No fit_metrics_aggregation_fn provided
+2025-05-22 03:04:38 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 03:05:07 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 03:05:07 WARNING :   No evaluate_metrics_aggregation_fn provided
+2025-05-22 03:05:07 INFO :      
+2025-05-22 03:05:07 INFO :      [ROUND 2]
+2025-05-22 03:05:07 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 03:16:33 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 03:16:46 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 03:17:12 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 03:17:12 INFO :      
+2025-05-22 03:17:12 INFO :      [ROUND 3]
+2025-05-22 03:17:12 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 03:28:42 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 03:28:59 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 03:29:35 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 03:29:35 INFO :      
+2025-05-22 03:29:35 INFO :      [ROUND 4]
+2025-05-22 03:29:35 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 03:41:00 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 03:41:17 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 03:41:40 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 03:41:40 INFO :      
+2025-05-22 03:41:40 INFO :      [ROUND 5]
+2025-05-22 03:41:40 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 03:53:10 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 03:53:23 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 03:53:48 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 03:53:48 INFO :      
+2025-05-22 03:53:48 INFO :      [ROUND 6]
+2025-05-22 03:53:48 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 04:05:13 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 04:05:26 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 04:05:58 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 04:05:58 INFO :      
+2025-05-22 04:05:58 INFO :      [ROUND 7]
+2025-05-22 04:05:58 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 04:17:36 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 04:17:48 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 04:18:24 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 04:18:24 INFO :      
+2025-05-22 04:18:24 INFO :      [ROUND 8]
+2025-05-22 04:18:24 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 04:29:48 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 04:30:02 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 04:30:38 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 04:30:38 INFO :      
+2025-05-22 04:30:38 INFO :      [ROUND 9]
+2025-05-22 04:30:38 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 04:42:08 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 04:42:20 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 04:42:46 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 04:42:46 INFO :      
+2025-05-22 04:42:46 INFO :      [ROUND 10]
+2025-05-22 04:42:46 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 04:54:18 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 04:54:30 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 04:54:56 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 04:54:56 INFO :      
+2025-05-22 04:54:56 INFO :      [ROUND 11]
+2025-05-22 04:54:56 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 05:06:29 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 05:06:43 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 05:07:18 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 05:07:18 INFO :      
+2025-05-22 05:07:18 INFO :      [ROUND 12]
+2025-05-22 05:07:18 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 05:18:51 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 05:19:08 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 05:19:39 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 05:19:39 INFO :      
+2025-05-22 05:19:39 INFO :      [ROUND 13]
+2025-05-22 05:19:39 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 05:31:16 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 05:31:32 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 05:32:01 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 05:32:01 INFO :      
+2025-05-22 05:32:01 INFO :      [ROUND 14]
+2025-05-22 05:32:01 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 05:43:37 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 05:43:52 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 05:44:18 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 05:44:18 INFO :      
+2025-05-22 05:44:18 INFO :      [ROUND 15]
+2025-05-22 05:44:18 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 05:56:01 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 05:56:15 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 05:56:45 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 05:56:45 INFO :      
+2025-05-22 05:56:45 INFO :      [ROUND 16]
+2025-05-22 05:56:45 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 06:08:18 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 06:08:31 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 06:09:03 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 06:09:03 INFO :      
+2025-05-22 06:09:03 INFO :      [ROUND 17]
+2025-05-22 06:09:03 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 06:20:34 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 06:20:47 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 06:21:23 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 06:21:23 INFO :      
+2025-05-22 06:21:23 INFO :      [ROUND 18]
+2025-05-22 06:21:23 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 06:32:54 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 06:33:08 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 06:33:34 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 06:33:34 INFO :      
+2025-05-22 06:33:34 INFO :      [ROUND 19]
+2025-05-22 06:33:34 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 06:45:05 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 06:45:19 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 06:45:51 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 06:45:51 INFO :      
+2025-05-22 06:45:51 INFO :      [ROUND 20]
+2025-05-22 06:45:51 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 06:57:23 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 06:57:37 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 06:58:08 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 06:58:08 INFO :      
+2025-05-22 06:58:08 INFO :      [ROUND 21]
+2025-05-22 06:58:08 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 07:09:40 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 07:09:52 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 07:10:17 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 07:10:17 INFO :      
+2025-05-22 07:10:17 INFO :      [ROUND 22]
+2025-05-22 07:10:17 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 07:21:43 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 07:21:55 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 07:22:27 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 07:22:27 INFO :      
+2025-05-22 07:22:27 INFO :      [ROUND 23]
+2025-05-22 07:22:27 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 07:34:04 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 07:34:24 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 07:34:54 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 07:34:54 INFO :      
+2025-05-22 07:34:54 INFO :      [ROUND 24]
+2025-05-22 07:34:54 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 07:46:22 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 07:46:40 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 07:47:06 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 07:47:06 INFO :      
+2025-05-22 07:47:06 INFO :      [ROUND 25]
+2025-05-22 07:47:06 INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-22 07:58:35 INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-22 07:58:53 INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-22 07:59:32 INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-22 07:59:32 INFO :      
+2025-05-22 07:59:32 INFO :      [SUMMARY]
+2025-05-22 07:59:32 INFO :      Run finished 25 round(s) in 18433.85s
+2025-05-22 07:59:32 INFO :      History (loss, distributed):
+2025-05-22 07:59:32 INFO :      round 1: 1.5749293176600758
+2025-05-22 07:59:32 INFO :      round 2: 1.522771888869967
+2025-05-22 07:59:32 INFO :      round 3: 1.527652765759312
+2025-05-22 07:59:32 INFO :      round 4: 1.541731739330387
+2025-05-22 07:59:32 INFO :      round 5: 1.564621852969837
+2025-05-22 07:59:32 INFO :      round 6: 1.590900479972104
+2025-05-22 07:59:32 INFO :      round 7: 1.6226063099810584
+2025-05-22 07:59:32 INFO :      round 8: 1.655192135572036
+2025-05-22 07:59:32 INFO :      round 9: 1.6903519144293546
+2025-05-22 07:59:32 INFO :      round 10: 1.7243181870118027
+2025-05-22 07:59:32 INFO :      round 11: 1.7581702328475566
+2025-05-22 07:59:32 INFO :      round 12: 1.7941164954498077
+2025-05-22 07:59:32 INFO :      round 13: 1.8249600193587172
+2025-05-22 07:59:32 INFO :      round 14: 1.8570891459332421
+2025-05-22 07:59:32 INFO :      round 15: 1.8875602625655747
+2025-05-22 07:59:32 INFO :      round 16: 1.9158220472396235
+2025-05-22 07:59:32 INFO :      round 17: 1.941645612832744
+2025-05-22 07:59:32 INFO :      round 18: 1.9728958695759253
+2025-05-22 07:59:32 INFO :      round 19: 1.999544963076656
+2025-05-22 07:59:32 INFO :      round 20: 2.0250761671120343
+2025-05-22 07:59:32 INFO :      round 21: 2.048735495287802
+2025-05-22 07:59:32 INFO :      round 22: 2.0730933506276537
+2025-05-22 07:59:32 INFO :      round 23: 2.097660274655074
+2025-05-22 07:59:32 INFO :      round 24: 2.1193735140011523
+2025-05-22 07:59:32 INFO :      round 25: 2.139343200822241
+2025-05-22 07:59:32 INFO :      

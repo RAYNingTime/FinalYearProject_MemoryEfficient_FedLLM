@@ -1,0 +1,68 @@
+[+] Running 4/4
+ ✔ Container fl_fyp-client1-1  Removed                                                                                  0.1s 
+ ✔ Container fl_fyp-client2-1  Removed                                                                                  0.1s 
+ ✔ Container fl_fyp-server-1   Removed                                                                                  0.1s 
+ ✔ Network fl_fyp_default      Removed                                                                                  0.2s 
+PS C:\Users\ivan0\Codes\Python\FL_FYP> docker compose build
+[+] Building 1.8s (9/10)                                                                                docker:desktop-linux
+ => => exporting manifest sha256:66dfda5bcf41436d99d06f65c9807a70e6a10c2d2e3f2cbef7395e27bbf5ccff                       0.0s
+[+] Building 40.7s (27/28)                                                                              docker:desktop-linux 
+ => [server internal] load build definition from Dockerfile.server                                                      0.0s 
+ => => transferring dockerfile: 208B                                                                                    0.0s
+ => [server internal] load metadata for docker.io/library/python:3.10-slim                                              1.6s 
+ => [server internal] load .dockerignore                                                                                0.0s 
+ => => transferring context: 2B                                                                                         0.0s 
+ => [server 1/4] FROM docker.io/library/python:3.10-slim@sha256:e1013c40c02a7875ae30c78c69b68ea7bee31713e8ac1c0f5469c1  0.0sn
+ => => resolve docker.io/library/python:3.10-slim@sha256:e1013c40c02a7875ae30c78c69b68ea7bee31713e8ac1c0f5469c1206258d  0.0s
+ => [server internal] load build context                                                                                0.0s
+ => => transferring context: 931B                                                                                       0.0s 
+ => CACHED [server 2/4] WORKDIR /app                                                                                    0.0s 
+ => CACHED [server 3/4] COPY server.py .                                                                                0.0s 
+ => CACHED [server 4/4] RUN pip install flwr                                                                            0.0s 
+ => [server] exporting to image                                                                                         0.1s 
+ => => exporting layers                                                                                                 0.0s 
+ => => exporting manifest sha256:66dfda5bcf41436d99d06f65c9807a70e6a10c2d2e3f2cbef7395e27bbf5ccff                       0.0s 
+ => => exporting config sha256:7da69e906e20bba263dea1a1bbf0f7776c3d35f14def80f77bf01a65841f02f1                         0.0s 
+ => => exporting attestation manifest sha256:3bf406eaacece33f8a358a2f108b3e4952d617dd5495c1dcfb147fd7440beb3f           0.0s 
+ => => exporting manifest list sha256:aa9fc20aab15328e3f845949b411d2a1c4daacfef0c6f742fa082b274168f3fa                  0.0s 
+ => => naming to docker.io/library/fl_fyp-server:latest                                                                 0.0s 
+ => => unpacking to docker.io/library/fl_fyp-server:latest                                                              0.0s 
+ => [server] resolving provenance for metadata file                                                                     0.0s 
+ => [client1 internal] load build definition from Dockerfile.client.gpu                                                 0.0s 
+ => => transferring dockerfile: 644B                                                                                    0.0s 
+ => [client2 internal] load build definition from Dockerfile.client.gpu                                                 0.0s 
+ => => transferring dockerfile: 644B                                                                                    0.0s 
+ => [client2 internal] load metadata for docker.io/nvidia/cuda:12.8.1-base-ubuntu22.04                                  0.0s 
+ => [client1 internal] load .dockerignore                                                                               0.0s 
+ => => transferring context: 2B                                                                                         0.0s 
+ => [client2 internal] load .dockerignore                                                                               0.0s 
+ => => transferring context: 2B                                                                                         0.0s 
+ => [client2 1/6] FROM docker.io/nvidia/cuda:12.8.1-base-ubuntu22.04@sha256:001469ea0f3dec85a1ca929aeea3b58ae369d4c112  1.1s 
+ => => resolve docker.io/nvidia/cuda:12.8.1-base-ubuntu22.04@sha256:001469ea0f3dec85a1ca929aeea3b58ae369d4c11228b10aec  1.1s 
+ => [client1 internal] load build context                                                                               0.0s 
+ => => transferring context: 3.06kB                                                                                     0.0s 
+ => [client2 internal] load build context                                                                               0.0s 
+ => => transferring context: 3.06kB                                                                                     0.0s 
+ => CACHED [client2 2/6] RUN apt-get update &&     apt-get install -y python3 python3-pip &&     apt-get clean          0.0s 
+ => CACHED [client2 3/6] RUN pip3 install --no-cache-dir torch torchvision torchaudio --index-url https://download.pyt  0.0s 
+ => CACHED [client2 4/6] RUN pip3 install --no-cache-dir transformers datasets accelerate flwr                          0.0s 
+ => CACHED [client1 5/6] WORKDIR /app                                                                                   0.0s 
+ => [client2 6/6] COPY client.py .                                                                                      0.1s 
+ => [client1] exporting to image                                                                                       37.3s 
+ => => exporting layers                                                                                                 0.1s 
+ => => exporting manifest sha256:d60fcf084c5b7412523606a9fde77a335adcf009587b1bf2c3c6bb5c8bdccbcd                       0.0s 
+ => => exporting config sha256:2dc3c4a804c7aa13daa28e5e890c4170d5975f6a3f3beb0b5fcb43cb751fa91c                         0.0s 
+ => => exporting attestation manifest sha256:ab5f95368bc64d8cf590448753dab3ca6f5987cb9eeb2f237d66b499468d3280           0.0s 
+ => => exporting manifest list sha256:34b2fe2a6cec1044a53da09884d1cfd0dd81926b8d74d6fb752e18e94684ae15                  0.0s 
+ => => naming to docker.io/library/fl_fyp-client1:latest                                                                0.0s 
+ => => unpacking to docker.io/library/fl_fyp-client1:latest                                                            37.0s 
+ => [client2] exporting to image                                                                                       37.3s 
+ => => exporting layers                                                                                                 0.1s 
+ => => exporting manifest sha256:679dd0159bfdc5c6b7a00dbb8dd6301e5c76f0dfda0ea5568864a91e11ef583c                       0.0s 
+ => => exporting config sha256:9bde457a84418e43c5ef0a94b8863d2f3a5b094d7f64b26ac941ea18e5fdd268                         0.0s 
+ => => exporting attestation manifest sha256:d49069e2c8e82e4180ca97144dd6c4c37da653b2392abb67ba0d2a0a000d36c0           0.0s 
+ => => exporting manifest list sha256:60daa2c4be6a245f386026aa19df3dc030bbc3a8684a15476e65a49e43136e35                  0.0s 
+ => => naming to docker.io/library/fl_fyp-client2:latest                                                                0.0s 
+ => => unpacking to docker.io/library/fl_fyp-client2:latest                                                            37.0s 
+ => [client1] resolving provenance for metadata file                                                                    0.1s 
+ => [client2] resolving provenance for metadata file                                                                    0.0s

@@ -1,0 +1,597 @@
+2025-05-20 22:17:09 server-1   | WARNING :   DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+2025-05-20 22:17:09 server-1   | Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+2025-05-20 22:17:09 server-1   | 
+2025-05-20 22:17:09 server-1   | $ flower-superlink --insecure
+2025-05-20 22:18:59 client2-1  | 
+Generating train split:   0%|          | 0/120000 [00:00<?, ? examples/s]
+Generating train split: 100%|██████████| 120000/120000 [00:00<00:00, 1232812.06 examples/s]
+2025-05-20 22:17:09 server-1   | 
+2025-05-20 22:17:09 server-1   | To view usage and all available options, run:
+2025-05-20 22:17:09 server-1   | 
+2025-05-20 22:19:45 client3-1  | 
+Generating train split:   0%|          | 0/120000 [00:00<?, ? examples/s]
+Generating train split: 100%|██████████| 120000/120000 [00:00<00:00, 1212956.93 examples/s]
+2025-05-20 22:17:09 server-1   | $ flower-superlink --help
+2025-05-20 22:18:58 client1-1  | 
+Generating train split:   0%|          | 0/120000 [00:00<?, ? examples/s]
+Generating train split: 100%|██████████| 120000/120000 [00:00<00:00, 1191665.20 examples/s]
+Generating train split: 100%|██████████| 120000/120000 [00:00<00:00, 1182351.71 examples/s]
+2025-05-20 22:18:58 client1-1  | 
+Generating test split:   0%|          | 0/7600 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 7600/7600 [00:00<00:00, 923347.06 examples/s]
+2025-05-20 22:19:00 client1-1  | 
+Map:   0%|          | 0/500 [00:00<?, ? examples/s]
+Map: 100%|██████████| 500/500 [00:00<00:00, 1114.09 examples/s]
+Map: 100%|██████████| 500/500 [00:00<00:00, 1107.08 examples/s]
+2025-05-20 22:18:59 client2-1  | 
+Generating test split:   0%|          | 0/7600 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 7600/7600 [00:00<00:00, 1147180.71 examples/s]
+2025-05-20 22:19:01 client2-1  | 
+Map:   0%|          | 0/500 [00:00<?, ? examples/s]
+Map: 100%|██████████| 500/500 [00:00<00:00, 851.72 examples/s]
+Map: 100%|██████████| 500/500 [00:00<00:00, 847.22 examples/s]
+2025-05-20 22:19:01 client2-1  | 
+Map:   0%|          | 0/500 [00:00<?, ? examples/s]
+Map:  39%|███▊      | 193/500 [00:00<00:00, 1897.02 examples/s]
+Map:  97%|█████████▋| 485/500 [00:00<00:00, 1921.74 examples/s]
+Map: 100%|██████████| 500/500 [00:00<00:00, 1828.93 examples/s]
+2025-05-20 22:17:09 server-1   | 
+2025-05-20 22:19:00 client1-1  | 
+Map:   0%|          | 0/500 [00:00<?, ? examples/s]
+Map:  46%|████▋     | 232/500 [00:00<00:00, 2230.01 examples/s]
+Map: 100%|██████████| 500/500 [00:00<00:00, 1938.72 examples/s]
+Map: 100%|██████████| 500/500 [00:00<00:00, 1952.39 examples/s]
+2025-05-20 22:17:09 server-1   | Using `start_server()` is deprecated.
+2025-05-20 22:19:00 client1-1  | /app/client.py:56: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+2025-05-20 22:19:01 client2-1  | /app/client.py:56: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+2025-05-20 22:19:01 client2-1  |   trainer = Trainer(
+2025-05-20 22:19:02 client2-1  | WARNING :   DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated. 
+2025-05-20 22:19:02 client2-1  | Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below: 
+2025-05-20 22:19:02 client2-1  | flwr.client.start_client(
+2025-05-20 22:19:00 client1-1  |   trainer = Trainer(
+2025-05-20 22:19:00 client1-1  | WARNING :   DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated. 
+2025-05-20 22:19:00 client1-1  | Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below: 
+2025-05-20 22:19:02 client2-1  | server_address='<IP>:<PORT>',
+2025-05-20 22:19:00 client1-1  | flwr.client.start_client(
+2025-05-20 22:19:45 client3-1  | 
+Generating test split:   0%|          | 0/7600 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 7600/7600 [00:00<00:00, 1070838.16 examples/s]
+2025-05-20 22:17:09 server-1   | 
+2025-05-20 22:19:47 client3-1  | 
+Map:   0%|          | 0/500 [00:00<?, ? examples/s]
+Map: 100%|██████████| 500/500 [00:00<00:00, 1271.54 examples/s]
+Map: 100%|██████████| 500/500 [00:00<00:00, 1263.20 examples/s]
+2025-05-20 22:19:02 client2-1  | client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+2025-05-20 22:19:47 client3-1  | 
+Map:   0%|          | 0/500 [00:00<?, ? examples/s]
+Map:  68%|██████▊   | 341/500 [00:00<00:00, 3375.55 examples/s]
+Map: 100%|██████████| 500/500 [00:00<00:00, 3061.97 examples/s]
+2025-05-20 22:19:02 client2-1  | )
+2025-05-20 22:19:47 client3-1  | /app/client.py:56: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+2025-05-20 22:19:47 client3-1  |   trainer = Trainer(
+2025-05-20 22:19:47 client3-1  | WARNING :   DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated. 
+2025-05-20 22:17:09 server-1   |             This is a deprecated feature. It will be removed
+2025-05-20 22:19:02 client2-1  | Using `start_numpy_client()` is deprecated.
+2025-05-20 22:19:02 client2-1  | 
+2025-05-20 22:19:02 client2-1  |             This is a deprecated feature. It will be removed
+2025-05-20 22:17:09 server-1   |             entirely in future versions of Flower.
+2025-05-20 22:19:47 client3-1  | Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below: 
+2025-05-20 22:17:09 server-1   |         
+2025-05-20 22:19:47 client3-1  | flwr.client.start_client(
+2025-05-20 22:17:09 server-1   | INFO :      Starting Flower server, config: num_rounds=5, no round_timeout
+2025-05-20 22:17:09 server-1   | INFO :      Flower ECE: gRPC server running (5 rounds), SSL is disabled
+2025-05-20 22:19:47 client3-1  | server_address='<IP>:<PORT>',
+2025-05-20 22:19:02 client2-1  |             entirely in future versions of Flower.
+2025-05-20 22:19:47 client3-1  | client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+2025-05-20 22:19:47 client3-1  | )
+2025-05-20 22:19:00 client1-1  | server_address='<IP>:<PORT>',
+2025-05-20 22:17:09 server-1   | INFO :      [INIT]
+2025-05-20 22:19:47 client3-1  | Using `start_numpy_client()` is deprecated.
+2025-05-20 22:17:09 server-1   | INFO :      Requesting initial parameters from one random client
+2025-05-20 22:19:47 client3-1  | 
+2025-05-20 22:19:00 client1-1  | client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+2025-05-20 22:19:47 client3-1  |             This is a deprecated feature. It will be removed
+2025-05-20 22:19:00 client1-1  | )
+2025-05-20 22:19:47 client3-1  |             entirely in future versions of Flower.
+2025-05-20 22:19:00 client1-1  | Using `start_numpy_client()` is deprecated.
+2025-05-20 22:19:05 server-1   | INFO :      Received initial parameters from one random client
+2025-05-20 22:19:00 client1-1  | 
+2025-05-20 22:19:47 client3-1  |         
+2025-05-20 22:19:00 client1-1  |             This is a deprecated feature. It will be removed
+2025-05-20 22:19:47 client3-1  | WARNING :   DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+2025-05-20 22:19:00 client1-1  |             entirely in future versions of Flower.
+2025-05-20 22:19:00 client1-1  |         
+2025-05-20 22:19:00 client1-1  | WARNING :   DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+2025-05-20 22:19:00 client1-1  | Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+2025-05-20 22:19:00 client1-1  | 
+2025-05-20 22:19:00 client1-1  | $ flower-supernode --insecure --superlink='<IP>:<PORT>'
+2025-05-20 22:19:00 client1-1  | 
+2025-05-20 22:19:02 client2-1  |         
+2025-05-20 22:19:00 client1-1  | To view all available options, run:
+2025-05-20 22:19:02 client2-1  | WARNING :   DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+2025-05-20 22:19:05 server-1   | INFO :      Starting evaluation of initial global parameters
+2025-05-20 22:19:05 server-1   | INFO :      Evaluation returned no results (`None`)
+2025-05-20 22:19:05 server-1   | INFO :      
+2025-05-20 22:19:47 client3-1  | Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+2025-05-20 22:19:02 client2-1  | Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+2025-05-20 22:19:47 client3-1  | 
+2025-05-20 22:19:47 client3-1  | $ flower-supernode --insecure --superlink='<IP>:<PORT>'
+2025-05-20 22:19:47 client3-1  | 
+2025-05-20 22:19:47 client3-1  | To view all available options, run:
+2025-05-20 22:19:00 client1-1  | 
+2025-05-20 22:19:00 client1-1  | $ flower-supernode --help
+2025-05-20 22:19:47 client3-1  | 
+2025-05-20 22:19:47 client3-1  | $ flower-supernode --help
+2025-05-20 22:19:02 client2-1  | 
+2025-05-20 22:19:00 client1-1  | 
+2025-05-20 22:19:47 client3-1  | 
+2025-05-20 22:19:47 client3-1  | Using `start_client()` is deprecated.
+2025-05-20 22:19:47 client3-1  | 
+2025-05-20 22:19:02 client2-1  | $ flower-supernode --insecure --superlink='<IP>:<PORT>'
+2025-05-20 22:19:02 client2-1  | 
+2025-05-20 22:19:05 server-1   | INFO :      [ROUND 1]
+2025-05-20 22:19:02 client2-1  | To view all available options, run:
+2025-05-20 22:19:47 server-1   | INFO :      configure_fit: strategy sampled 2 clients (out of 3)
+2025-05-20 22:19:02 client2-1  | 
+2025-05-20 22:19:47 client3-1  |             This is a deprecated feature. It will be removed
+2025-05-20 22:23:31 server-1   | INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-20 22:23:37 server-1   | WARNING :   No fit_metrics_aggregation_fn provided
+2025-05-20 22:19:00 client1-1  | Using `start_client()` is deprecated.
+2025-05-20 22:19:47 client3-1  |             entirely in future versions of Flower.
+2025-05-20 22:19:00 client1-1  | 
+2025-05-20 22:23:37 server-1   | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-20 22:19:47 client3-1  |         
+2025-05-20 22:19:55 client3-1  | INFO :      
+2025-05-20 22:19:55 client3-1  | INFO :      Received: train message 74d67b56-fa54-46c2-8c20-3c56b230e9e1
+2025-05-20 22:20:13 client3-1  | {'loss': 2.7273, 'grad_norm': 19.855600357055664, 'learning_rate': 4.775e-05, 'epoch': 0.05}
+2025-05-20 22:23:59 server-1   | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-20 22:23:59 server-1   | WARNING :   No evaluate_metrics_aggregation_fn provided
+2025-05-20 22:19:00 client1-1  |             This is a deprecated feature. It will be removed
+2025-05-20 22:19:02 client2-1  | $ flower-supernode --help
+2025-05-20 22:19:00 client1-1  |             entirely in future versions of Flower.
+2025-05-20 22:19:02 client2-1  | 
+2025-05-20 22:20:22 client3-1  | {'loss': 1.4855, 'grad_norm': 22.519296646118164, 'learning_rate': 4.525e-05, 'epoch': 0.1}
+2025-05-20 22:19:02 client2-1  | Using `start_client()` is deprecated.
+2025-05-20 22:19:00 client1-1  |         
+2025-05-20 22:20:32 client3-1  | {'loss': 1.5193, 'grad_norm': 15.460755348205566, 'learning_rate': 4.275e-05, 'epoch': 0.15}
+2025-05-20 22:20:41 client3-1  | {'loss': 1.2862, 'grad_norm': 10.602859497070312, 'learning_rate': 4.025e-05, 'epoch': 0.2}
+2025-05-20 22:20:51 client3-1  | {'loss': 1.4832, 'grad_norm': 13.925564765930176, 'learning_rate': 3.775e-05, 'epoch': 0.25}
+2025-05-20 22:21:04 client3-1  | {'loss': 1.5081, 'grad_norm': 12.256221771240234, 'learning_rate': 3.525e-05, 'epoch': 0.3}
+2025-05-20 22:21:13 client3-1  | {'loss': 1.4804, 'grad_norm': 15.975773811340332, 'learning_rate': 3.275e-05, 'epoch': 0.35}
+2025-05-20 22:19:00 client1-1  | INFO :      
+2025-05-20 22:23:59 server-1   | INFO :      
+2025-05-20 22:23:59 server-1   | INFO :      [ROUND 2]
+2025-05-20 22:19:00 client1-1  | INFO :      Received: get_parameters message 83791d84-aee3-4bb1-8fdb-3f92beb63386
+2025-05-20 22:21:23 client3-1  | {'loss': 1.4159, 'grad_norm': 9.689958572387695, 'learning_rate': 3.025e-05, 'epoch': 0.4}
+2025-05-20 22:19:02 client2-1  | 
+2025-05-20 22:19:02 client2-1  |             This is a deprecated feature. It will be removed
+2025-05-20 22:19:02 client2-1  |             entirely in future versions of Flower.
+2025-05-20 22:19:04 client1-1  | INFO :      Sent reply
+2025-05-20 22:19:02 client2-1  |         
+2025-05-20 22:23:59 server-1   | INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-20 22:19:55 client1-1  | INFO :      
+2025-05-20 22:19:55 client1-1  | INFO :      Received: train message e751e4d4-bc13-4f46-a708-8c8c4169db0f
+2025-05-20 22:23:48 client2-1  | INFO :      
+2025-05-20 22:29:36 server-1   | INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-20 22:29:45 server-1   | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-20 22:23:48 client2-1  | INFO :      Received: evaluate message ec1be414-8338-45d4-86ad-f08037f55d95
+2025-05-20 22:23:59 client2-1  | {'eval_loss': 1.330309271812439, 'eval_model_preparation_time': 0.0041, 'eval_runtime': 8.4829, 'eval_samples_per_second': 11.788, 'eval_steps_per_second': 1.532}
+2025-05-20 22:30:06 server-1   | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-20 22:23:59 client2-1  | INFO :      Sent reply
+2025-05-20 22:24:06 client2-1  | INFO :      
+2025-05-20 22:24:06 client2-1  | INFO :      Received: train message be4199f8-3699-4f7c-b67a-9e5e548fcb8b
+2025-05-20 22:21:32 client3-1  | {'loss': 1.5447, 'grad_norm': 12.63994026184082, 'learning_rate': 2.7750000000000004e-05, 'epoch': 0.45}
+2025-05-20 22:25:01 client2-1  | {'loss': 1.4334, 'grad_norm': 12.057268142700195, 'learning_rate': 4.775e-05, 'epoch': 0.05}
+2025-05-20 22:25:16 client2-1  | {'loss': 1.5005, 'grad_norm': 16.170360565185547, 'learning_rate': 4.525e-05, 'epoch': 0.1}
+2025-05-20 22:25:37 client2-1  | {'loss': 1.437, 'grad_norm': 11.34149169921875, 'learning_rate': 4.275e-05, 'epoch': 0.15}
+2025-05-20 22:25:51 client2-1  | {'loss': 1.5719, 'grad_norm': 11.998580932617188, 'learning_rate': 4.025e-05, 'epoch': 0.2}
+2025-05-20 22:26:06 client2-1  | {'loss': 1.6301, 'grad_norm': 13.504171371459961, 'learning_rate': 3.775e-05, 'epoch': 0.25}
+2025-05-20 22:30:06 server-1   | INFO :      
+2025-05-20 22:21:42 client3-1  | {'loss': 1.6107, 'grad_norm': 11.019096374511719, 'learning_rate': 2.525e-05, 'epoch': 0.5}
+2025-05-20 22:30:06 server-1   | INFO :      [ROUND 3]
+2025-05-20 22:21:52 client3-1  | {'loss': 1.3785, 'grad_norm': 12.136575698852539, 'learning_rate': 2.275e-05, 'epoch': 0.55}
+2025-05-20 22:26:21 client2-1  | {'loss': 1.5787, 'grad_norm': 10.845495223999023, 'learning_rate': 3.525e-05, 'epoch': 0.3}
+2025-05-20 22:30:06 server-1   | INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-20 22:26:35 client2-1  | {'loss': 1.3399, 'grad_norm': 12.928462028503418, 'learning_rate': 3.275e-05, 'epoch': 0.35}
+2025-05-20 22:20:10 client1-1  | {'loss': 2.8744, 'grad_norm': 16.410194396972656, 'learning_rate': 4.775e-05, 'epoch': 0.05}
+2025-05-20 22:20:20 client1-1  | {'loss': 1.6429, 'grad_norm': 16.127971649169922, 'learning_rate': 4.525e-05, 'epoch': 0.1}
+2025-05-20 22:20:29 client1-1  | {'loss': 1.316, 'grad_norm': 12.134918212890625, 'learning_rate': 4.275e-05, 'epoch': 0.15}
+2025-05-20 22:22:05 client3-1  | {'loss': 1.4658, 'grad_norm': 15.09681510925293, 'learning_rate': 2.025e-05, 'epoch': 0.6}
+2025-05-20 22:35:46 server-1   | INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-20 22:35:55 server-1   | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-20 22:26:50 client2-1  | {'loss': 1.4845, 'grad_norm': 13.29612922668457, 'learning_rate': 3.025e-05, 'epoch': 0.4}
+2025-05-20 22:27:11 client2-1  | {'loss': 1.4176, 'grad_norm': 11.36730670928955, 'learning_rate': 2.7750000000000004e-05, 'epoch': 0.45}
+2025-05-20 22:22:15 client3-1  | {'loss': 1.3622, 'grad_norm': 11.668242454528809, 'learning_rate': 1.775e-05, 'epoch': 0.65}
+2025-05-20 22:36:18 server-1   | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-20 22:22:24 client3-1  | {'loss': 1.4117, 'grad_norm': 11.7955322265625, 'learning_rate': 1.525e-05, 'epoch': 0.7}
+2025-05-20 22:22:34 client3-1  | {'loss': 1.3894, 'grad_norm': 18.214454650878906, 'learning_rate': 1.2750000000000002e-05, 'epoch': 0.75}
+2025-05-20 22:20:39 client1-1  | {'loss': 1.6516, 'grad_norm': 13.615006446838379, 'learning_rate': 4.025e-05, 'epoch': 0.2}
+2025-05-20 22:27:26 client2-1  | {'loss': 1.3988, 'grad_norm': 11.95416259765625, 'learning_rate': 2.525e-05, 'epoch': 0.5}
+2025-05-20 22:27:40 client2-1  | {'loss': 1.4693, 'grad_norm': 14.249791145324707, 'learning_rate': 2.275e-05, 'epoch': 0.55}
+2025-05-20 22:27:54 client2-1  | {'loss': 1.3025, 'grad_norm': 11.392168045043945, 'learning_rate': 2.025e-05, 'epoch': 0.6}
+2025-05-20 22:22:43 client3-1  | {'loss': 1.3864, 'grad_norm': 13.759998321533203, 'learning_rate': 1.025e-05, 'epoch': 0.8}
+2025-05-20 22:28:09 client2-1  | {'loss': 1.4665, 'grad_norm': 13.276397705078125, 'learning_rate': 1.775e-05, 'epoch': 0.65}
+2025-05-20 22:20:48 client1-1  | {'loss': 1.4866, 'grad_norm': 13.236263275146484, 'learning_rate': 3.775e-05, 'epoch': 0.25}
+2025-05-20 22:36:18 server-1   | INFO :      
+2025-05-20 22:36:18 server-1   | INFO :      [ROUND 4]
+2025-05-20 22:36:18 server-1   | INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-20 22:42:13 server-1   | INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-20 22:22:53 client3-1  | {'loss': 1.378, 'grad_norm': 12.021543502807617, 'learning_rate': 7.75e-06, 'epoch': 0.85}
+2025-05-20 22:23:06 client3-1  | {'loss': 1.3844, 'grad_norm': 10.676137924194336, 'learning_rate': 5.25e-06, 'epoch': 0.9}
+2025-05-20 22:23:16 client3-1  | {'loss': 1.3726, 'grad_norm': 13.201231956481934, 'learning_rate': 2.7500000000000004e-06, 'epoch': 0.95}
+2025-05-20 22:21:01 client1-1  | {'loss': 1.453, 'grad_norm': 15.623749732971191, 'learning_rate': 3.525e-05, 'epoch': 0.3}
+2025-05-20 22:23:25 client3-1  | {'loss': 1.3212, 'grad_norm': 12.545743942260742, 'learning_rate': 2.5000000000000004e-07, 'epoch': 1.0}
+2025-05-20 22:21:11 client1-1  | {'loss': 1.5654, 'grad_norm': 11.493535041809082, 'learning_rate': 3.275e-05, 'epoch': 0.35}
+2025-05-20 22:23:25 client3-1  | {'train_runtime': 209.0818, 'train_samples_per_second': 1.913, 'train_steps_per_second': 0.957, 'train_loss': 1.4955673170089723, 'epoch': 1.0}
+2025-05-20 22:28:24 client2-1  | {'loss': 1.4678, 'grad_norm': 12.534749031066895, 'learning_rate': 1.525e-05, 'epoch': 0.7}
+2025-05-20 22:28:39 client2-1  | {'loss': 1.2522, 'grad_norm': 12.515143394470215, 'learning_rate': 1.2750000000000002e-05, 'epoch': 0.75}
+2025-05-20 22:29:00 client2-1  | {'loss': 1.3445, 'grad_norm': 10.832265853881836, 'learning_rate': 1.025e-05, 'epoch': 0.8}
+2025-05-20 22:23:30 client3-1  | INFO :      Sent reply
+2025-05-20 22:42:23 server-1   | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-20 22:23:48 client3-1  | INFO :      
+2025-05-20 22:42:41 server-1   | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-20 22:42:41 server-1   | INFO :      
+2025-05-20 22:23:48 client3-1  | INFO :      Received: evaluate message 80e8cf4e-ad0a-4a82-8bb9-66104ad46c0b
+2025-05-20 22:21:20 client1-1  | {'loss': 1.4835, 'grad_norm': 11.89477825164795, 'learning_rate': 3.025e-05, 'epoch': 0.4}
+2025-05-20 22:23:58 client3-1  | {'eval_loss': 1.3453035354614258, 'eval_runtime': 7.8834, 'eval_samples_per_second': 12.685, 'eval_steps_per_second': 1.649, 'epoch': 1.0}
+2025-05-20 22:21:30 client1-1  | {'loss': 1.5415, 'grad_norm': 12.255902290344238, 'learning_rate': 2.7750000000000004e-05, 'epoch': 0.45}
+2025-05-20 22:42:41 server-1   | INFO :      [ROUND 5]
+2025-05-20 22:42:41 server-1   | INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-20 22:48:28 server-1   | INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-20 22:48:37 server-1   | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-20 22:48:57 server-1   | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-20 22:29:14 client2-1  | {'loss': 1.3992, 'grad_norm': 12.76572322845459, 'learning_rate': 7.75e-06, 'epoch': 0.85}
+2025-05-20 22:29:27 client2-1  | {'loss': 1.558, 'grad_norm': 13.873610496520996, 'learning_rate': 5.25e-06, 'epoch': 0.9}
+2025-05-20 22:29:29 client2-1  | {'loss': 1.433, 'grad_norm': 13.799908638000488, 'learning_rate': 2.7500000000000004e-06, 'epoch': 0.95}
+2025-05-20 22:29:31 client2-1  | {'loss': 1.5066, 'grad_norm': 14.549973487854004, 'learning_rate': 2.5000000000000004e-07, 'epoch': 1.0}
+2025-05-20 22:23:58 client3-1  | INFO :      Sent reply
+2025-05-20 22:29:31 client2-1  | {'train_runtime': 321.6847, 'train_samples_per_second': 1.243, 'train_steps_per_second': 0.622, 'train_loss': 1.449602608680725, 'epoch': 1.0}
+2025-05-20 22:24:06 client3-1  | INFO :      
+2025-05-20 22:24:06 client3-1  | INFO :      Received: train message 28d1f07c-9fb5-4adb-bde4-112109ab32ca
+2025-05-20 22:24:21 client3-1  | {'loss': 0.9085, 'grad_norm': 11.077601432800293, 'learning_rate': 4.775e-05, 'epoch': 0.05}
+2025-05-20 22:21:40 client1-1  | {'loss': 1.362, 'grad_norm': 13.000635147094727, 'learning_rate': 2.525e-05, 'epoch': 0.5}
+2025-05-20 22:21:49 client1-1  | {'loss': 1.3676, 'grad_norm': 11.370100021362305, 'learning_rate': 2.275e-05, 'epoch': 0.55}
+2025-05-20 22:24:32 client3-1  | {'loss': 0.8958, 'grad_norm': 13.063883781433105, 'learning_rate': 4.525e-05, 'epoch': 0.1}
+2025-05-20 22:22:03 client1-1  | {'loss': 1.5919, 'grad_norm': 10.439847946166992, 'learning_rate': 2.025e-05, 'epoch': 0.6}
+2025-05-20 22:24:44 client3-1  | {'loss': 0.996, 'grad_norm': 12.73843765258789, 'learning_rate': 4.275e-05, 'epoch': 0.15}
+2025-05-20 22:24:59 client3-1  | {'loss': 0.883, 'grad_norm': 8.24838638305664, 'learning_rate': 4.025e-05, 'epoch': 0.2}
+2025-05-20 22:25:14 client3-1  | {'loss': 1.0497, 'grad_norm': 11.61842155456543, 'learning_rate': 3.775e-05, 'epoch': 0.25}
+2025-05-20 22:25:28 client3-1  | {'loss': 1.1106, 'grad_norm': 9.674396514892578, 'learning_rate': 3.525e-05, 'epoch': 0.3}
+2025-05-20 22:25:49 client3-1  | {'loss': 1.0599, 'grad_norm': 14.384034156799316, 'learning_rate': 3.275e-05, 'epoch': 0.35}
+2025-05-20 22:26:03 client3-1  | {'loss': 1.0657, 'grad_norm': 8.205831527709961, 'learning_rate': 3.025e-05, 'epoch': 0.4}
+2025-05-20 22:48:57 server-1   | INFO :      
+2025-05-20 22:48:57 server-1   | INFO :      [SUMMARY]
+2025-05-20 22:26:18 client3-1  | {'loss': 1.1672, 'grad_norm': 10.478656768798828, 'learning_rate': 2.7750000000000004e-05, 'epoch': 0.45}
+2025-05-20 22:29:35 client2-1  | INFO :      Sent reply
+2025-05-20 22:29:57 client2-1  | INFO :      
+2025-05-20 22:29:57 client2-1  | INFO :      Received: evaluate message 88ffda73-a038-4d90-b313-d22e8b650cd7
+2025-05-20 22:29:59 client2-1  | INFO :      Sent reply
+2025-05-20 22:48:57 server-1   | INFO :      Run finished 5 round(s) in 1791.39s
+2025-05-20 22:48:57 server-1   | INFO :      History (loss, distributed):
+2025-05-20 22:48:57 server-1   | INFO :      round 1: 1.3300323486328125
+2025-05-20 22:48:57 server-1   | INFO :      round 2: 1.3206660747528076
+2025-05-20 22:29:59 client2-1  | {'eval_loss': 1.315942406654358, 'eval_model_preparation_time': 0.0041, 'eval_runtime': 1.2688, 'eval_samples_per_second': 78.813, 'eval_steps_per_second': 10.246, 'epoch': 1.0}
+2025-05-20 22:30:14 client2-1  | INFO :      
+2025-05-20 22:30:14 client2-1  | INFO :      Received: train message 696d9a3b-1824-47ac-9a09-f3c0f46c5f6e
+2025-05-20 22:30:42 client2-1  | {'loss': 0.8419, 'grad_norm': 9.147128105163574, 'learning_rate': 4.775e-05, 'epoch': 0.05}
+2025-05-20 22:48:57 server-1   | INFO :      round 3: 1.3410090208053589
+2025-05-20 22:48:57 server-1   | INFO :      round 4: 1.3662848869959514
+2025-05-20 22:48:57 server-1   | INFO :      round 5: 1.3967206080754597
+2025-05-20 22:48:57 server-1   | INFO :      
+2025-05-20 22:26:33 client3-1  | {'loss': 1.2612, 'grad_norm': 10.868825912475586, 'learning_rate': 2.525e-05, 'epoch': 0.5}
+2025-05-20 22:26:54 client3-1  | {'loss': 1.1048, 'grad_norm': 11.091965675354004, 'learning_rate': 2.275e-05, 'epoch': 0.55}
+2025-05-20 22:27:09 client3-1  | {'loss': 1.1637, 'grad_norm': 12.482251167297363, 'learning_rate': 2.025e-05, 'epoch': 0.6}
+2025-05-20 22:27:23 client3-1  | {'loss': 1.1099, 'grad_norm': 11.182555198669434, 'learning_rate': 1.775e-05, 'epoch': 0.65}
+2025-05-20 22:27:38 client3-1  | {'loss': 1.179, 'grad_norm': 10.60455322265625, 'learning_rate': 1.525e-05, 'epoch': 0.7}
+2025-05-20 22:22:12 client1-1  | {'loss': 1.3694, 'grad_norm': 13.871612548828125, 'learning_rate': 1.775e-05, 'epoch': 0.65}
+2025-05-20 22:27:52 client3-1  | {'loss': 1.157, 'grad_norm': 14.131426811218262, 'learning_rate': 1.2750000000000002e-05, 'epoch': 0.75}
+2025-05-20 22:30:56 client2-1  | {'loss': 1.094, 'grad_norm': 16.438222885131836, 'learning_rate': 4.525e-05, 'epoch': 0.1}
+2025-05-20 22:28:13 client3-1  | {'loss': 1.2139, 'grad_norm': 13.189794540405273, 'learning_rate': 1.025e-05, 'epoch': 0.8}
+2025-05-20 22:31:17 client2-1  | {'loss': 1.117, 'grad_norm': 9.76750659942627, 'learning_rate': 4.275e-05, 'epoch': 0.15}
+2025-05-20 22:28:29 client3-1  | {'loss': 1.2098, 'grad_norm': 12.52882194519043, 'learning_rate': 7.75e-06, 'epoch': 0.85}
+2025-05-20 22:31:32 client2-1  | {'loss': 1.2239, 'grad_norm': 9.555747985839844, 'learning_rate': 4.025e-05, 'epoch': 0.2}
+2025-05-20 22:22:22 client1-1  | {'loss': 1.2838, 'grad_norm': 11.233166694641113, 'learning_rate': 1.525e-05, 'epoch': 0.7}
+2025-05-20 22:22:31 client1-1  | {'loss': 1.4762, 'grad_norm': 13.289037704467773, 'learning_rate': 1.2750000000000002e-05, 'epoch': 0.75}
+2025-05-20 22:22:41 client1-1  | {'loss': 1.5685, 'grad_norm': 12.535798072814941, 'learning_rate': 1.025e-05, 'epoch': 0.8}
+2025-05-20 22:28:44 client3-1  | {'loss': 1.198, 'grad_norm': 10.3051118850708, 'learning_rate': 5.25e-06, 'epoch': 0.9}
+2025-05-20 22:22:50 client1-1  | {'loss': 1.3458, 'grad_norm': 10.956588745117188, 'learning_rate': 7.75e-06, 'epoch': 0.85}
+2025-05-20 22:29:05 client3-1  | {'loss': 1.0415, 'grad_norm': 9.042678833007812, 'learning_rate': 2.7500000000000004e-06, 'epoch': 0.95}
+2025-05-20 22:29:19 client3-1  | {'loss': 0.7608, 'grad_norm': 8.854924201965332, 'learning_rate': 2.5000000000000004e-07, 'epoch': 1.0}
+2025-05-20 22:23:00 client1-1  | {'loss': 1.369, 'grad_norm': 13.425445556640625, 'learning_rate': 5.25e-06, 'epoch': 0.9}
+2025-05-20 22:29:19 client3-1  | {'train_runtime': 312.4679, 'train_samples_per_second': 1.28, 'train_steps_per_second': 0.64, 'train_loss': 1.0768018007278441, 'epoch': 1.0}
+2025-05-20 22:29:23 client3-1  | INFO :      Sent reply
+2025-05-20 22:23:13 client1-1  | {'loss': 1.2755, 'grad_norm': 10.777470588684082, 'learning_rate': 2.7500000000000004e-06, 'epoch': 0.95}
+2025-05-20 22:23:23 client1-1  | {'loss': 1.3151, 'grad_norm': 12.598438262939453, 'learning_rate': 2.5000000000000004e-07, 'epoch': 1.0}
+2025-05-20 22:31:46 client2-1  | {'loss': 1.2728, 'grad_norm': 10.724247932434082, 'learning_rate': 3.775e-05, 'epoch': 0.25}
+2025-05-20 22:23:23 client1-1  | {'train_runtime': 206.7917, 'train_samples_per_second': 1.934, 'train_steps_per_second': 0.967, 'train_loss': 1.5169870281219482, 'epoch': 1.0}
+2025-05-20 22:32:01 client2-1  | {'loss': 1.2786, 'grad_norm': 9.833939552307129, 'learning_rate': 3.525e-05, 'epoch': 0.3}
+2025-05-20 22:23:29 client1-1  | INFO :      Sent reply
+2025-05-20 22:32:16 client2-1  | {'loss': 1.0721, 'grad_norm': 11.988424301147461, 'learning_rate': 3.275e-05, 'epoch': 0.35}
+2025-05-20 22:23:47 client1-1  | INFO :      
+2025-05-20 22:32:36 client2-1  | {'loss': 1.1961, 'grad_norm': 12.723313331604004, 'learning_rate': 3.025e-05, 'epoch': 0.4}
+2025-05-20 22:23:47 client1-1  | INFO :      Received: evaluate message 01fc5479-3f7f-4707-853e-df9aca31bd84
+2025-05-20 22:32:51 client2-1  | {'loss': 1.1739, 'grad_norm': 9.472513198852539, 'learning_rate': 2.7750000000000004e-05, 'epoch': 0.45}
+2025-05-20 22:23:55 client1-1  | {'eval_loss': 1.3144842386245728, 'eval_runtime': 6.288, 'eval_samples_per_second': 15.903, 'eval_steps_per_second': 2.067, 'epoch': 1.0}
+2025-05-20 22:33:05 client2-1  | {'loss': 1.133, 'grad_norm': 9.833765029907227, 'learning_rate': 2.525e-05, 'epoch': 0.5}
+2025-05-20 22:29:59 client3-1  | INFO :      
+2025-05-20 22:29:59 client3-1  | INFO :      Received: evaluate message 0e194b6e-2efa-46c0-9192-e8e2e534c694
+2025-05-20 22:30:05 client3-1  | {'eval_loss': 1.3410640954971313, 'eval_runtime': 3.3198, 'eval_samples_per_second': 30.122, 'eval_steps_per_second': 3.916, 'epoch': 1.0}
+2025-05-20 22:30:05 client3-1  | INFO :      Sent reply
+2025-05-20 22:30:14 client3-1  | INFO :      
+2025-05-20 22:30:14 client3-1  | INFO :      Received: train message 7837e66a-0fcd-4d2e-9d28-0bd1704c4aae
+2025-05-20 22:30:30 client3-1  | {'loss': 0.6124, 'grad_norm': 10.733572006225586, 'learning_rate': 4.775e-05, 'epoch': 0.05}
+2025-05-20 22:30:51 client3-1  | {'loss': 0.6541, 'grad_norm': 13.671296119689941, 'learning_rate': 4.525e-05, 'epoch': 0.1}
+2025-05-20 22:31:06 client3-1  | {'loss': 0.7594, 'grad_norm': 12.571823120117188, 'learning_rate': 4.275e-05, 'epoch': 0.15}
+2025-05-20 22:23:55 client1-1  | INFO :      Sent reply
+2025-05-20 22:24:07 client1-1  | INFO :      
+2025-05-20 22:31:20 client3-1  | {'loss': 0.6967, 'grad_norm': 7.660477638244629, 'learning_rate': 4.025e-05, 'epoch': 0.2}
+2025-05-20 22:33:20 client2-1  | {'loss': 1.2168, 'grad_norm': 12.495821952819824, 'learning_rate': 2.275e-05, 'epoch': 0.55}
+2025-05-20 22:31:35 client3-1  | {'loss': 0.8518, 'grad_norm': 10.316977500915527, 'learning_rate': 3.775e-05, 'epoch': 0.25}
+2025-05-20 22:31:49 client3-1  | {'loss': 0.904, 'grad_norm': 9.237899780273438, 'learning_rate': 3.525e-05, 'epoch': 0.3}
+2025-05-20 22:33:35 client2-1  | {'loss': 1.0983, 'grad_norm': 9.885758399963379, 'learning_rate': 2.025e-05, 'epoch': 0.6}
+2025-05-20 22:24:07 client1-1  | INFO :      Received: train message 5715f3cc-c390-4166-b3db-a91111029652
+2025-05-20 22:24:24 client1-1  | {'loss': 0.9696, 'grad_norm': 12.936273574829102, 'learning_rate': 4.775e-05, 'epoch': 0.05}
+2025-05-20 22:33:55 client2-1  | {'loss': 1.2705, 'grad_norm': 13.675877571105957, 'learning_rate': 1.775e-05, 'epoch': 0.65}
+2025-05-20 22:34:10 client2-1  | {'loss': 1.2776, 'grad_norm': 12.371026992797852, 'learning_rate': 1.525e-05, 'epoch': 0.7}
+2025-05-20 22:34:24 client2-1  | {'loss': 1.1041, 'grad_norm': 13.703899383544922, 'learning_rate': 1.2750000000000002e-05, 'epoch': 0.75}
+2025-05-20 22:34:39 client2-1  | {'loss': 1.1789, 'grad_norm': 9.2692289352417, 'learning_rate': 1.025e-05, 'epoch': 0.8}
+2025-05-20 22:34:54 client2-1  | {'loss': 1.2456, 'grad_norm': 10.39271068572998, 'learning_rate': 7.75e-06, 'epoch': 0.85}
+2025-05-20 22:32:10 client3-1  | {'loss': 0.8568, 'grad_norm': 14.770864486694336, 'learning_rate': 3.275e-05, 'epoch': 0.35}
+2025-05-20 22:35:15 client2-1  | {'loss': 1.3478, 'grad_norm': 10.27834415435791, 'learning_rate': 5.25e-06, 'epoch': 0.9}
+2025-05-20 22:35:30 client2-1  | {'loss': 1.0951, 'grad_norm': 9.91811752319336, 'learning_rate': 2.7500000000000004e-06, 'epoch': 0.95}
+2025-05-20 22:24:36 client1-1  | {'loss': 1.0154, 'grad_norm': 13.479507446289062, 'learning_rate': 4.525e-05, 'epoch': 0.1}
+2025-05-20 22:24:49 client1-1  | {'loss': 0.864, 'grad_norm': 8.814534187316895, 'learning_rate': 4.275e-05, 'epoch': 0.15}
+2025-05-20 22:25:04 client1-1  | {'loss': 1.1109, 'grad_norm': 12.080254554748535, 'learning_rate': 4.025e-05, 'epoch': 0.2}
+2025-05-20 22:35:40 client2-1  | {'loss': 0.8569, 'grad_norm': 9.287147521972656, 'learning_rate': 2.5000000000000004e-07, 'epoch': 1.0}
+2025-05-20 22:25:18 client1-1  | {'loss': 1.0205, 'grad_norm': 12.371503829956055, 'learning_rate': 3.775e-05, 'epoch': 0.25}
+2025-05-20 22:35:40 client2-1  | {'train_runtime': 320.209, 'train_samples_per_second': 1.249, 'train_steps_per_second': 0.625, 'train_loss': 1.1547541475296021, 'epoch': 1.0}
+2025-05-20 22:25:33 client1-1  | {'loss': 1.0506, 'grad_norm': 10.59550666809082, 'learning_rate': 3.525e-05, 'epoch': 0.3}
+2025-05-20 22:25:53 client1-1  | {'loss': 1.1356, 'grad_norm': 9.745132446289062, 'learning_rate': 3.275e-05, 'epoch': 0.35}
+2025-05-20 22:26:08 client1-1  | {'loss': 1.0855, 'grad_norm': 9.333660125732422, 'learning_rate': 3.025e-05, 'epoch': 0.4}
+2025-05-20 22:32:25 client3-1  | {'loss': 0.872, 'grad_norm': 8.23262882232666, 'learning_rate': 3.025e-05, 'epoch': 0.4}
+2025-05-20 22:32:39 client3-1  | {'loss': 0.9797, 'grad_norm': 10.256229400634766, 'learning_rate': 2.7750000000000004e-05, 'epoch': 0.45}
+2025-05-20 22:26:23 client1-1  | {'loss': 1.1645, 'grad_norm': 10.492164611816406, 'learning_rate': 2.7750000000000004e-05, 'epoch': 0.45}
+2025-05-20 22:26:38 client1-1  | {'loss': 1.0411, 'grad_norm': 11.40959358215332, 'learning_rate': 2.525e-05, 'epoch': 0.5}
+2025-05-20 22:26:59 client1-1  | {'loss': 1.0709, 'grad_norm': 12.057195663452148, 'learning_rate': 2.275e-05, 'epoch': 0.55}
+2025-05-20 22:32:54 client3-1  | {'loss': 1.0997, 'grad_norm': 9.682330131530762, 'learning_rate': 2.525e-05, 'epoch': 0.5}
+2025-05-20 22:33:15 client3-1  | {'loss': 0.9468, 'grad_norm': 11.493680953979492, 'learning_rate': 2.275e-05, 'epoch': 0.55}
+2025-05-20 22:33:29 client3-1  | {'loss': 1.0389, 'grad_norm': 13.082148551940918, 'learning_rate': 2.025e-05, 'epoch': 0.6}
+2025-05-20 22:27:14 client1-1  | {'loss': 1.2225, 'grad_norm': 9.131158828735352, 'learning_rate': 2.025e-05, 'epoch': 0.6}
+2025-05-20 22:33:44 client3-1  | {'loss': 0.9929, 'grad_norm': 10.215933799743652, 'learning_rate': 1.775e-05, 'epoch': 0.65}
+2025-05-20 22:27:28 client1-1  | {'loss': 1.1239, 'grad_norm': 11.945409774780273, 'learning_rate': 1.775e-05, 'epoch': 0.65}
+2025-05-20 22:27:43 client1-1  | {'loss': 1.0648, 'grad_norm': 12.070874214172363, 'learning_rate': 1.525e-05, 'epoch': 0.7}
+2025-05-20 22:33:58 client3-1  | {'loss': 1.085, 'grad_norm': 10.157007217407227, 'learning_rate': 1.525e-05, 'epoch': 0.7}
+2025-05-20 22:34:13 client3-1  | {'loss': 1.0737, 'grad_norm': 15.419146537780762, 'learning_rate': 1.2750000000000002e-05, 'epoch': 0.75}
+2025-05-20 22:34:34 client3-1  | {'loss': 1.128, 'grad_norm': 13.056960105895996, 'learning_rate': 1.025e-05, 'epoch': 0.8}
+2025-05-20 22:27:57 client1-1  | {'loss': 1.2669, 'grad_norm': 11.07433032989502, 'learning_rate': 1.2750000000000002e-05, 'epoch': 0.75}
+2025-05-20 22:35:45 client2-1  | INFO :      Sent reply
+2025-05-20 22:28:18 client1-1  | {'loss': 1.3415, 'grad_norm': 12.101320266723633, 'learning_rate': 1.025e-05, 'epoch': 0.8}
+2025-05-20 22:36:08 client2-1  | INFO :      
+2025-05-20 22:28:33 client1-1  | {'loss': 1.159, 'grad_norm': 10.1491117477417, 'learning_rate': 7.75e-06, 'epoch': 0.85}
+2025-05-20 22:28:48 client1-1  | {'loss': 1.1618, 'grad_norm': 9.746789932250977, 'learning_rate': 5.25e-06, 'epoch': 0.9}
+2025-05-20 22:36:08 client2-1  | INFO :      Received: evaluate message 75842c7d-86a1-4cf1-9656-448344b87860
+2025-05-20 22:36:13 client2-1  | {'eval_loss': 1.3354878425598145, 'eval_model_preparation_time': 0.0041, 'eval_runtime': 3.5776, 'eval_samples_per_second': 27.951, 'eval_steps_per_second': 3.634, 'epoch': 1.0}
+2025-05-20 22:36:13 client2-1  | INFO :      Sent reply
+2025-05-20 22:36:28 client2-1  | INFO :      
+2025-05-20 22:36:28 client2-1  | INFO :      Received: train message e8c2d6b3-819f-4a6f-bdc7-b70220119f6d
+2025-05-20 22:34:48 client3-1  | {'loss': 1.1568, 'grad_norm': 12.350025177001953, 'learning_rate': 7.75e-06, 'epoch': 0.85}
+2025-05-20 22:36:53 client2-1  | {'loss': 0.5768, 'grad_norm': 8.73552417755127, 'learning_rate': 4.775e-05, 'epoch': 0.05}
+2025-05-20 22:35:03 client3-1  | {'loss': 1.1094, 'grad_norm': 10.279952049255371, 'learning_rate': 5.25e-06, 'epoch': 0.9}
+2025-05-20 22:35:18 client3-1  | {'loss': 0.9304, 'grad_norm': 9.69640064239502, 'learning_rate': 2.7500000000000004e-06, 'epoch': 0.95}
+2025-05-20 22:37:07 client2-1  | {'loss': 0.7927, 'grad_norm': 14.948393821716309, 'learning_rate': 4.525e-05, 'epoch': 0.1}
+2025-05-20 22:35:33 client3-1  | {'loss': 0.6456, 'grad_norm': 10.706035614013672, 'learning_rate': 2.5000000000000004e-07, 'epoch': 1.0}
+2025-05-20 22:37:28 client2-1  | {'loss': 0.8399, 'grad_norm': 8.817142486572266, 'learning_rate': 4.275e-05, 'epoch': 0.15}
+2025-05-20 22:35:33 client3-1  | {'train_runtime': 317.4295, 'train_samples_per_second': 1.26, 'train_steps_per_second': 0.63, 'train_loss': 0.919699604511261, 'epoch': 1.0}
+2025-05-20 22:37:43 client2-1  | {'loss': 0.9931, 'grad_norm': 9.320465087890625, 'learning_rate': 4.025e-05, 'epoch': 0.2}
+2025-05-20 22:35:44 client3-1  | INFO :      Sent reply
+2025-05-20 22:37:57 client2-1  | {'loss': 1.0657, 'grad_norm': 14.345667839050293, 'learning_rate': 3.775e-05, 'epoch': 0.25}
+2025-05-20 22:36:10 client3-1  | INFO :      
+2025-05-20 22:38:12 client2-1  | {'loss': 1.0507, 'grad_norm': 10.006302833557129, 'learning_rate': 3.525e-05, 'epoch': 0.3}
+2025-05-20 22:36:10 client3-1  | INFO :      Received: evaluate message e64098f0-9153-4155-919c-e0b293beb7fc
+2025-05-20 22:38:27 client2-1  | {'loss': 0.8605, 'grad_norm': 13.422338485717773, 'learning_rate': 3.275e-05, 'epoch': 0.35}
+2025-05-20 22:36:16 client3-1  | {'eval_loss': 1.361717939376831, 'eval_runtime': 5.1615, 'eval_samples_per_second': 19.374, 'eval_steps_per_second': 2.519, 'epoch': 1.0}
+2025-05-20 22:36:16 client3-1  | INFO :      Sent reply
+2025-05-20 22:29:03 client1-1  | {'loss': 0.9651, 'grad_norm': 8.865192413330078, 'learning_rate': 2.7500000000000004e-06, 'epoch': 0.95}
+2025-05-20 22:29:24 client1-1  | {'loss': 0.7704, 'grad_norm': 8.1878023147583, 'learning_rate': 2.5000000000000004e-07, 'epoch': 1.0}
+2025-05-20 22:29:24 client1-1  | {'train_runtime': 314.5087, 'train_samples_per_second': 1.272, 'train_steps_per_second': 0.636, 'train_loss': 1.080228600502014, 'epoch': 1.0}
+2025-05-20 22:36:26 client3-1  | INFO :      
+2025-05-20 22:36:26 client3-1  | INFO :      Received: train message e05d72d8-c172-416f-9656-6b5cda018669
+2025-05-20 22:36:41 client3-1  | {'loss': 0.4191, 'grad_norm': 9.033382415771484, 'learning_rate': 4.775e-05, 'epoch': 0.05}
+2025-05-20 22:37:02 client3-1  | {'loss': 0.4687, 'grad_norm': 13.935415267944336, 'learning_rate': 4.525e-05, 'epoch': 0.1}
+2025-05-20 22:37:16 client3-1  | {'loss': 0.5871, 'grad_norm': 9.608573913574219, 'learning_rate': 4.275e-05, 'epoch': 0.15}
+2025-05-20 22:37:31 client3-1  | {'loss': 0.534, 'grad_norm': 6.719240188598633, 'learning_rate': 4.025e-05, 'epoch': 0.2}
+2025-05-20 22:38:42 client2-1  | {'loss': 0.9765, 'grad_norm': 13.652304649353027, 'learning_rate': 3.025e-05, 'epoch': 0.4}
+2025-05-20 22:39:02 client2-1  | {'loss': 1.0074, 'grad_norm': 9.382882118225098, 'learning_rate': 2.7750000000000004e-05, 'epoch': 0.45}
+2025-05-20 22:39:16 client2-1  | {'loss': 0.9482, 'grad_norm': 11.28031063079834, 'learning_rate': 2.525e-05, 'epoch': 0.5}
+2025-05-20 22:39:31 client2-1  | {'loss': 1.0696, 'grad_norm': 11.936710357666016, 'learning_rate': 2.275e-05, 'epoch': 0.55}
+2025-05-20 22:29:28 client1-1  | INFO :      Sent reply
+2025-05-20 22:39:46 client2-1  | {'loss': 0.98, 'grad_norm': 8.625252723693848, 'learning_rate': 2.025e-05, 'epoch': 0.6}
+2025-05-20 22:40:01 client2-1  | {'loss': 1.1646, 'grad_norm': 13.134865760803223, 'learning_rate': 1.775e-05, 'epoch': 0.65}
+2025-05-20 22:40:16 client2-1  | {'loss': 1.1726, 'grad_norm': 12.263569831848145, 'learning_rate': 1.525e-05, 'epoch': 0.7}
+2025-05-20 22:29:59 client1-1  | INFO :      
+2025-05-20 22:37:46 client3-1  | {'loss': 0.6629, 'grad_norm': 9.90251350402832, 'learning_rate': 3.775e-05, 'epoch': 0.25}
+2025-05-20 22:29:59 client1-1  | INFO :      Received: evaluate message c00ef0f1-9394-4754-bb58-d56c38611d3f
+2025-05-20 22:38:07 client3-1  | {'loss': 0.7464, 'grad_norm': 8.947917938232422, 'learning_rate': 3.525e-05, 'epoch': 0.3}
+2025-05-20 22:40:36 client2-1  | {'loss': 1.0469, 'grad_norm': 13.084567070007324, 'learning_rate': 1.2750000000000002e-05, 'epoch': 0.75}
+2025-05-20 22:38:21 client3-1  | {'loss': 0.7191, 'grad_norm': 12.035051345825195, 'learning_rate': 3.275e-05, 'epoch': 0.35}
+2025-05-20 22:40:51 client2-1  | {'loss': 1.1203, 'grad_norm': 9.799983024597168, 'learning_rate': 1.025e-05, 'epoch': 0.8}
+2025-05-20 22:41:06 client2-1  | {'loss': 1.173, 'grad_norm': 10.823609352111816, 'learning_rate': 7.75e-06, 'epoch': 0.85}
+2025-05-20 22:41:20 client2-1  | {'loss': 1.284, 'grad_norm': 12.210872650146484, 'learning_rate': 5.25e-06, 'epoch': 0.9}
+2025-05-20 22:38:36 client3-1  | {'loss': 0.7235, 'grad_norm': 6.588593482971191, 'learning_rate': 3.025e-05, 'epoch': 0.4}
+2025-05-20 22:41:35 client2-1  | {'loss': 1.0017, 'grad_norm': 10.560254096984863, 'learning_rate': 2.7500000000000004e-06, 'epoch': 0.95}
+2025-05-20 22:41:55 client2-1  | {'loss': 0.7549, 'grad_norm': 12.409324645996094, 'learning_rate': 2.5000000000000004e-07, 'epoch': 1.0}
+2025-05-20 22:38:51 client3-1  | {'loss': 0.8484, 'grad_norm': 9.742281913757324, 'learning_rate': 2.7750000000000004e-05, 'epoch': 0.45}
+2025-05-20 22:30:06 client1-1  | {'eval_loss': 1.3049917221069336, 'eval_runtime': 5.251, 'eval_samples_per_second': 19.044, 'eval_steps_per_second': 2.476, 'epoch': 1.0}
+2025-05-20 22:30:06 client1-1  | INFO :      Sent reply
+2025-05-20 22:39:05 client3-1  | {'loss': 0.9362, 'grad_norm': 10.652653694152832, 'learning_rate': 2.525e-05, 'epoch': 0.5}
+2025-05-20 22:41:55 client2-1  | {'train_runtime': 323.0907, 'train_samples_per_second': 1.238, 'train_steps_per_second': 0.619, 'train_loss': 0.9939471888542175, 'epoch': 1.0}
+2025-05-20 22:41:59 client2-1  | INFO :      Sent reply
+2025-05-20 22:42:27 client2-1  | INFO :      
+2025-05-20 22:42:27 client2-1  | INFO :      Received: evaluate message efec1be0-bf69-4013-ad1c-ed75a54781df
+2025-05-20 22:30:12 client1-1  | INFO :      
+2025-05-20 22:42:29 client2-1  | {'eval_loss': 1.3580067157745361, 'eval_model_preparation_time': 0.0041, 'eval_runtime': 1.2256, 'eval_samples_per_second': 81.591, 'eval_steps_per_second': 10.607, 'epoch': 1.0}
+2025-05-20 22:42:29 client2-1  | INFO :      Sent reply
+2025-05-20 22:30:12 client1-1  | INFO :      Received: train message 10265638-0cf4-4f67-bfb7-a83673f33660
+2025-05-20 22:30:25 client1-1  | {'loss': 0.654, 'grad_norm': 10.307271957397461, 'learning_rate': 4.775e-05, 'epoch': 0.05}
+2025-05-20 22:30:40 client1-1  | {'loss': 0.7449, 'grad_norm': 11.296297073364258, 'learning_rate': 4.525e-05, 'epoch': 0.1}
+2025-05-20 22:31:00 client1-1  | {'loss': 0.6392, 'grad_norm': 8.800420761108398, 'learning_rate': 4.275e-05, 'epoch': 0.15}
+2025-05-20 22:31:15 client1-1  | {'loss': 0.8651, 'grad_norm': 10.751681327819824, 'learning_rate': 4.025e-05, 'epoch': 0.2}
+2025-05-20 22:31:30 client1-1  | {'loss': 0.826, 'grad_norm': 9.857194900512695, 'learning_rate': 3.775e-05, 'epoch': 0.25}
+2025-05-20 22:39:26 client3-1  | {'loss': 0.8211, 'grad_norm': 12.783280372619629, 'learning_rate': 2.275e-05, 'epoch': 0.55}
+2025-05-20 22:39:41 client3-1  | {'loss': 0.9297, 'grad_norm': 10.855188369750977, 'learning_rate': 2.025e-05, 'epoch': 0.6}
+2025-05-20 22:42:48 client2-1  | INFO :      
+2025-05-20 22:42:48 client2-1  | INFO :      Received: train message df2da7bd-8d4a-4479-80fa-206d036e7ba8
+2025-05-20 22:31:44 client1-1  | {'loss': 0.8853, 'grad_norm': 10.753318786621094, 'learning_rate': 3.525e-05, 'epoch': 0.3}
+2025-05-20 22:43:15 client2-1  | {'loss': 0.3906, 'grad_norm': 7.723138332366943, 'learning_rate': 4.775e-05, 'epoch': 0.05}
+2025-05-20 22:39:55 client3-1  | {'loss': 0.8913, 'grad_norm': 10.54240608215332, 'learning_rate': 1.775e-05, 'epoch': 0.65}
+2025-05-20 22:31:59 client1-1  | {'loss': 0.94, 'grad_norm': 10.069689750671387, 'learning_rate': 3.275e-05, 'epoch': 0.35}
+2025-05-20 22:40:11 client3-1  | {'loss': 0.9682, 'grad_norm': 9.404738426208496, 'learning_rate': 1.525e-05, 'epoch': 0.7}
+2025-05-20 22:43:29 client2-1  | {'loss': 0.5955, 'grad_norm': 17.7659854888916, 'learning_rate': 4.525e-05, 'epoch': 0.1}
+2025-05-20 22:43:44 client2-1  | {'loss': 0.6319, 'grad_norm': 8.532001495361328, 'learning_rate': 4.275e-05, 'epoch': 0.15}
+2025-05-20 22:43:58 client2-1  | {'loss': 0.7844, 'grad_norm': 8.587265014648438, 'learning_rate': 4.025e-05, 'epoch': 0.2}
+2025-05-20 22:32:13 client1-1  | {'loss': 0.916, 'grad_norm': 8.703038215637207, 'learning_rate': 3.025e-05, 'epoch': 0.4}
+2025-05-20 22:32:34 client1-1  | {'loss': 0.9868, 'grad_norm': 10.832043647766113, 'learning_rate': 2.7750000000000004e-05, 'epoch': 0.45}
+2025-05-20 22:44:19 client2-1  | {'loss': 0.8364, 'grad_norm': 12.229105949401855, 'learning_rate': 3.775e-05, 'epoch': 0.25}
+2025-05-20 22:44:34 client2-1  | {'loss': 0.8762, 'grad_norm': 10.585867881774902, 'learning_rate': 3.525e-05, 'epoch': 0.3}
+2025-05-20 22:32:49 client1-1  | {'loss': 0.8786, 'grad_norm': 10.291890144348145, 'learning_rate': 2.525e-05, 'epoch': 0.5}
+2025-05-20 22:44:49 client2-1  | {'loss': 0.7157, 'grad_norm': 13.95870590209961, 'learning_rate': 3.275e-05, 'epoch': 0.35}
+2025-05-20 22:45:03 client2-1  | {'loss': 0.8424, 'grad_norm': 13.710562705993652, 'learning_rate': 3.025e-05, 'epoch': 0.4}
+2025-05-20 22:45:18 client2-1  | {'loss': 0.8539, 'grad_norm': 8.596327781677246, 'learning_rate': 2.7750000000000004e-05, 'epoch': 0.45}
+2025-05-20 22:45:33 client2-1  | {'loss': 0.8092, 'grad_norm': 9.765705108642578, 'learning_rate': 2.525e-05, 'epoch': 0.5}
+2025-05-20 22:45:54 client2-1  | {'loss': 0.9178, 'grad_norm': 11.809721946716309, 'learning_rate': 2.275e-05, 'epoch': 0.55}
+2025-05-20 22:33:03 client1-1  | {'loss': 0.9406, 'grad_norm': 9.09434700012207, 'learning_rate': 2.275e-05, 'epoch': 0.55}
+2025-05-20 22:40:25 client3-1  | {'loss': 1.0018, 'grad_norm': 12.915942192077637, 'learning_rate': 1.2750000000000002e-05, 'epoch': 0.75}
+2025-05-20 22:33:18 client1-1  | {'loss': 1.0803, 'grad_norm': 8.988341331481934, 'learning_rate': 2.025e-05, 'epoch': 0.6}
+2025-05-20 22:40:46 client3-1  | {'loss': 1.0769, 'grad_norm': 13.969083786010742, 'learning_rate': 1.025e-05, 'epoch': 0.8}
+2025-05-20 22:46:09 client2-1  | {'loss': 0.8634, 'grad_norm': 8.42884349822998, 'learning_rate': 2.025e-05, 'epoch': 0.6}
+2025-05-20 22:41:01 client3-1  | {'loss': 1.1014, 'grad_norm': 11.904402732849121, 'learning_rate': 7.75e-06, 'epoch': 0.85}
+2025-05-20 22:46:23 client2-1  | {'loss': 1.0521, 'grad_norm': 12.692302703857422, 'learning_rate': 1.775e-05, 'epoch': 0.65}
+2025-05-20 22:41:15 client3-1  | {'loss': 1.0242, 'grad_norm': 10.32941722869873, 'learning_rate': 5.25e-06, 'epoch': 0.9}
+2025-05-20 22:33:38 client1-1  | {'loss': 1.0024, 'grad_norm': 12.801294326782227, 'learning_rate': 1.775e-05, 'epoch': 0.65}
+2025-05-20 22:41:30 client3-1  | {'loss': 0.871, 'grad_norm': 9.760957717895508, 'learning_rate': 2.7500000000000004e-06, 'epoch': 0.95}
+2025-05-20 22:33:53 client1-1  | {'loss': 0.9643, 'grad_norm': 10.702768325805664, 'learning_rate': 1.525e-05, 'epoch': 0.7}
+2025-05-20 22:41:44 client3-1  | {'loss': 0.5933, 'grad_norm': 12.07997989654541, 'learning_rate': 2.5000000000000004e-07, 'epoch': 1.0}
+2025-05-20 22:46:38 client2-1  | {'loss': 1.0673, 'grad_norm': 12.522231101989746, 'learning_rate': 1.525e-05, 'epoch': 0.7}
+2025-05-20 22:46:53 client2-1  | {'loss': 0.9632, 'grad_norm': 13.37452507019043, 'learning_rate': 1.2750000000000002e-05, 'epoch': 0.75}
+2025-05-20 22:41:44 client3-1  | {'train_runtime': 316.3861, 'train_samples_per_second': 1.264, 'train_steps_per_second': 0.632, 'train_loss': 0.7962157273292542, 'epoch': 1.0}
+2025-05-20 22:47:08 client2-1  | {'loss': 1.0381, 'grad_norm': 10.308818817138672, 'learning_rate': 1.025e-05, 'epoch': 0.8}
+2025-05-20 22:41:56 client3-1  | INFO :      Sent reply
+2025-05-20 22:47:29 client2-1  | {'loss': 1.1181, 'grad_norm': 11.65084457397461, 'learning_rate': 7.75e-06, 'epoch': 0.85}
+2025-05-20 22:42:33 client3-1  | INFO :      
+2025-05-20 22:34:07 client1-1  | {'loss': 1.1509, 'grad_norm': 10.213301658630371, 'learning_rate': 1.2750000000000002e-05, 'epoch': 0.75}
+2025-05-20 22:42:33 client3-1  | INFO :      Received: evaluate message 038f6bc1-e45b-4a7e-a8cd-eff2d2ad1d93
+2025-05-20 22:42:41 client3-1  | {'eval_loss': 1.38985276222229, 'eval_runtime': 5.5474, 'eval_samples_per_second': 18.026, 'eval_steps_per_second': 2.343, 'epoch': 1.0}
+2025-05-20 22:42:41 client3-1  | INFO :      Sent reply
+2025-05-20 22:34:22 client1-1  | {'loss': 1.2177, 'grad_norm': 11.827006340026855, 'learning_rate': 1.025e-05, 'epoch': 0.8}
+2025-05-20 22:34:37 client1-1  | {'loss': 1.0895, 'grad_norm': 9.791033744812012, 'learning_rate': 7.75e-06, 'epoch': 0.85}
+2025-05-20 22:47:44 client2-1  | {'loss': 1.227, 'grad_norm': 11.444906234741211, 'learning_rate': 5.25e-06, 'epoch': 0.9}
+2025-05-20 22:34:58 client1-1  | {'loss': 1.088, 'grad_norm': 10.259587287902832, 'learning_rate': 5.25e-06, 'epoch': 0.9}
+2025-05-20 22:47:58 client2-1  | {'loss': 0.9258, 'grad_norm': 14.157212257385254, 'learning_rate': 2.7500000000000004e-06, 'epoch': 0.95}
+2025-05-20 22:48:13 client2-1  | {'loss': 0.6334, 'grad_norm': 9.545594215393066, 'learning_rate': 2.5000000000000004e-07, 'epoch': 1.0}
+2025-05-20 22:48:13 client2-1  | {'train_runtime': 320.0095, 'train_samples_per_second': 1.25, 'train_steps_per_second': 0.625, 'train_loss': 0.8571233117580414, 'epoch': 1.0}
+2025-05-20 22:42:48 client3-1  | INFO :      
+2025-05-20 22:42:48 client3-1  | INFO :      Received: train message 5ea7bfbf-43f4-47ad-81d4-9d0199b3661b
+2025-05-20 22:43:12 client3-1  | {'loss': 0.2949, 'grad_norm': 6.421786785125732, 'learning_rate': 4.775e-05, 'epoch': 0.05}
+2025-05-20 22:48:23 client2-1  | INFO :      Sent reply
+2025-05-20 22:48:47 client2-1  | INFO :      
+2025-05-20 22:48:47 client2-1  | INFO :      Received: evaluate message 6fe6c158-1dfb-4ca9-b290-b718c8cf2108
+2025-05-20 22:43:27 client3-1  | {'loss': 0.3351, 'grad_norm': 15.875602722167969, 'learning_rate': 4.525e-05, 'epoch': 0.1}
+2025-05-20 22:43:41 client3-1  | {'loss': 0.4519, 'grad_norm': 9.346441268920898, 'learning_rate': 4.275e-05, 'epoch': 0.15}
+2025-05-20 22:44:02 client3-1  | {'loss': 0.4236, 'grad_norm': 7.8809285163879395, 'learning_rate': 4.025e-05, 'epoch': 0.2}
+2025-05-20 22:48:54 client2-1  | {'eval_loss': 1.3898907899856567, 'eval_model_preparation_time': 0.0041, 'eval_runtime': 5.416, 'eval_samples_per_second': 18.464, 'eval_steps_per_second': 2.4, 'epoch': 1.0}
+2025-05-20 22:48:54 client2-1  | INFO :      Sent reply
+2025-05-20 22:48:57 client2-1  | INFO :      
+2025-05-20 22:48:57 client2-1  | INFO :      Received: reconnect message 59160869-67a9-4692-9101-434d5b1fd6e7
+2025-05-20 22:35:12 client1-1  | {'loss': 0.8724, 'grad_norm': 11.691743850708008, 'learning_rate': 2.7500000000000004e-06, 'epoch': 0.95}
+2025-05-20 22:35:27 client1-1  | {'loss': 0.6532, 'grad_norm': 9.168067932128906, 'learning_rate': 2.5000000000000004e-07, 'epoch': 1.0}
+2025-05-20 22:35:27 client1-1  | {'train_runtime': 314.1175, 'train_samples_per_second': 1.273, 'train_steps_per_second': 0.637, 'train_loss': 0.9197628927230835, 'epoch': 1.0}
+2025-05-20 22:48:57 client2-1  | INFO :      Disconnect and shut down
+2025-05-20 22:44:17 client3-1  | {'loss': 0.5313, 'grad_norm': 7.912704944610596, 'learning_rate': 3.775e-05, 'epoch': 0.25}
+2025-05-20 22:44:32 client3-1  | {'loss': 0.5803, 'grad_norm': 8.910787582397461, 'learning_rate': 3.525e-05, 'epoch': 0.3}
+2025-05-20 22:44:46 client3-1  | {'loss': 0.6005, 'grad_norm': 11.752466201782227, 'learning_rate': 3.275e-05, 'epoch': 0.35}
+2025-05-20 22:35:34 client1-1  | INFO :      Sent reply
+2025-05-20 22:36:11 client1-1  | INFO :      
+2025-05-20 22:36:11 client1-1  | INFO :      Received: evaluate message db006fe6-e310-4cc2-b7b8-92b173cbc7d3
+2025-05-20 22:36:17 client1-1  | {'eval_loss': 1.3258212804794312, 'eval_runtime': 3.7554, 'eval_samples_per_second': 26.628, 'eval_steps_per_second': 3.462, 'epoch': 1.0}
+2025-05-20 22:36:17 client1-1  | INFO :      Sent reply
+2025-05-20 22:45:01 client3-1  | {'loss': 0.6179, 'grad_norm': 7.412156581878662, 'learning_rate': 3.025e-05, 'epoch': 0.4}
+2025-05-20 22:45:16 client3-1  | {'loss': 0.711, 'grad_norm': 11.082528114318848, 'learning_rate': 2.7750000000000004e-05, 'epoch': 0.45}
+2025-05-20 22:36:26 client1-1  | INFO :      
+2025-05-20 22:45:37 client3-1  | {'loss': 0.8108, 'grad_norm': 11.561310768127441, 'learning_rate': 2.525e-05, 'epoch': 0.5}
+2025-05-20 22:36:26 client1-1  | INFO :      Received: train message e2c03973-f9d9-4cec-9d6c-5396304d1f4f
+2025-05-20 22:45:52 client3-1  | {'loss': 0.7158, 'grad_norm': 9.467907905578613, 'learning_rate': 2.275e-05, 'epoch': 0.55}
+2025-05-20 22:46:06 client3-1  | {'loss': 0.8488, 'grad_norm': 15.155372619628906, 'learning_rate': 2.025e-05, 'epoch': 0.6}
+2025-05-20 22:46:21 client3-1  | {'loss': 0.7939, 'grad_norm': 10.689175605773926, 'learning_rate': 1.775e-05, 'epoch': 0.65}
+2025-05-20 22:36:50 client1-1  | {'loss': 0.4555, 'grad_norm': 9.96635627746582, 'learning_rate': 4.775e-05, 'epoch': 0.05}
+2025-05-20 22:46:36 client3-1  | {'loss': 0.8816, 'grad_norm': 9.03781795501709, 'learning_rate': 1.525e-05, 'epoch': 0.7}
+2025-05-20 22:37:05 client1-1  | {'loss': 0.5676, 'grad_norm': 10.839754104614258, 'learning_rate': 4.525e-05, 'epoch': 0.1}
+2025-05-20 22:37:19 client1-1  | {'loss': 0.5015, 'grad_norm': 9.262682914733887, 'learning_rate': 4.275e-05, 'epoch': 0.15}
+2025-05-20 22:37:40 client1-1  | {'loss': 0.6841, 'grad_norm': 9.610011100769043, 'learning_rate': 4.025e-05, 'epoch': 0.2}
+2025-05-20 22:46:51 client3-1  | {'loss': 0.9193, 'grad_norm': 13.385602951049805, 'learning_rate': 1.2750000000000002e-05, 'epoch': 0.75}
+2025-05-20 22:47:12 client3-1  | {'loss': 1.0037, 'grad_norm': 14.41104507446289, 'learning_rate': 1.025e-05, 'epoch': 0.8}
+2025-05-20 22:37:55 client1-1  | {'loss': 0.6463, 'grad_norm': 10.367135047912598, 'learning_rate': 3.775e-05, 'epoch': 0.25}
+2025-05-20 22:38:10 client1-1  | {'loss': 0.7362, 'grad_norm': 10.30260944366455, 'learning_rate': 3.525e-05, 'epoch': 0.3}
+2025-05-20 22:38:24 client1-1  | {'loss': 0.7883, 'grad_norm': 10.447855949401855, 'learning_rate': 3.275e-05, 'epoch': 0.35}
+2025-05-20 22:38:39 client1-1  | {'loss': 0.7555, 'grad_norm': 8.260784149169922, 'learning_rate': 3.025e-05, 'epoch': 0.4}
+2025-05-20 22:39:00 client1-1  | {'loss': 0.8464, 'grad_norm': 10.758466720581055, 'learning_rate': 2.7750000000000004e-05, 'epoch': 0.45}
+2025-05-20 22:39:14 client1-1  | {'loss': 0.7697, 'grad_norm': 9.107619285583496, 'learning_rate': 2.525e-05, 'epoch': 0.5}
+2025-05-20 22:47:27 client3-1  | {'loss': 1.0421, 'grad_norm': 11.721979141235352, 'learning_rate': 7.75e-06, 'epoch': 0.85}
+2025-05-20 22:39:29 client1-1  | {'loss': 0.8123, 'grad_norm': 10.170567512512207, 'learning_rate': 2.275e-05, 'epoch': 0.55}
+2025-05-20 22:39:44 client1-1  | {'loss': 0.9663, 'grad_norm': 8.68108081817627, 'learning_rate': 2.025e-05, 'epoch': 0.6}
+2025-05-20 22:39:58 client1-1  | {'loss': 0.9106, 'grad_norm': 12.065204620361328, 'learning_rate': 1.775e-05, 'epoch': 0.65}
+2025-05-20 22:47:42 client3-1  | {'loss': 0.9827, 'grad_norm': 9.297013282775879, 'learning_rate': 5.25e-06, 'epoch': 0.9}
+2025-05-20 22:47:56 client3-1  | {'loss': 0.8028, 'grad_norm': 9.113593101501465, 'learning_rate': 2.7500000000000004e-06, 'epoch': 0.95}
+2025-05-20 22:48:11 client3-1  | {'loss': 0.5222, 'grad_norm': 8.566123008728027, 'learning_rate': 2.5000000000000004e-07, 'epoch': 1.0}
+2025-05-20 22:48:11 client3-1  | {'train_runtime': 319.2712, 'train_samples_per_second': 1.253, 'train_steps_per_second': 0.626, 'train_loss': 0.6935034203529358, 'epoch': 1.0}
+2025-05-20 22:40:13 client1-1  | {'loss': 0.8872, 'grad_norm': 10.62143611907959, 'learning_rate': 1.525e-05, 'epoch': 0.7}
+2025-05-20 22:40:34 client1-1  | {'loss': 1.0945, 'grad_norm': 10.226117134094238, 'learning_rate': 1.2750000000000002e-05, 'epoch': 0.75}
+2025-05-20 22:48:22 client3-1  | INFO :      Sent reply
+2025-05-20 22:48:47 client3-1  | INFO :      
+2025-05-20 22:48:47 client3-1  | INFO :      Received: evaluate message 219c9e81-9b5e-44fa-adf5-d6a3bf9f680e
+2025-05-20 22:48:52 client3-1  | {'eval_loss': 1.4199409484863281, 'eval_runtime': 3.3648, 'eval_samples_per_second': 29.72, 'eval_steps_per_second': 3.864, 'epoch': 1.0}
+2025-05-20 22:48:52 client3-1  | INFO :      Sent reply
+2025-05-20 22:48:57 client3-1  | INFO :      
+2025-05-20 22:48:57 client3-1  | INFO :      Received: reconnect message 3389984e-7242-47e7-9206-d2bb4d5f1e5d
+2025-05-20 22:48:57 client3-1  | INFO :      Disconnect and shut down
+2025-05-20 22:40:49 client1-1  | {'loss': 1.1418, 'grad_norm': 12.255294799804688, 'learning_rate': 1.025e-05, 'epoch': 0.8}
+2025-05-20 22:41:03 client1-1  | {'loss': 1.0396, 'grad_norm': 10.272482872009277, 'learning_rate': 7.75e-06, 'epoch': 0.85}
+2025-05-20 22:41:18 client1-1  | {'loss': 1.0735, 'grad_norm': 10.227758407592773, 'learning_rate': 5.25e-06, 'epoch': 0.9}
+2025-05-20 22:41:32 client1-1  | {'loss': 0.8202, 'grad_norm': 10.423405647277832, 'learning_rate': 2.7500000000000004e-06, 'epoch': 0.95}
+2025-05-20 22:41:53 client1-1  | {'loss': 0.584, 'grad_norm': 10.44201374053955, 'learning_rate': 2.5000000000000004e-07, 'epoch': 1.0}
+2025-05-20 22:41:53 client1-1  | {'train_runtime': 322.7113, 'train_samples_per_second': 1.239, 'train_steps_per_second': 0.62, 'train_loss': 0.8040563082695007, 'epoch': 1.0}
+2025-05-20 22:41:58 client1-1  | INFO :      Sent reply
+2025-05-20 22:42:34 client1-1  | INFO :      
+2025-05-20 22:42:34 client1-1  | INFO :      Received: evaluate message 45fa65d5-8ce6-4a4c-8754-170664eda980
+2025-05-20 22:42:40 client1-1  | {'eval_loss': 1.3509951829910278, 'eval_runtime': 3.1404, 'eval_samples_per_second': 31.843, 'eval_steps_per_second': 4.14, 'epoch': 1.0}
+2025-05-20 22:42:40 client1-1  | INFO :      Sent reply
+2025-05-20 22:42:48 client1-1  | INFO :      
+2025-05-20 22:42:48 client1-1  | INFO :      Received: train message d3e30a37-3aff-4353-b643-84f8adeb9049
+2025-05-20 22:43:03 client1-1  | {'loss': 0.3153, 'grad_norm': 9.603575706481934, 'learning_rate': 4.775e-05, 'epoch': 0.05}
+2025-05-20 22:43:18 client1-1  | {'loss': 0.4044, 'grad_norm': 10.683910369873047, 'learning_rate': 4.525e-05, 'epoch': 0.1}
+2025-05-20 22:43:38 client1-1  | {'loss': 0.3757, 'grad_norm': 8.218761444091797, 'learning_rate': 4.275e-05, 'epoch': 0.15}
+2025-05-20 22:43:53 client1-1  | {'loss': 0.5236, 'grad_norm': 7.67017126083374, 'learning_rate': 4.025e-05, 'epoch': 0.2}
+2025-05-20 22:44:07 client1-1  | {'loss': 0.5216, 'grad_norm': 8.727288246154785, 'learning_rate': 3.775e-05, 'epoch': 0.25}
+2025-05-20 22:44:22 client1-1  | {'loss': 0.5907, 'grad_norm': 9.591423988342285, 'learning_rate': 3.525e-05, 'epoch': 0.3}
+2025-05-20 22:44:43 client1-1  | {'loss': 0.6477, 'grad_norm': 7.876322269439697, 'learning_rate': 3.275e-05, 'epoch': 0.35}
+2025-05-20 22:44:58 client1-1  | {'loss': 0.625, 'grad_norm': 7.677371978759766, 'learning_rate': 3.025e-05, 'epoch': 0.4}
+2025-05-20 22:45:13 client1-1  | {'loss': 0.7173, 'grad_norm': 9.366862297058105, 'learning_rate': 2.7750000000000004e-05, 'epoch': 0.45}
+2025-05-20 22:45:28 client1-1  | {'loss': 0.6456, 'grad_norm': 11.508615493774414, 'learning_rate': 2.525e-05, 'epoch': 0.5}
+2025-05-20 22:45:43 client1-1  | {'loss': 0.7099, 'grad_norm': 9.602337837219238, 'learning_rate': 2.275e-05, 'epoch': 0.55}
+2025-05-20 22:46:03 client1-1  | {'loss': 0.858, 'grad_norm': 9.779875755310059, 'learning_rate': 2.025e-05, 'epoch': 0.6}
+2025-05-20 22:46:18 client1-1  | {'loss': 0.8011, 'grad_norm': 12.279046058654785, 'learning_rate': 1.775e-05, 'epoch': 0.65}
+2025-05-20 22:46:33 client1-1  | {'loss': 0.813, 'grad_norm': 10.631521224975586, 'learning_rate': 1.525e-05, 'epoch': 0.7}
+2025-05-20 22:46:48 client1-1  | {'loss': 1.0281, 'grad_norm': 10.904407501220703, 'learning_rate': 1.2750000000000002e-05, 'epoch': 0.75}
+2025-05-20 22:47:03 client1-1  | {'loss': 1.0722, 'grad_norm': 11.708950996398926, 'learning_rate': 1.025e-05, 'epoch': 0.8}
+2025-05-20 22:47:18 client1-1  | {'loss': 0.9788, 'grad_norm': 10.206894874572754, 'learning_rate': 7.75e-06, 'epoch': 0.85}
+2025-05-20 22:47:39 client1-1  | {'loss': 0.9904, 'grad_norm': 9.166082382202148, 'learning_rate': 5.25e-06, 'epoch': 0.9}
+2025-05-20 22:47:53 client1-1  | {'loss': 0.7399, 'grad_norm': 9.579854011535645, 'learning_rate': 2.7500000000000004e-06, 'epoch': 0.95}
+2025-05-20 22:48:08 client1-1  | {'loss': 0.4769, 'grad_norm': 7.665139198303223, 'learning_rate': 2.5000000000000004e-07, 'epoch': 1.0}
+2025-05-20 22:48:08 client1-1  | {'train_runtime': 318.9258, 'train_samples_per_second': 1.254, 'train_steps_per_second': 0.627, 'train_loss': 0.6917633616924286, 'epoch': 1.0}
+2025-05-20 22:48:19 client1-1  | INFO :      Sent reply
+2025-05-20 22:48:52 client1-1  | INFO :      
+2025-05-20 22:48:52 client1-1  | INFO :      Received: evaluate message e8d0cc73-82aa-487d-ba96-8c493bdf9535
+2025-05-20 22:48:57 client1-1  | {'eval_loss': 1.3803300857543945, 'eval_runtime': 2.1948, 'eval_samples_per_second': 45.562, 'eval_steps_per_second': 5.923, 'epoch': 1.0}
+2025-05-20 22:48:57 client1-1  | INFO :      Sent reply
+2025-05-20 22:48:57 client1-1  | INFO :      
+2025-05-20 22:48:57 client1-1  | INFO :      Received: reconnect message 4d024a4f-b627-4763-902f-a6b124baa477
+2025-05-20 22:48:57 client1-1  | INFO :      Disconnect and shut down

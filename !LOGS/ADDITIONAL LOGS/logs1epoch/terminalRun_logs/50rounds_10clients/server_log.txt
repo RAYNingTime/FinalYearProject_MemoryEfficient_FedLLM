@@ -1,0 +1,380 @@
+2025-04-08 15:03:08.313646: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-08 15:03:09.545489: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING :   DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+        Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+                $ flower-superlink --insecure
+
+        To view usage and all available options, run:
+
+                $ flower-superlink --help
+
+        Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+
+INFO :      Starting Flower server, config: num_rounds=50, no round_timeout
+INFO :      Flower ECE: gRPC server running (50 rounds), SSL is disabled
+INFO :      [INIT]
+INFO :      Requesting initial parameters from one random client
+INFO :      Received initial parameters from one random client
+INFO :      Starting evaluation of initial global parameters
+INFO :      Evaluation returned no results (`None`)
+INFO :
+INFO :      [ROUND 1]
+INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+INFO :      aggregate_fit: received 2 results and 0 failures
+WARNING :   No fit_metrics_aggregation_fn provided
+INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+INFO :      aggregate_evaluate: received 2 results and 0 failures
+WARNING :   No evaluate_metrics_aggregation_fn provided
+INFO :
+INFO :      [ROUND 2]
+INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+INFO :      aggregate_fit: received 3 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 4 clients (out of 4)
+INFO :      aggregate_evaluate: received 4 results and 0 failures
+INFO :      
+INFO :      [ROUND 3]
+INFO :      configure_fit: strategy sampled 4 clients (out of 4)
+INFO :      aggregate_fit: received 4 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 5 clients (out of 5)
+INFO :      aggregate_evaluate: received 5 results and 0 failures
+INFO :      
+INFO :      [ROUND 4]
+INFO :      configure_fit: strategy sampled 5 clients (out of 5)
+INFO :      aggregate_fit: received 5 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 6 clients (out of 6)
+INFO :      aggregate_evaluate: received 6 results and 0 failures
+INFO :      
+INFO :      [ROUND 5]
+INFO :      configure_fit: strategy sampled 7 clients (out of 7)
+INFO :      aggregate_fit: received 7 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 8 clients (out of 8)
+INFO :      aggregate_evaluate: received 8 results and 0 failures
+INFO :      
+INFO :      [ROUND 6]
+INFO :      configure_fit: strategy sampled 8 clients (out of 8)
+INFO :      aggregate_fit: received 8 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 9 clients (out of 9)
+INFO :      aggregate_evaluate: received 9 results and 0 failures
+INFO :      
+INFO :      [ROUND 7]
+INFO :      configure_fit: strategy sampled 9 clients (out of 9)
+INFO :      aggregate_fit: received 9 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 8]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 9]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 10]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 11]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 12]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 13]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 14]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 15]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 16]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 17]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 18]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 19]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 20]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 21]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 22]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 23]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 24]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 25]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 26]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 27]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 28]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 29]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 30]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 31]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 32]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 33]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 34]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 35]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 36]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 37]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 38]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 39]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 40]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 41]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 42]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 43]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 44]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 45]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 46]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 47]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 48]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 49]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [ROUND 50]
+INFO :      configure_fit: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_fit: received 10 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 10 clients (out of 10)
+INFO :      aggregate_evaluate: received 10 results and 0 failures
+INFO :      
+INFO :      [SUMMARY]
+INFO :      Run finished 50 round(s) in 505.25s
+INFO :          History (loss, distributed):
+INFO :                  round 1: 0.13743385672569275
+INFO :                  round 2: 0.08679492026567459
+INFO :                  round 3: 0.07612544298171997
+INFO :                  round 4: 0.06720972806215286
+INFO :                  round 5: 0.06377410888671875
+INFO :                  round 6: 0.06235560402274132
+INFO :                  round 7: 0.06401580572128296
+INFO :                  round 8: 0.06487228721380234
+INFO :                  round 9: 0.06578575819730759
+INFO :                  round 10: 0.06745294481515884
+INFO :                  round 11: 0.07058318704366684
+INFO :                  round 12: 0.07163604348897934
+INFO :                  round 13: 0.07506514340639114
+INFO :                  round 14: 0.07629328966140747
+INFO :                  round 15: 0.08035579323768616
+INFO :                  round 16: 0.08249124139547348
+INFO :                  round 17: 0.08291472494602203
+INFO :                  round 18: 0.08472505956888199
+INFO :                  round 19: 0.08439719676971436
+INFO :                  round 20: 0.08502119034528732
+INFO :                  round 21: 0.08801162987947464
+INFO :                  round 22: 0.09057724475860596
+INFO :                  round 23: 0.09345131367444992
+INFO :                  round 24: 0.09620897471904755
+INFO :                  round 25: 0.096713587641716
+INFO :                  round 26: 0.09662066400051117
+INFO :                  round 27: 0.09781817346811295
+INFO :                  round 28: 0.09754376858472824
+INFO :                  round 29: 0.09770079702138901
+INFO :                  round 30: 0.10113869607448578
+INFO :                  round 31: 0.10250933468341827
+INFO :                  round 32: 0.10426544398069382
+INFO :                  round 33: 0.10501720011234283
+INFO :                  round 34: 0.10669700056314468
+INFO :                  round 35: 0.108196921646595
+INFO :                  round 36: 0.10889706760644913
+INFO :                  round 37: 0.11070653051137924
+INFO :                  round 38: 0.10976707935333252
+INFO :                  round 39: 0.10939223319292068
+INFO :                  round 40: 0.11046604067087173
+INFO :                  round 41: 0.11426954716444016
+INFO :                  round 42: 0.11035943776369095
+INFO :                  round 43: 0.11282225698232651
+INFO :                  round 44: 0.10901018977165222
+INFO :                  round 45: 0.1116650402545929
+INFO :                  round 46: 0.11386427283287048
+INFO :                  round 47: 0.1168472021818161
+INFO :                  round 48: 0.11700401455163956
+INFO :                  round 49: 0.11648592352867126
+INFO :                  round 50: 0.1178799718618393
+INFO :

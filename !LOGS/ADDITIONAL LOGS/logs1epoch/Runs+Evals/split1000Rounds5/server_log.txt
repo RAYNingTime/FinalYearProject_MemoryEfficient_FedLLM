@@ -1,0 +1,63 @@
+2025-05-13 23:40:02 WARNING :   DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+2025-05-13 23:40:02 Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+2025-05-13 23:40:02 
+2025-05-13 23:40:02 $ flower-superlink --insecure
+2025-05-13 23:40:02 
+2025-05-13 23:40:02 To view usage and all available options, run:
+2025-05-13 23:40:02 
+2025-05-13 23:40:02 $ flower-superlink --help
+2025-05-13 23:40:02 
+2025-05-13 23:40:02 Using `start_server()` is deprecated.
+2025-05-13 23:40:02 
+2025-05-13 23:40:02             This is a deprecated feature. It will be removed
+2025-05-13 23:40:02             entirely in future versions of Flower.
+2025-05-13 23:40:02         
+2025-05-13 23:40:02 INFO :      Starting Flower server, config: num_rounds=5, no round_timeout
+2025-05-13 23:40:02 INFO :      Flower ECE: gRPC server running (5 rounds), SSL is disabled
+2025-05-13 23:40:02 INFO :      [INIT]
+2025-05-13 23:40:02 INFO :      Requesting initial parameters from one random client
+2025-05-13 23:41:33 INFO :      Received initial parameters from one random client
+2025-05-13 23:41:33 INFO :      Starting evaluation of initial global parameters
+2025-05-13 23:41:33 INFO :      Evaluation returned no results (`None`)
+2025-05-13 23:41:33 INFO :      
+2025-05-13 23:41:33 INFO :      [ROUND 1]
+2025-05-13 23:41:54 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-13 23:49:23 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-13 23:49:28 WARNING :   No fit_metrics_aggregation_fn provided
+2025-05-13 23:49:29 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-13 23:49:47 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-13 23:49:47 WARNING :   No evaluate_metrics_aggregation_fn provided
+2025-05-13 23:49:47 INFO :      
+2025-05-13 23:49:47 INFO :      [ROUND 2]
+2025-05-13 23:49:47 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-13 23:57:07 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-13 23:57:12 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-13 23:57:29 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-13 23:57:29 INFO :      
+2025-05-13 23:57:29 INFO :      [ROUND 3]
+2025-05-13 23:57:29 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 00:04:55 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 00:05:00 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 00:05:19 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 00:05:19 INFO :      
+2025-05-14 00:05:19 INFO :      [ROUND 4]
+2025-05-14 00:05:19 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 00:12:37 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 00:12:42 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 00:12:59 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 00:12:59 INFO :      
+2025-05-14 00:12:59 INFO :      [ROUND 5]
+2025-05-14 00:12:59 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-14 00:20:20 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-14 00:20:25 INFO :      configure_evaluate: strategy sampled 2 clients (out of 2)
+2025-05-14 00:20:43 INFO :      aggregate_evaluate: received 2 results and 0 failures
+2025-05-14 00:20:43 INFO :      
+2025-05-14 00:20:43 INFO :      [SUMMARY]
+2025-05-14 00:20:43 INFO :      Run finished 5 round(s) in 2349.60s
+2025-05-14 00:20:43 INFO :      History (loss, distributed):
+2025-05-14 00:20:43 INFO :      round 1: 1.2819404602050781
+2025-05-14 00:20:43 INFO :      round 2: 1.3034246563911438
+2025-05-14 00:20:43 INFO :      round 3: 1.341423213481903
+2025-05-14 00:20:43 INFO :      round 4: 1.3798942565917969
+2025-05-14 00:20:43 INFO :      round 5: 1.4231421947479248
+2025-05-14 00:20:43 INFO :      

@@ -1,0 +1,215 @@
+PS C:\Users\ivan0\Codes\Python\FL_FYP> docker compose up   
+time="2025-05-01T16:54:47+03:00" level=warning msg="C:\\Users\\ivan0\\Codes\\Python\\FL_FYP\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+time="2025-05-01T16:54:47+03:00" level=warning msg="Found orphan containers ([fl_fyp-client10-1 fl_fyp-client6-1 fl_fyp-client8-1 fl_fyp-client5-1 fl_fyp-client3-1 fl_fyp-client7-1 fl_fyp-client9-1 fl_fyp-client4-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."       
+[+] Running 4/4
+ ✔ Network fl_fyp_default      Created                                                                                  0.0s 
+ ✔ Container fl_fyp-server-1   Created                                                                                  0.1s 
+ ✔ Container fl_fyp-client2-1  Created                                                                                  0.1s 
+ ✔ Container fl_fyp-client1-1  Created                                                                                  0.1s 
+Attaching to client1-1, client2-1, server-1
+server-1   | WARNING :   DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+server-1   |    Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+server-1   |                                                                                                                 
+server-1   |            $ flower-superlink --insecure                                                                        
+server-1   |                                                                                                                 
+server-1   |    To view usage and all available options, run:                                                                
+server-1   | 
+server-1   |            $ flower-superlink --help                                                                            
+server-1   |                                                                                                                 
+server-1   |    Using `start_server()` is deprecated.                                                                        
+server-1   |
+server-1   |             This is a deprecated feature. It will be removed
+server-1   |             entirely in future versions of Flower.
+server-1   |
+server-1   | INFO :      Starting Flower server, config: num_rounds=5, no round_timeout
+server-1   | INFO :      Flower ECE: gRPC server running (5 rounds), SSL is disabled
+server-1   | INFO :      [INIT]
+server-1   | INFO :      Requesting initial parameters from one random client
+Generating train split: 100%|██████████| 120000/120000 [00:00<00:00, 974918.85 examples/s]
+Generating test split: 100%|██████████| 7600/7600 [00:00<00:00, 993848.92 examples/s]
+Map: 100%|██████████| 1000/1000 [00:00<00:00, 1031.92 examples/s]
+Map: 100%|██████████| 1000/1000 [00:00<00:00, 2364.63 examples/s]
+client1-1  | /app/client.py:45: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+client1-1  |   trainer = Trainer(                                                                                                                                    
+client1-1  | WARNING :   DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.                                                                         
+client1-1  |    Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below: 
+client1-1  |    flwr.client.start_client(                                                                                                                            
+client1-1  |            server_address='<IP>:<PORT>',                                                                                                                
+client1-1  |            client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object                                        
+client1-1  |    )
+client1-1  |    Using `start_numpy_client()` is deprecated.                                                                                                          
+client1-1  |                                                                                                                                                         
+client1-1  |             This is a deprecated feature. It will be removed                                                                                            
+client1-1  |             entirely in future versions of Flower.                                                                                                      
+client1-1  |                                                                                                                                                         
+client1-1  | WARNING :   DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+client1-1  |    Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:                                                                 
+client1-1  |                                                                                                                                                         
+client1-1  |            $ flower-supernode --insecure --superlink='<IP>:<PORT>'                                                                                      
+client1-1  |                                                                                                                                                         
+client1-1  |    To view all available options, run:                                                                                                                  
+client1-1  | 
+client1-1  |            $ flower-supernode --help                                                                                                                    
+client1-1  |                                                                                                                                                         
+client1-1  |    Using `start_client()` is deprecated.                                                                                                                
+client1-1  | 
+client1-1  |             This is a deprecated feature. It will be removed                                                                                            
+client1-1  |             entirely in future versions of Flower.                                                                                                      
+client1-1  |         
+client1-1  | INFO :                                                                                                                                                  
+client1-1  | INFO :      Received: get_parameters message 950eadc1-52fd-4de6-93a0-4afdff2a39bb                                                                       
+Generating train split: 100%|██████████| 120000/120000 [00:00<00:00, 1204126.58 examples/s]                                                                          
+Generating test split: 100%|██████████| 7600/7600 [00:00<00:00, 911622.68 examples/s]
+Map: 100%|██████████| 1000/1000 [00:00<00:00, 1107.65 examples/s]                                                                                                    
+Map: 100%|██████████| 1000/1000 [00:00<00:00, 1850.22 examples/s]
+client2-1  | /app/client.py:45: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+client2-1  |   trainer = Trainer(                                                                                                                                    
+client2-1  | WARNING :   DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated.                                                                         
+client2-1  |    Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below:                                       
+client2-1  |    flwr.client.start_client(                                                                                                                            
+client2-1  |            server_address='<IP>:<PORT>',
+client2-1  |            client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object                                        
+client2-1  |    )                                                                                                                                                    
+client2-1  |    Using `start_numpy_client()` is deprecated.                                                                                                          
+client2-1  |                                                                                                                                                         
+client2-1  |             This is a deprecated feature. It will be removed
+client2-1  |             entirely in future versions of Flower.                                                                                                      
+client2-1  |                                                                                                                                                         
+client2-1  | WARNING :   DEPRECATED FEATURE: flwr.client.start_client() is deprecated.                                                                               
+client2-1  |    Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:                                                                 
+client2-1  |                                                                                                                                                         
+client2-1  |            $ flower-supernode --insecure --superlink='<IP>:<PORT>'
+client2-1  |                                                                                                                                                         
+client2-1  |    To view all available options, run:                                                                                                                  
+client2-1  |                                                                                                                                                         
+client2-1  |            $ flower-supernode --help                                                                                                                    
+client2-1  |                                                                                                                                                         
+client2-1  |    Using `start_client()` is deprecated.
+client2-1  |                                                                                                                                                         
+client2-1  |             This is a deprecated feature. It will be removed                                                                                            
+client2-1  |             entirely in future versions of Flower.                                                                                                      
+client2-1  |                                                                                                                                                         
+client1-1  | INFO :      Sent reply                                                                                                                                  
+server-1   | INFO :      Received initial parameters from one random client
+server-1   | INFO :      Starting evaluation of initial global parameters
+server-1   | INFO :      Evaluation returned no results (`None`)                                                                                                     
+server-1   | INFO :                                                                                                                                                  
+server-1   | INFO :      [ROUND 1]                                                                                                                                   
+server-1   | INFO :      configure_fit: strategy sampled 2 clients (out of 2)                                                                                        
+client2-1  | INFO :                                                                                                                                                  
+client2-1  | INFO :      Received: train message 72c81482-87ef-4360-bb55-910c1d2961dd
+client1-1  | INFO :                                                                                                                                                  
+client1-1  | INFO :      Received: train message dd52fb7a-f57c-42d6-993f-645388a8d867
+client2-1  | /usr/local/lib/python3.10/site-packages/torch/utils/data/dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+client2-1  |   warnings.warn(warn_msg)
+client1-1  | /usr/local/lib/python3.10/site-packages/torch/utils/data/dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+client1-1  |   warnings.warn(warn_msg)
+client1-1  | {'loss': 2.6662, 'grad_norm': 12.391962051391602, 'learning_rate': 4.91e-05, 'epoch': 0.02}                                                             
+client2-1  | {'loss': 2.6507, 'grad_norm': 18.410554885864258, 'learning_rate': 4.91e-05, 'epoch': 0.02}
+client1-1  | {'loss': 1.4508, 'grad_norm': 14.513712882995605, 'learning_rate': 4.8100000000000004e-05, 'epoch': 0.04}
+client2-1  | {'loss': 1.6272, 'grad_norm': 11.60146713256836, 'learning_rate': 4.8100000000000004e-05, 'epoch': 0.04}
+client1-1  | {'loss': 1.5937, 'grad_norm': 13.39852237701416, 'learning_rate': 4.71e-05, 'epoch': 0.06}
+client2-1  | {'loss': 1.6176, 'grad_norm': 18.06834602355957, 'learning_rate': 4.71e-05, 'epoch': 0.06}
+client1-1  | {'loss': 1.629, 'grad_norm': 13.995201110839844, 'learning_rate': 4.61e-05, 'epoch': 0.08}
+client2-1  | {'loss': 1.5085, 'grad_norm': 13.751534461975098, 'learning_rate': 4.61e-05, 'epoch': 0.08}
+client1-1  | {'loss': 1.5512, 'grad_norm': 13.600688934326172, 'learning_rate': 4.5100000000000005e-05, 'epoch': 0.1}
+client2-1  | {'loss': 1.5923, 'grad_norm': 17.903371810913086, 'learning_rate': 4.5100000000000005e-05, 'epoch': 0.1}
+client1-1  | {'loss': 1.509, 'grad_norm': 14.088199615478516, 'learning_rate': 4.41e-05, 'epoch': 0.12}
+client2-1  | {'loss': 1.4552, 'grad_norm': 16.792016983032227, 'learning_rate': 4.41e-05, 'epoch': 0.12}
+client2-1  | {'loss': 1.3651, 'grad_norm': 13.322221755981445, 'learning_rate': 4.3100000000000004e-05, 'epoch': 0.14}
+client1-1  | {'loss': 1.6351, 'grad_norm': 18.110595703125, 'learning_rate': 4.3100000000000004e-05, 'epoch': 0.14}
+client2-1  | {'loss': 1.511, 'grad_norm': 12.929309844970703, 'learning_rate': 4.21e-05, 'epoch': 0.16}
+client1-1  | {'loss': 1.359, 'grad_norm': 11.39002799987793, 'learning_rate': 4.21e-05, 'epoch': 0.16}
+client2-1  | {'loss': 1.2628, 'grad_norm': 14.289273262023926, 'learning_rate': 4.11e-05, 'epoch': 0.18}
+client1-1  | {'loss': 1.405, 'grad_norm': 12.682809829711914, 'learning_rate': 4.11e-05, 'epoch': 0.18}
+client2-1  | {'loss': 1.419, 'grad_norm': 12.311344146728516, 'learning_rate': 4.0100000000000006e-05, 'epoch': 0.2}
+client1-1  | {'loss': 1.5175, 'grad_norm': 14.580314636230469, 'learning_rate': 4.0100000000000006e-05, 'epoch': 0.2}
+client2-1  | {'loss': 1.4692, 'grad_norm': 11.786368370056152, 'learning_rate': 3.91e-05, 'epoch': 0.22}
+client1-1  | {'loss': 1.4927, 'grad_norm': 13.662179946899414, 'learning_rate': 3.91e-05, 'epoch': 0.22}
+client2-1  | {'loss': 1.5406, 'grad_norm': 14.818891525268555, 'learning_rate': 3.8100000000000005e-05, 'epoch': 0.24}
+client1-1  | {'loss': 1.5636, 'grad_norm': 17.04266357421875, 'learning_rate': 3.8100000000000005e-05, 'epoch': 0.24}
+client2-1  | {'loss': 1.5594, 'grad_norm': 14.527207374572754, 'learning_rate': 3.71e-05, 'epoch': 0.26}
+client1-1  | {'loss': 1.409, 'grad_norm': 10.997357368469238, 'learning_rate': 3.71e-05, 'epoch': 0.26}
+client2-1  | {'loss': 1.3713, 'grad_norm': 11.049809455871582, 'learning_rate': 3.61e-05, 'epoch': 0.28}
+client1-1  | {'loss': 1.4555, 'grad_norm': 10.532724380493164, 'learning_rate': 3.61e-05, 'epoch': 0.28}
+client2-1  | {'loss': 1.5118, 'grad_norm': 12.844765663146973, 'learning_rate': 3.51e-05, 'epoch': 0.3}
+client1-1  | {'loss': 1.7753, 'grad_norm': 18.49554443359375, 'learning_rate': 3.51e-05, 'epoch': 0.3}
+client2-1  | {'loss': 1.3935, 'grad_norm': 14.137564659118652, 'learning_rate': 3.41e-05, 'epoch': 0.32}
+client1-1  | {'loss': 1.5404, 'grad_norm': 12.469453811645508, 'learning_rate': 3.41e-05, 'epoch': 0.32}
+client2-1  | {'loss': 1.6501, 'grad_norm': 13.26268196105957, 'learning_rate': 3.3100000000000005e-05, 'epoch': 0.34}
+client1-1  | {'loss': 1.362, 'grad_norm': 12.122188568115234, 'learning_rate': 3.3100000000000005e-05, 'epoch': 0.34}
+client2-1  | {'loss': 1.4652, 'grad_norm': 13.814018249511719, 'learning_rate': 3.21e-05, 'epoch': 0.36}
+client1-1  | {'loss': 1.4101, 'grad_norm': 12.094453811645508, 'learning_rate': 3.21e-05, 'epoch': 0.36}
+client2-1  | {'loss': 1.4471, 'grad_norm': 12.128302574157715, 'learning_rate': 3.1100000000000004e-05, 'epoch': 0.38}
+client1-1  | {'loss': 1.4549, 'grad_norm': 11.1176118850708, 'learning_rate': 3.1100000000000004e-05, 'epoch': 0.38}
+client2-1  | {'loss': 1.3645, 'grad_norm': 12.29659366607666, 'learning_rate': 3.01e-05, 'epoch': 0.4}
+client1-1  | {'loss': 1.5574, 'grad_norm': 11.998001098632812, 'learning_rate': 3.01e-05, 'epoch': 0.4}
+client2-1  | {'loss': 1.5836, 'grad_norm': 14.53504467010498, 'learning_rate': 2.91e-05, 'epoch': 0.42}
+client1-1  | {'loss': 1.3598, 'grad_norm': 12.752941131591797, 'learning_rate': 2.91e-05, 'epoch': 0.42}
+client2-1  | {'loss': 1.6216, 'grad_norm': 19.095598220825195, 'learning_rate': 2.8100000000000005e-05, 'epoch': 0.44}
+client1-1  | {'loss': 1.556, 'grad_norm': 16.37736701965332, 'learning_rate': 2.8100000000000005e-05, 'epoch': 0.44}
+client2-1  | {'loss': 1.437, 'grad_norm': 16.45509910583496, 'learning_rate': 2.7100000000000005e-05, 'epoch': 0.46}
+client1-1  | {'loss': 1.5748, 'grad_norm': 12.573687553405762, 'learning_rate': 2.7100000000000005e-05, 'epoch': 0.46}
+client2-1  | {'loss': 1.5453, 'grad_norm': 10.966983795166016, 'learning_rate': 2.61e-05, 'epoch': 0.48}
+client1-1  | {'loss': 1.2963, 'grad_norm': 9.365303993225098, 'learning_rate': 2.61e-05, 'epoch': 0.48}
+client2-1  | {'loss': 1.4307, 'grad_norm': 11.405953407287598, 'learning_rate': 2.51e-05, 'epoch': 0.5}
+client1-1  | {'loss': 1.3681, 'grad_norm': 15.273015022277832, 'learning_rate': 2.51e-05, 'epoch': 0.5}
+client2-1  | {'loss': 1.328, 'grad_norm': 12.093626976013184, 'learning_rate': 2.41e-05, 'epoch': 0.52}
+client1-1  | {'loss': 1.598, 'grad_norm': 15.911567687988281, 'learning_rate': 2.41e-05, 'epoch': 0.52}
+client2-1  | {'loss': 1.4816, 'grad_norm': 16.62752914428711, 'learning_rate': 2.3100000000000002e-05, 'epoch': 0.54}
+client1-1  | {'loss': 1.4107, 'grad_norm': 10.422139167785645, 'learning_rate': 2.3100000000000002e-05, 'epoch': 0.54}
+client2-1  | {'loss': 1.5778, 'grad_norm': 12.53360652923584, 'learning_rate': 2.2100000000000002e-05, 'epoch': 0.56}
+client1-1  | {'loss': 1.4404, 'grad_norm': 15.662635803222656, 'learning_rate': 2.2100000000000002e-05, 'epoch': 0.56}
+client2-1  | {'loss': 1.4169, 'grad_norm': 12.441150665283203, 'learning_rate': 2.11e-05, 'epoch': 0.58}
+client1-1  | {'loss': 1.4199, 'grad_norm': 12.161609649658203, 'learning_rate': 2.11e-05, 'epoch': 0.58}
+client2-1  | {'loss': 1.3949, 'grad_norm': 10.472935676574707, 'learning_rate': 2.01e-05, 'epoch': 0.6}
+client1-1  | {'loss': 1.4338, 'grad_norm': 11.970267295837402, 'learning_rate': 2.01e-05, 'epoch': 0.6}
+client2-1  | {'loss': 1.4062, 'grad_norm': 11.724580764770508, 'learning_rate': 1.91e-05, 'epoch': 0.62}
+client1-1  | {'loss': 1.4529, 'grad_norm': 7.49110746383667, 'learning_rate': 1.91e-05, 'epoch': 0.62}
+client2-1  | {'loss': 1.3952, 'grad_norm': 10.576077461242676, 'learning_rate': 1.81e-05, 'epoch': 0.64}
+client1-1  | {'loss': 1.4126, 'grad_norm': 11.438653945922852, 'learning_rate': 1.81e-05, 'epoch': 0.64}
+client2-1  | {'loss': 1.3605, 'grad_norm': 10.241168975830078, 'learning_rate': 1.7100000000000002e-05, 'epoch': 0.66}
+client1-1  | {'loss': 1.2018, 'grad_norm': 9.389483451843262, 'learning_rate': 1.7100000000000002e-05, 'epoch': 0.66}
+client2-1  | {'loss': 1.4642, 'grad_norm': 12.089439392089844, 'learning_rate': 1.6100000000000002e-05, 'epoch': 0.68}
+client1-1  | {'loss': 1.4139, 'grad_norm': 11.02976131439209, 'learning_rate': 1.6100000000000002e-05, 'epoch': 0.68}
+client2-1  | {'loss': 1.4127, 'grad_norm': 11.066366195678711, 'learning_rate': 1.51e-05, 'epoch': 0.7}
+client1-1  | {'loss': 1.446, 'grad_norm': 13.41610050201416, 'learning_rate': 1.51e-05, 'epoch': 0.7}
+client2-1  | {'loss': 1.2488, 'grad_norm': 13.485359191894531, 'learning_rate': 1.4099999999999999e-05, 'epoch': 0.72}
+client1-1  | {'loss': 1.4773, 'grad_norm': 11.167899131774902, 'learning_rate': 1.4099999999999999e-05, 'epoch': 0.72}
+client2-1  | {'loss': 1.5563, 'grad_norm': 13.829299926757812, 'learning_rate': 1.3100000000000002e-05, 'epoch': 0.74}
+client1-1  | {'loss': 1.4216, 'grad_norm': 11.896980285644531, 'learning_rate': 1.3100000000000002e-05, 'epoch': 0.74}
+client2-1  | {'loss': 1.3096, 'grad_norm': 14.510336875915527, 'learning_rate': 1.2100000000000001e-05, 'epoch': 0.76}
+client1-1  | {'loss': 1.3564, 'grad_norm': 13.350176811218262, 'learning_rate': 1.2100000000000001e-05, 'epoch': 0.76}
+client2-1  | {'loss': 1.4095, 'grad_norm': 11.583829879760742, 'learning_rate': 1.11e-05, 'epoch': 0.78}
+client1-1  | {'loss': 1.3969, 'grad_norm': 12.774413108825684, 'learning_rate': 1.11e-05, 'epoch': 0.78}
+client2-1  | {'loss': 1.4236, 'grad_norm': 12.480987548828125, 'learning_rate': 1.0100000000000002e-05, 'epoch': 0.8}
+client1-1  | {'loss': 1.2674, 'grad_norm': 11.842689514160156, 'learning_rate': 1.0100000000000002e-05, 'epoch': 0.8}
+client2-1  | {'loss': 1.4457, 'grad_norm': 10.934396743774414, 'learning_rate': 9.100000000000001e-06, 'epoch': 0.82}
+client1-1  | {'loss': 1.4189, 'grad_norm': 10.729519844055176, 'learning_rate': 9.100000000000001e-06, 'epoch': 0.82}
+client2-1  | {'loss': 1.3555, 'grad_norm': 12.651087760925293, 'learning_rate': 8.1e-06, 'epoch': 0.84}
+client1-1  | {'loss': 1.4777, 'grad_norm': 12.171703338623047, 'learning_rate': 8.1e-06, 'epoch': 0.84}
+client2-1  | {'loss': 1.2894, 'grad_norm': 14.05830192565918, 'learning_rate': 7.1e-06, 'epoch': 0.86}
+client1-1  | {'loss': 1.3306, 'grad_norm': 11.175091743469238, 'learning_rate': 7.1e-06, 'epoch': 0.86}
+client2-1  | {'loss': 1.3515, 'grad_norm': 11.899322509765625, 'learning_rate': 6.1e-06, 'epoch': 0.88}
+client1-1  | {'loss': 1.5243, 'grad_norm': 13.880160331726074, 'learning_rate': 6.1e-06, 'epoch': 0.88}
+client2-1  | {'loss': 1.2416, 'grad_norm': 10.365636825561523, 'learning_rate': 5.1e-06, 'epoch': 0.9}
+client1-1  | {'loss': 1.3041, 'grad_norm': 12.880005836486816, 'learning_rate': 5.1e-06, 'epoch': 0.9}
+client2-1  | {'loss': 1.3866, 'grad_norm': 11.998745918273926, 'learning_rate': 4.1000000000000006e-06, 'epoch': 0.92}
+client1-1  | {'loss': 1.4324, 'grad_norm': 11.675780296325684, 'learning_rate': 4.1000000000000006e-06, 'epoch': 0.92}
+client2-1  | {'loss': 1.5761, 'grad_norm': 13.492685317993164, 'learning_rate': 3.1e-06, 'epoch': 0.94}
+client1-1  | {'loss': 1.4524, 'grad_norm': 11.932045936584473, 'learning_rate': 3.1e-06, 'epoch': 0.94}
+client2-1  | {'loss': 1.1803, 'grad_norm': 7.877508163452148, 'learning_rate': 2.1000000000000002e-06, 'epoch': 0.96}
+client1-1  | {'loss': 1.455, 'grad_norm': 10.952859878540039, 'learning_rate': 2.1000000000000002e-06, 'epoch': 0.96}
+client2-1  | {'loss': 1.5159, 'grad_norm': 15.53872013092041, 'learning_rate': 1.1e-06, 'epoch': 0.98}
+client1-1  | {'loss': 1.536, 'grad_norm': 11.670601844787598, 'learning_rate': 1.1e-06, 'epoch': 0.98}
+client2-1  | {'loss': 1.3578, 'grad_norm': 11.058860778808594, 'learning_rate': 1.0000000000000001e-07, 'epoch': 1.0}
+client2-1  | {'train_runtime': 1969.668, 'train_samples_per_second': 0.508, 'train_steps_per_second': 0.254, 'train_loss': 1.4657274646759033, 'epoch': 1.0}
+client1-1  | {'loss': 1.3449, 'grad_norm': 12.07453441619873, 'learning_rate': 1.0000000000000001e-07, 'epoch': 1.0}                                                 
+client1-1  | {'train_runtime': 1971.737, 'train_samples_per_second': 0.507, 'train_steps_per_second': 0.254, 'train_loss': 1.4783621101379394, 'epoch': 1.0}
+client1-1 exited with code 137
+client2-1  | INFO :      Sent reply
+server-1   | INFO :      aggregate_fit: received 1 results and 1 failures
+server-1   | WARNING :   No fit_metrics_aggregation_fn provided
+server-1   | INFO :      configure_evaluate: no clients selected, skipping evaluation
+server-1   | INFO :      
+server-1   | INFO :      [ROUND 2]                                                                                                                                   

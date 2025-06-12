@@ -1,0 +1,51 @@
+2025-05-13 14:39:59 WARNING :   DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+2025-05-13 14:39:59 Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+2025-05-13 14:39:59 
+2025-05-13 14:39:59 $ flower-superlink --insecure
+2025-05-13 14:39:59 
+2025-05-13 14:39:59 To view usage and all available options, run:
+2025-05-13 14:39:59 
+2025-05-13 14:39:59 $ flower-superlink --help
+2025-05-13 14:39:59 
+2025-05-13 14:39:59 Using `start_server()` is deprecated.
+2025-05-13 14:39:59 
+2025-05-13 14:39:59             This is a deprecated feature. It will be removed
+2025-05-13 14:39:59             entirely in future versions of Flower.
+2025-05-13 14:39:59         
+2025-05-13 14:39:59 INFO :      Starting Flower server, config: num_rounds=5, no round_timeout
+2025-05-13 14:39:59 INFO :      Flower ECE: gRPC server running (5 rounds), SSL is disabled
+2025-05-13 14:39:59 INFO :      [INIT]
+2025-05-13 14:39:59 INFO :      Requesting initial parameters from one random client
+2025-05-13 14:41:37 INFO :      Received initial parameters from one random client
+2025-05-13 14:41:37 INFO :      Starting evaluation of initial global parameters
+2025-05-13 14:41:37 INFO :      Evaluation returned no results (`None`)
+2025-05-13 14:41:37 INFO :      
+2025-05-13 14:41:37 INFO :      [ROUND 1]
+2025-05-13 14:41:37 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-13 14:50:35 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-13 14:50:41 WARNING :   No fit_metrics_aggregation_fn provided
+2025-05-13 14:50:41 INFO :      configure_evaluate: no clients selected, skipping evaluation
+2025-05-13 14:50:41 INFO :      
+2025-05-13 14:50:41 INFO :      [ROUND 2]
+2025-05-13 14:50:41 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-13 14:59:30 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-13 14:59:36 INFO :      configure_evaluate: no clients selected, skipping evaluation
+2025-05-13 14:59:36 INFO :      
+2025-05-13 14:59:36 INFO :      [ROUND 3]
+2025-05-13 14:59:36 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-13 15:08:23 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-13 15:08:28 INFO :      configure_evaluate: no clients selected, skipping evaluation
+2025-05-13 15:08:28 INFO :      
+2025-05-13 15:08:28 INFO :      [ROUND 4]
+2025-05-13 15:08:28 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-13 15:17:13 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-13 15:17:19 INFO :      configure_evaluate: no clients selected, skipping evaluation
+2025-05-13 15:17:19 INFO :      
+2025-05-13 15:17:19 INFO :      [ROUND 5]
+2025-05-13 15:17:19 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-13 15:26:10 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-13 15:26:15 INFO :      configure_evaluate: no clients selected, skipping evaluation
+2025-05-13 15:26:15 INFO :      
+2025-05-13 15:26:15 INFO :      [SUMMARY]
+2025-05-13 15:26:15 INFO :      Run finished 5 round(s) in 2678.35s
+2025-05-13 15:26:15 INFO :      

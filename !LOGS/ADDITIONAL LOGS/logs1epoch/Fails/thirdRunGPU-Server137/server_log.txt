@@ -1,0 +1,30 @@
+2025-05-01 18:54:02 WARNING :   DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+2025-05-01 18:54:02 Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+2025-05-01 18:54:02 
+2025-05-01 18:54:02 $ flower-superlink --insecure
+2025-05-01 18:54:02 
+2025-05-01 18:54:02 To view usage and all available options, run:
+2025-05-01 18:54:02 
+2025-05-01 18:54:02 $ flower-superlink --help
+2025-05-01 18:54:02 
+2025-05-01 18:54:02 Using `start_server()` is deprecated.
+2025-05-01 18:54:02 
+2025-05-01 18:54:02             This is a deprecated feature. It will be removed
+2025-05-01 18:54:02             entirely in future versions of Flower.
+2025-05-01 18:54:02         
+2025-05-01 18:54:02 INFO :      Starting Flower server, config: num_rounds=5, no round_timeout
+2025-05-01 18:54:02 INFO :      Flower ECE: gRPC server running (5 rounds), SSL is disabled
+2025-05-01 18:54:02 INFO :      [INIT]
+2025-05-01 18:54:02 INFO :      Requesting initial parameters from one random client
+2025-05-01 18:55:47 INFO :      Received initial parameters from one random client
+2025-05-01 18:55:47 INFO :      Starting evaluation of initial global parameters
+2025-05-01 18:55:47 INFO :      Evaluation returned no results (`None`)
+2025-05-01 18:55:47 INFO :      
+2025-05-01 18:55:47 INFO :      [ROUND 1]
+2025-05-01 18:55:47 INFO :      configure_fit: strategy sampled 2 clients (out of 2)
+2025-05-01 19:05:25 INFO :      aggregate_fit: received 2 results and 0 failures
+2025-05-01 19:05:28 WARNING :   No fit_metrics_aggregation_fn provided
+2025-05-01 19:05:28 INFO :      configure_evaluate: no clients selected, skipping evaluation
+2025-05-01 19:05:28 INFO :      
+2025-05-01 19:05:28 INFO :      [ROUND 2]
+2025-05-01 19:05:28 INFO :      configure_fit: strategy sampled 2 clients (out of 2)

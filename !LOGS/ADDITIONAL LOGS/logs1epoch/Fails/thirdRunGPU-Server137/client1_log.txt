@@ -1,0 +1,178 @@
+2025-05-01 18:55:34 
+Generating train split:   0%|          | 0/120000 [00:00<?, ? examples/s]
+Generating train split:  72%|███████▎  | 87000/120000 [00:00<00:00, 862511.46 examples/s]
+Generating train split: 100%|██████████| 120000/120000 [00:00<00:00, 955759.78 examples/s]
+2025-05-01 18:55:34 
+Generating test split:   0%|          | 0/7600 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 7600/7600 [00:00<00:00, 833290.91 examples/s]
+2025-05-01 18:55:36 
+Map:   0%|          | 0/1000 [00:00<?, ? examples/s]
+Map: 100%|██████████| 1000/1000 [00:00<00:00, 1249.13 examples/s]
+Map: 100%|██████████| 1000/1000 [00:00<00:00, 1242.59 examples/s]
+2025-05-01 18:55:37 
+Map:   0%|          | 0/1000 [00:00<?, ? examples/s]
+Map:  15%|█▍        | 148/1000 [00:00<00:00, 1454.41 examples/s]
+Map:  31%|███       | 312/1000 [00:00<00:00, 1557.59 examples/s]
+Map:  47%|████▋     | 474/1000 [00:00<00:00, 1584.57 examples/s]
+Map:  65%|██████▍   | 648/1000 [00:00<00:00, 1644.61 examples/s]
+Map:  82%|████████▏ | 822/1000 [00:00<00:00, 1676.35 examples/s]
+Map: 100%|██████████| 1000/1000 [00:00<00:00, 1695.05 examples/s]
+Map: 100%|██████████| 1000/1000 [00:00<00:00, 1642.02 examples/s]
+2025-05-01 18:55:37 /app/client.py:45: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+2025-05-01 18:55:37   trainer = Trainer(
+2025-05-01 18:55:37 WARNING :   DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated. 
+2025-05-01 18:55:37 Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below: 
+2025-05-01 18:55:37 flwr.client.start_client(
+2025-05-01 18:55:37 server_address='<IP>:<PORT>',
+2025-05-01 18:55:37 client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+2025-05-01 18:55:37 )
+2025-05-01 18:55:37 Using `start_numpy_client()` is deprecated.
+2025-05-01 18:55:37 
+2025-05-01 18:55:37             This is a deprecated feature. It will be removed
+2025-05-01 18:55:37             entirely in future versions of Flower.
+2025-05-01 18:55:37         
+2025-05-01 18:55:37 WARNING :   DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+2025-05-01 18:55:37 Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+2025-05-01 18:55:37 
+2025-05-01 18:55:37 $ flower-supernode --insecure --superlink='<IP>:<PORT>'
+2025-05-01 18:55:37 
+2025-05-01 18:55:37 To view all available options, run:
+2025-05-01 18:55:37 
+2025-05-01 18:55:37 $ flower-supernode --help
+2025-05-01 18:55:37 
+2025-05-01 18:55:37 Using `start_client()` is deprecated.
+2025-05-01 18:55:37 
+2025-05-01 18:55:37             This is a deprecated feature. It will be removed
+2025-05-01 18:55:37             entirely in future versions of Flower.
+2025-05-01 18:55:37         
+2025-05-01 18:55:37 INFO :      
+2025-05-01 18:55:37 INFO :      Received: get_parameters message 139b868c-db1f-4f7f-834c-da5e95341a8b
+2025-05-01 18:55:44 INFO :      Sent reply
+2025-05-01 18:56:01 INFO :      
+2025-05-01 18:56:01 INFO :      Received: train message 1006e70a-8454-4df2-ba48-7274f0f33cd4
+2025-05-01 18:56:18 {'loss': 2.6406, 'grad_norm': 15.826362609863281, 'learning_rate': 4.91e-05, 'epoch': 0.02}
+2025-05-01 18:56:28 {'loss': 1.4202, 'grad_norm': 11.653894424438477, 'learning_rate': 4.8100000000000004e-05, 'epoch': 0.04}
+2025-05-01 18:56:38 {'loss': 1.6113, 'grad_norm': 10.886569023132324, 'learning_rate': 4.71e-05, 'epoch': 0.06}
+2025-05-01 18:56:47 {'loss': 1.6039, 'grad_norm': 12.441505432128906, 'learning_rate': 4.61e-05, 'epoch': 0.08}
+2025-05-01 18:57:01 {'loss': 1.5624, 'grad_norm': 14.330039024353027, 'learning_rate': 4.5100000000000005e-05, 'epoch': 0.1}
+2025-05-01 18:57:11 {'loss': 1.517, 'grad_norm': 14.742879867553711, 'learning_rate': 4.41e-05, 'epoch': 0.12}
+2025-05-01 18:57:21 {'loss': 1.6006, 'grad_norm': 13.867490768432617, 'learning_rate': 4.3100000000000004e-05, 'epoch': 0.14}
+2025-05-01 18:57:30 {'loss': 1.3823, 'grad_norm': 11.059622764587402, 'learning_rate': 4.21e-05, 'epoch': 0.16}
+2025-05-01 18:57:44 {'loss': 1.3799, 'grad_norm': 13.0650634765625, 'learning_rate': 4.11e-05, 'epoch': 0.18}
+2025-05-01 18:57:54 {'loss': 1.513, 'grad_norm': 11.348529815673828, 'learning_rate': 4.0100000000000006e-05, 'epoch': 0.2}
+2025-05-01 18:58:03 {'loss': 1.4763, 'grad_norm': 21.940719604492188, 'learning_rate': 3.91e-05, 'epoch': 0.22}
+2025-05-01 18:58:13 {'loss': 1.5061, 'grad_norm': 16.843303680419922, 'learning_rate': 3.8100000000000005e-05, 'epoch': 0.24}
+2025-05-01 18:58:27 {'loss': 1.3799, 'grad_norm': 12.786792755126953, 'learning_rate': 3.71e-05, 'epoch': 0.26}
+2025-05-01 18:58:37 {'loss': 1.4791, 'grad_norm': 11.11572551727295, 'learning_rate': 3.61e-05, 'epoch': 0.28}
+2025-05-01 18:58:46 {'loss': 1.7824, 'grad_norm': 11.26890754699707, 'learning_rate': 3.51e-05, 'epoch': 0.3}
+2025-05-01 18:58:56 {'loss': 1.5202, 'grad_norm': 13.413585662841797, 'learning_rate': 3.41e-05, 'epoch': 0.32}
+2025-05-01 18:59:10 {'loss': 1.3751, 'grad_norm': 12.63166618347168, 'learning_rate': 3.3100000000000005e-05, 'epoch': 0.34}
+2025-05-01 18:59:20 {'loss': 1.4001, 'grad_norm': 12.540765762329102, 'learning_rate': 3.21e-05, 'epoch': 0.36}
+2025-05-01 18:59:29 {'loss': 1.4564, 'grad_norm': 12.428918838500977, 'learning_rate': 3.1100000000000004e-05, 'epoch': 0.38}
+2025-05-01 18:59:39 {'loss': 1.5456, 'grad_norm': 15.021730422973633, 'learning_rate': 3.01e-05, 'epoch': 0.4}
+2025-05-01 18:59:53 {'loss': 1.3542, 'grad_norm': 10.385589599609375, 'learning_rate': 2.91e-05, 'epoch': 0.42}
+2025-05-01 19:00:03 {'loss': 1.5346, 'grad_norm': 13.854893684387207, 'learning_rate': 2.8100000000000005e-05, 'epoch': 0.44}
+2025-05-01 19:00:12 {'loss': 1.5689, 'grad_norm': 13.029830932617188, 'learning_rate': 2.7100000000000005e-05, 'epoch': 0.46}
+2025-05-01 19:00:22 {'loss': 1.3063, 'grad_norm': 10.114571571350098, 'learning_rate': 2.61e-05, 'epoch': 0.48}
+2025-05-01 19:00:32 {'loss': 1.3659, 'grad_norm': 11.102926254272461, 'learning_rate': 2.51e-05, 'epoch': 0.5}
+2025-05-01 19:00:42 {'loss': 1.6042, 'grad_norm': 16.72222900390625, 'learning_rate': 2.41e-05, 'epoch': 0.52}
+2025-05-01 19:00:55 {'loss': 1.4371, 'grad_norm': 10.516678810119629, 'learning_rate': 2.3100000000000002e-05, 'epoch': 0.54}
+2025-05-01 19:01:05 {'loss': 1.4524, 'grad_norm': 14.894941329956055, 'learning_rate': 2.2100000000000002e-05, 'epoch': 0.56}
+2025-05-01 19:01:15 {'loss': 1.4196, 'grad_norm': 11.252875328063965, 'learning_rate': 2.11e-05, 'epoch': 0.58}
+2025-05-01 19:01:24 {'loss': 1.4238, 'grad_norm': 13.343634605407715, 'learning_rate': 2.01e-05, 'epoch': 0.6}
+2025-05-01 19:01:34 {'loss': 1.4611, 'grad_norm': 7.930050849914551, 'learning_rate': 1.91e-05, 'epoch': 0.62}
+2025-05-01 19:01:48 {'loss': 1.4366, 'grad_norm': 10.62153434753418, 'learning_rate': 1.81e-05, 'epoch': 0.64}
+2025-05-01 19:01:58 {'loss': 1.2099, 'grad_norm': 10.083813667297363, 'learning_rate': 1.7100000000000002e-05, 'epoch': 0.66}
+2025-05-01 19:02:07 {'loss': 1.4072, 'grad_norm': 11.125349998474121, 'learning_rate': 1.6100000000000002e-05, 'epoch': 0.68}
+2025-05-01 19:02:17 {'loss': 1.4537, 'grad_norm': 13.970118522644043, 'learning_rate': 1.51e-05, 'epoch': 0.7}
+2025-05-01 19:02:27 {'loss': 1.4776, 'grad_norm': 11.906455039978027, 'learning_rate': 1.4099999999999999e-05, 'epoch': 0.72}
+2025-05-01 19:02:41 {'loss': 1.432, 'grad_norm': 11.724740982055664, 'learning_rate': 1.3100000000000002e-05, 'epoch': 0.74}
+2025-05-01 19:02:51 {'loss': 1.3671, 'grad_norm': 15.211524963378906, 'learning_rate': 1.2100000000000001e-05, 'epoch': 0.76}
+2025-05-01 19:03:01 {'loss': 1.3938, 'grad_norm': 12.805434226989746, 'learning_rate': 1.11e-05, 'epoch': 0.78}
+2025-05-01 19:03:10 {'loss': 1.2829, 'grad_norm': 12.038111686706543, 'learning_rate': 1.0100000000000002e-05, 'epoch': 0.8}
+2025-05-01 19:03:20 {'loss': 1.4113, 'grad_norm': 10.657891273498535, 'learning_rate': 9.100000000000001e-06, 'epoch': 0.82}
+2025-05-01 19:03:30 {'loss': 1.4648, 'grad_norm': 13.49866771697998, 'learning_rate': 8.1e-06, 'epoch': 0.84}
+2025-05-01 19:03:43 {'loss': 1.3139, 'grad_norm': 11.978492736816406, 'learning_rate': 7.1e-06, 'epoch': 0.86}
+2025-05-01 19:03:53 {'loss': 1.5032, 'grad_norm': 13.495165824890137, 'learning_rate': 6.1e-06, 'epoch': 0.88}
+2025-05-01 19:04:03 {'loss': 1.3157, 'grad_norm': 12.83072566986084, 'learning_rate': 5.1e-06, 'epoch': 0.9}
+2025-05-01 19:04:13 {'loss': 1.4435, 'grad_norm': 12.629426002502441, 'learning_rate': 4.1000000000000006e-06, 'epoch': 0.92}
+2025-05-01 19:04:22 {'loss': 1.4472, 'grad_norm': 13.414178848266602, 'learning_rate': 3.1e-06, 'epoch': 0.94}
+2025-05-01 19:04:36 {'loss': 1.4615, 'grad_norm': 10.407258033752441, 'learning_rate': 2.1000000000000002e-06, 'epoch': 0.96}
+2025-05-01 19:04:46 {'loss': 1.5338, 'grad_norm': 12.072859764099121, 'learning_rate': 1.1e-06, 'epoch': 0.98}
+2025-05-01 19:04:56 {'loss': 1.3275, 'grad_norm': 11.417728424072266, 'learning_rate': 1.0000000000000001e-07, 'epoch': 1.0}
+2025-05-01 19:04:56 {'train_runtime': 533.1084, 'train_samples_per_second': 1.876, 'train_steps_per_second': 0.938, 'train_loss': 1.4752679920196534, 'epoch': 1.0}
+2025-05-01 19:06:19 {'loss': 0.9328, 'grad_norm': 8.652713775634766, 'learning_rate': 4.91e-05, 'epoch': 0.02}
+2025-05-01 19:06:25 {'loss': 0.865, 'grad_norm': 9.093920707702637, 'learning_rate': 4.8100000000000004e-05, 'epoch': 0.04}
+2025-05-01 19:06:40 {'loss': 1.0779, 'grad_norm': 9.272212028503418, 'learning_rate': 4.71e-05, 'epoch': 0.06}
+2025-05-01 19:06:50 {'loss': 1.0309, 'grad_norm': 9.399258613586426, 'learning_rate': 4.61e-05, 'epoch': 0.08}
+2025-05-01 19:07:00 {'loss': 1.0401, 'grad_norm': 9.38318157196045, 'learning_rate': 4.5100000000000005e-05, 'epoch': 0.1}
+2025-05-01 19:07:14 {'loss': 1.0467, 'grad_norm': 10.217939376831055, 'learning_rate': 4.41e-05, 'epoch': 0.12}
+2025-05-01 19:07:23 {'loss': 1.125, 'grad_norm': 9.981175422668457, 'learning_rate': 4.3100000000000004e-05, 'epoch': 0.14}
+2025-05-01 19:07:33 {'loss': 0.9693, 'grad_norm': 9.056073188781738, 'learning_rate': 4.21e-05, 'epoch': 0.16}
+2025-05-01 19:07:43 {'loss': 0.9953, 'grad_norm': 9.84711742401123, 'learning_rate': 4.11e-05, 'epoch': 0.18}
+2025-05-01 19:07:57 {'loss': 1.0431, 'grad_norm': 14.48437786102295, 'learning_rate': 4.0100000000000006e-05, 'epoch': 0.2}
+2025-05-01 19:08:07 {'loss': 1.0941, 'grad_norm': 12.2791748046875, 'learning_rate': 3.91e-05, 'epoch': 0.22}
+2025-05-01 19:08:17 {'loss': 1.1124, 'grad_norm': 31.130430221557617, 'learning_rate': 3.8100000000000005e-05, 'epoch': 0.24}
+2025-05-01 19:08:26 {'loss': 0.9905, 'grad_norm': 9.694961547851562, 'learning_rate': 3.71e-05, 'epoch': 0.26}
+2025-05-01 19:08:40 {'loss': 1.0763, 'grad_norm': 8.727547645568848, 'learning_rate': 3.61e-05, 'epoch': 0.28}
+2025-05-01 19:08:49 {'loss': 1.3265, 'grad_norm': 10.622764587402344, 'learning_rate': 3.51e-05, 'epoch': 0.3}
+2025-05-01 19:08:59 {'loss': 1.1213, 'grad_norm': 11.768796920776367, 'learning_rate': 3.41e-05, 'epoch': 0.32}
+2025-05-01 19:09:09 {'loss': 1.0272, 'grad_norm': 10.843226432800293, 'learning_rate': 3.3100000000000005e-05, 'epoch': 0.34}
+2025-05-01 19:09:18 {'loss': 1.0665, 'grad_norm': 10.163026809692383, 'learning_rate': 3.21e-05, 'epoch': 0.36}
+2025-05-01 19:09:32 {'loss': 1.1066, 'grad_norm': 11.744342803955078, 'learning_rate': 3.1100000000000004e-05, 'epoch': 0.38}
+2025-05-01 19:09:41 {'loss': 1.1721, 'grad_norm': 13.2266263961792, 'learning_rate': 3.01e-05, 'epoch': 0.4}
+2025-05-01 19:09:51 {'loss': 1.0366, 'grad_norm': 9.008203506469727, 'learning_rate': 2.91e-05, 'epoch': 0.42}
+2025-05-01 19:10:01 {'loss': 1.2145, 'grad_norm': 14.645487785339355, 'learning_rate': 2.8100000000000005e-05, 'epoch': 0.44}
+2025-05-01 19:10:11 {'loss': 1.2342, 'grad_norm': 13.654698371887207, 'learning_rate': 2.7100000000000005e-05, 'epoch': 0.46}
+2025-05-01 19:10:21 {'loss': 1.0041, 'grad_norm': 8.65368938446045, 'learning_rate': 2.61e-05, 'epoch': 0.48}
+2025-05-01 19:10:34 {'loss': 1.0516, 'grad_norm': 11.155271530151367, 'learning_rate': 2.51e-05, 'epoch': 0.5}
+2025-05-01 19:10:44 {'loss': 1.2712, 'grad_norm': 16.020917892456055, 'learning_rate': 2.41e-05, 'epoch': 0.52}
+2025-05-01 19:10:54 {'loss': 1.1299, 'grad_norm': 18.23992156982422, 'learning_rate': 2.3100000000000002e-05, 'epoch': 0.54}
+2025-05-01 19:11:04 {'loss': 1.1451, 'grad_norm': 10.928051948547363, 'learning_rate': 2.2100000000000002e-05, 'epoch': 0.56}
+2025-05-01 19:11:13 {'loss': 1.1428, 'grad_norm': 11.276025772094727, 'learning_rate': 2.11e-05, 'epoch': 0.58}
+2025-05-01 19:11:27 {'loss': 1.171, 'grad_norm': 10.356884956359863, 'learning_rate': 2.01e-05, 'epoch': 0.6}
+2025-05-01 19:11:36 {'loss': 1.2017, 'grad_norm': 7.363829135894775, 'learning_rate': 1.91e-05, 'epoch': 0.62}
+2025-05-01 19:11:46 {'loss': 1.1852, 'grad_norm': 7.778632640838623, 'learning_rate': 1.81e-05, 'epoch': 0.64}
+2025-05-01 19:11:56 {'loss': 0.9968, 'grad_norm': 9.560428619384766, 'learning_rate': 1.7100000000000002e-05, 'epoch': 0.66}
+2025-05-01 19:12:05 {'loss': 1.1523, 'grad_norm': 10.12661361694336, 'learning_rate': 1.6100000000000002e-05, 'epoch': 0.68}
+2025-05-01 19:12:15 {'loss': 1.2308, 'grad_norm': 11.608871459960938, 'learning_rate': 1.51e-05, 'epoch': 0.7}
+2025-05-01 19:12:28 {'loss': 1.2481, 'grad_norm': 9.052995681762695, 'learning_rate': 1.4099999999999999e-05, 'epoch': 0.72}
+2025-05-01 19:12:38 {'loss': 1.2519, 'grad_norm': 12.209967613220215, 'learning_rate': 1.3100000000000002e-05, 'epoch': 0.74}
+2025-05-01 19:12:48 {'loss': 1.196, 'grad_norm': 12.761574745178223, 'learning_rate': 1.2100000000000001e-05, 'epoch': 0.76}
+2025-05-01 19:12:57 {'loss': 1.216, 'grad_norm': 12.785478591918945, 'learning_rate': 1.11e-05, 'epoch': 0.78}
+2025-05-01 19:13:07 {'loss': 1.1282, 'grad_norm': 11.970850944519043, 'learning_rate': 1.0100000000000002e-05, 'epoch': 0.8}
+2025-05-01 19:13:17 {'loss': 1.2579, 'grad_norm': 11.631783485412598, 'learning_rate': 9.100000000000001e-06, 'epoch': 0.82}
+2025-05-01 19:13:27 {'loss': 1.3126, 'grad_norm': 10.949350357055664, 'learning_rate': 8.1e-06, 'epoch': 0.84}
+2025-05-01 19:13:40 {'loss': 1.2177, 'grad_norm': 11.68212604522705, 'learning_rate': 7.1e-06, 'epoch': 0.86}
+2025-05-01 19:13:50 {'loss': 1.3913, 'grad_norm': 12.779004096984863, 'learning_rate': 6.1e-06, 'epoch': 0.88}
+2025-05-01 19:14:00 {'loss': 1.2007, 'grad_norm': 12.613321304321289, 'learning_rate': 5.1e-06, 'epoch': 0.9}
+2025-05-01 19:14:09 {'loss': 1.3339, 'grad_norm': 11.572405815124512, 'learning_rate': 4.1000000000000006e-06, 'epoch': 0.92}
+2025-05-01 19:14:19 {'loss': 1.3443, 'grad_norm': 13.748537063598633, 'learning_rate': 3.1e-06, 'epoch': 0.94}
+2025-05-01 19:14:32 {'loss': 1.2906, 'grad_norm': 10.52743148803711, 'learning_rate': 2.1000000000000002e-06, 'epoch': 0.96}
+2025-05-01 19:14:41 {'loss': 1.218, 'grad_norm': 9.616662979125977, 'learning_rate': 1.1e-06, 'epoch': 0.98}
+2025-05-01 19:14:51 {'loss': 0.8102, 'grad_norm': 8.189534187316895, 'learning_rate': 1.0000000000000001e-07, 'epoch': 1.0}
+2025-05-01 19:14:51 {'train_runtime': 517.4676, 'train_samples_per_second': 1.932, 'train_steps_per_second': 0.966, 'train_loss': 1.136100368499756, 'epoch': 1.0}
+2025-05-01 19:05:13 INFO :      Sent reply
+2025-05-01 19:06:02 INFO :      
+2025-05-01 19:06:02 INFO :      Received: train message 610afef8-4bcb-4c62-8f7c-f9b5eb78d0ff
+2025-05-01 19:15:05 INFO :      Sent reply
+2025-05-01 19:15:06 Traceback (most recent call last):
+2025-05-01 19:15:06   File "/app/client.py", line 89, in <module>
+2025-05-01 19:15:06     fl.client.start_numpy_client(server_address=server_ip, client=FlowerClient())
+2025-05-01 19:15:06   File "/usr/local/lib/python3.10/dist-packages/flwr/client/app.py", line 731, in start_numpy_client
+2025-05-01 19:15:06     start_client(
+2025-05-01 19:15:06   File "/usr/local/lib/python3.10/dist-packages/flwr/client/app.py", line 201, in start_client
+2025-05-01 19:15:06     start_client_internal(
+2025-05-01 19:15:06   File "/usr/local/lib/python3.10/dist-packages/flwr/client/app.py", line 438, in start_client_internal
+2025-05-01 19:15:06     message = receive()
+2025-05-01 19:15:06   File "/usr/local/lib/python3.10/dist-packages/flwr/client/grpc_client/connection.py", line 142, in receive
+2025-05-01 19:15:06     proto = next(server_message_iterator)
+2025-05-01 19:15:06   File "/usr/local/lib/python3.10/dist-packages/grpc/_channel.py", line 543, in __next__
+2025-05-01 19:15:06     return self._next()
+2025-05-01 19:15:06   File "/usr/local/lib/python3.10/dist-packages/grpc/_channel.py", line 969, in _next
+2025-05-01 19:15:06     raise self
+2025-05-01 19:15:06 grpc._channel._MultiThreadedRendezvous: <_MultiThreadedRendezvous of RPC that terminated with:
+2025-05-01 19:15:06 status = StatusCode.UNAVAILABLE
+2025-05-01 19:15:06 details = "Socket closed"
+2025-05-01 19:15:06 debug_error_string = "UNKNOWN:Error received from peer ipv4:172.18.0.2:8080 {grpc_message:"Socket closed", grpc_status:14, created_time:"2025-05-01T16:15:01.901615818+00:00"}"
+2025-05-01 19:15:06 >
