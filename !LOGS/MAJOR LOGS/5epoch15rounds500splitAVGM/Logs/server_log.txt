@@ -1,0 +1,293 @@
+2025-05-25 18:00:14.635 | Repo card metadata block was not found. Setting CardData to empty.
+2025-05-25 18:02:53.961 | 
+2025-05-25 18:03:34.126 | 
+2025-05-25 18:03:35.202 | 
+2025-05-25 18:03:35.207 | /app/server.py:31: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+2025-05-25 18:03:35.207 |   trainer = Trainer(model=model, args=eval_args, eval_dataset=dataset, tokenizer=tokenizer)
+2025-05-25 18:03:35.219 | WARNING :   DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+2025-05-25 18:03:35.219 | 	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+2025-05-25 18:03:35.219 | 
+2025-05-25 18:03:35.219 | 		$ flower-superlink --insecure
+2025-05-25 18:03:35.219 | 
+2025-05-25 18:03:35.219 | 	To view usage and all available options, run:
+2025-05-25 18:03:35.219 | 
+2025-05-25 18:03:35.219 | 		$ flower-superlink --help
+2025-05-25 18:03:35.219 | 
+2025-05-25 18:03:35.219 | 	Using `start_server()` is deprecated.
+2025-05-25 18:03:35.219 | 
+2025-05-25 18:03:35.219 |             This is a deprecated feature. It will be removed
+2025-05-25 18:03:35.219 |             entirely in future versions of Flower.
+2025-05-25 18:03:35.219 |         
+2025-05-25 18:03:35.220 | INFO :      Starting Flower server, config: num_rounds=15, no round_timeout
+2025-05-25 18:03:35.245 | INFO :      Flower ECE: gRPC server running (15 rounds), SSL is disabled
+2025-05-25 18:03:35.245 | INFO :      [INIT]
+2025-05-25 18:03:35.245 | INFO :      Requesting initial parameters from one random client
+2025-05-25 18:33:40.715 | INFO :      Flower server terminated gracefully.
+2025-05-25 18:33:58.328 | Repo card metadata block was not found. Setting CardData to empty.
+2025-05-25 18:34:01.607 | /app/server.py:31: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+2025-05-25 18:34:01.607 |   trainer = Trainer(model=model, args=eval_args, eval_dataset=dataset, tokenizer=tokenizer)
+2025-05-25 18:34:01.621 | WARNING :   DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+2025-05-25 18:34:01.621 | 	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+2025-05-25 18:34:01.621 | 
+2025-05-25 18:34:01.621 | 		$ flower-superlink --insecure
+2025-05-25 18:34:01.621 | 
+2025-05-25 18:34:01.621 | 	To view usage and all available options, run:
+2025-05-25 18:34:01.621 | 
+2025-05-25 18:34:01.621 | 		$ flower-superlink --help
+2025-05-25 18:34:01.621 | 
+2025-05-25 18:34:01.621 | 	Using `start_server()` is deprecated.
+2025-05-25 18:34:01.621 | 
+2025-05-25 18:34:01.621 |             This is a deprecated feature. It will be removed
+2025-05-25 18:34:01.621 |             entirely in future versions of Flower.
+2025-05-25 18:34:01.621 |         
+2025-05-25 18:34:01.622 | INFO :      Starting Flower server, config: num_rounds=15, no round_timeout
+2025-05-25 18:34:01.637 | INFO :      Flower ECE: gRPC server running (15 rounds), SSL is disabled
+2025-05-25 18:34:01.637 | INFO :      [INIT]
+2025-05-25 18:34:01.637 | INFO :      Requesting initial parameters from one random client
+2025-05-25 18:34:08.759 | INFO :      Received initial parameters from one random client
+2025-05-25 18:34:08.759 | INFO :      Starting evaluation of initial global parameters
+2025-05-25 18:34:09.359 | /app/server.py:38: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+2025-05-25 18:34:09.359 |   trainer = Trainer(model=model, eval_dataset=eval_dataset, tokenizer=tokenizer)
+2025-05-25 18:34:09.382 | /usr/local/lib/python3.10/site-packages/torch/utils/data/dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+2025-05-25 18:34:09.382 |   warnings.warn(warn_msg)
+2025-05-25 18:40:05.856 | 
+2025-05-25 18:40:05.858 | INFO :      initial parameters (loss, other metrics): 7.146307945251465, {'eval_loss': 7.146307945251465, 'eval_model_preparation_time': 0.0048, 'eval_runtime': 356.4766, 'eval_samples_per_second': 4.208, 'eval_steps_per_second': 0.527}
+2025-05-25 18:40:05.858 | INFO :      
+2025-05-25 18:40:05.859 | INFO :      [ROUND 1]
+2025-05-25 18:40:05.859 | INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-25 19:18:55.302 | INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-25 19:24:41.319 | 
+2025-05-25 19:24:41.320 | INFO :      fit progress: (1, 2.641244888305664, {'eval_loss': 2.641244888305664, 'eval_model_preparation_time': 0.0039, 'eval_runtime': 333.1465, 'eval_samples_per_second': 4.503, 'eval_steps_per_second': 0.564}, 2630.3881802979995)
+2025-05-25 19:24:41.320 | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-25 19:25:06.217 | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-25 19:25:06.217 | WARNING :   No evaluate_metrics_aggregation_fn provided
+2025-05-25 19:25:06.217 | INFO :      
+2025-05-25 19:25:06.217 | INFO :      [ROUND 2]
+2025-05-25 19:25:06.218 | INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-25 19:53:17.369 | INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-25 19:59:05.158 | 
+2025-05-25 19:59:05.159 | INFO :      fit progress: (2, 2.7185609340667725, {'eval_loss': 2.7185609340667725, 'eval_model_preparation_time': 0.004, 'eval_runtime': 334.7576, 'eval_samples_per_second': 4.481, 'eval_steps_per_second': 0.562}, 4678.153785676999)
+2025-05-25 19:59:05.159 | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-25 19:59:42.344 | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-25 19:59:42.344 | INFO :      
+2025-05-25 19:59:42.344 | INFO :      [ROUND 3]
+2025-05-25 19:59:42.344 | INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-25 20:32:13.135 | INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-25 20:37:59.202 | 
+2025-05-25 20:37:59.204 | INFO :      fit progress: (3, 2.8270370960235596, {'eval_loss': 2.8270370960235596, 'eval_model_preparation_time': 0.0047, 'eval_runtime': 333.0029, 'eval_samples_per_second': 4.504, 'eval_steps_per_second': 0.565}, 6995.369683065999)
+2025-05-25 20:37:59.204 | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-25 20:38:32.756 | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-25 20:38:32.756 | INFO :      
+2025-05-25 20:38:32.756 | INFO :      [ROUND 4]
+2025-05-25 20:38:32.756 | INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-25 21:07:08.443 | INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-25 21:12:57.570 | 
+2025-05-25 21:12:57.572 | INFO :      fit progress: (4, 2.9223198890686035, {'eval_loss': 2.9223198890686035, 'eval_model_preparation_time': 0.0046, 'eval_runtime': 334.8938, 'eval_samples_per_second': 4.479, 'eval_steps_per_second': 0.561}, 9079.829385918)
+2025-05-25 21:12:57.572 | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-25 21:13:27.402 | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-25 21:13:27.402 | INFO :      
+2025-05-25 21:13:27.402 | INFO :      [ROUND 5]
+2025-05-25 21:13:27.402 | INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-25 21:42:09.574 | INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-25 21:48:00.454 | 
+2025-05-25 21:48:00.455 | INFO :      fit progress: (5, 3.034437894821167, {'eval_loss': 3.034437894821167, 'eval_model_preparation_time': 0.0041, 'eval_runtime': 338.1122, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.556}, 11170.045942457)
+2025-05-25 21:48:00.455 | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-25 21:48:26.323 | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-25 21:48:26.324 | INFO :      
+2025-05-25 21:48:26.324 | INFO :      [ROUND 6]
+2025-05-25 21:48:26.324 | INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-25 22:16:41.814 | INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-25 22:22:35.239 | 
+2025-05-25 22:22:35.240 | INFO :      fit progress: (6, 3.1267292499542236, {'eval_loss': 3.1267292499542236, 'eval_model_preparation_time': 0.004, 'eval_runtime': 340.6667, 'eval_samples_per_second': 4.403, 'eval_steps_per_second': 0.552}, 13233.156355208)
+2025-05-25 22:22:35.241 | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-25 22:23:07.775 | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-25 22:23:07.775 | INFO :      
+2025-05-25 22:23:07.775 | INFO :      [ROUND 7]
+2025-05-25 22:23:07.775 | INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-25 22:51:51.422 | INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-25 22:57:39.662 | 
+2025-05-25 22:57:39.663 | INFO :      fit progress: (7, 3.216376543045044, {'eval_loss': 3.216376543045044, 'eval_model_preparation_time': 0.004, 'eval_runtime': 334.9205, 'eval_samples_per_second': 4.479, 'eval_steps_per_second': 0.561}, 15326.602907967)
+2025-05-25 22:57:39.663 | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-25 22:58:03.971 | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-25 22:58:03.971 | INFO :      
+2025-05-25 22:58:03.971 | INFO :      [ROUND 8]
+2025-05-25 22:58:03.972 | INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-25 23:27:09.755 | INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-25 23:33:00.701 | 
+2025-05-25 23:33:00.702 | INFO :      fit progress: (8, 3.2982239723205566, {'eval_loss': 3.2982239723205566, 'eval_model_preparation_time': 0.0038, 'eval_runtime': 339.0358, 'eval_samples_per_second': 4.424, 'eval_steps_per_second': 0.555}, 17437.737486536)
+2025-05-25 23:33:00.702 | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-25 23:33:30.914 | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-25 23:33:30.914 | INFO :      
+2025-05-25 23:33:30.914 | INFO :      [ROUND 9]
+2025-05-25 23:33:30.914 | INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-26 00:02:17.220 | INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-26 00:08:09.911 | 
+2025-05-26 00:08:09.912 | INFO :      fit progress: (9, 3.370586633682251, {'eval_loss': 3.370586633682251, 'eval_model_preparation_time': 0.0041, 'eval_runtime': 340.4432, 'eval_samples_per_second': 4.406, 'eval_steps_per_second': 0.552}, 19538.139453241)
+2025-05-26 00:08:09.912 | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-26 00:08:55.691 | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-26 00:08:55.691 | INFO :      
+2025-05-26 00:08:55.691 | INFO :      [ROUND 10]
+2025-05-26 00:08:55.691 | INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-26 00:37:39.173 | INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-26 00:43:40.375 | 
+2025-05-26 00:43:40.376 | INFO :      fit progress: (10, 3.4292421340942383, {'eval_loss': 3.4292421340942383, 'eval_model_preparation_time': 0.0041, 'eval_runtime': 346.4133, 'eval_samples_per_second': 4.33, 'eval_steps_per_second': 0.543}, 21660.833502253)
+2025-05-26 00:43:40.376 | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-26 00:44:03.497 | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-26 00:44:03.497 | INFO :      
+2025-05-26 00:44:03.497 | INFO :      [ROUND 11]
+2025-05-26 00:44:03.497 | INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-26 01:12:27.513 | INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-26 01:18:23.824 | 
+2025-05-26 01:18:23.825 | INFO :      fit progress: (11, 3.5106289386749268, {'eval_loss': 3.5106289386749268, 'eval_model_preparation_time': 0.004, 'eval_runtime': 341.7797, 'eval_samples_per_second': 4.389, 'eval_steps_per_second': 0.55}, 23738.113216094)
+2025-05-26 01:18:23.825 | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-26 01:18:53.284 | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-26 01:18:53.284 | INFO :      
+2025-05-26 01:18:53.284 | INFO :      [ROUND 12]
+2025-05-26 01:18:53.284 | INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-26 01:47:05.707 | INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-26 01:52:56.881 | 
+2025-05-26 01:52:56.882 | INFO :      fit progress: (12, 3.558669328689575, {'eval_loss': 3.558669328689575, 'eval_model_preparation_time': 0.004, 'eval_runtime': 338.5282, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.555}, 25805.798673494)
+2025-05-26 01:52:56.882 | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-26 01:53:19.495 | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-26 01:53:19.495 | INFO :      
+2025-05-26 01:53:19.495 | INFO :      [ROUND 13]
+2025-05-26 01:53:19.495 | INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-26 02:21:33.101 | INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-26 02:27:24.456 | 
+2025-05-26 02:27:24.457 | INFO :      fit progress: (13, 3.6023032665252686, {'eval_loss': 3.6023032665252686, 'eval_model_preparation_time': 0.0038, 'eval_runtime': 338.0093, 'eval_samples_per_second': 4.438, 'eval_steps_per_second': 0.556}, 27869.001224659998)
+2025-05-26 02:27:24.457 | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-26 02:27:52.198 | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-26 02:27:52.198 | INFO :      
+2025-05-26 02:27:52.198 | INFO :      [ROUND 14]
+2025-05-26 02:27:52.198 | INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-26 02:56:20.573 | INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-26 03:02:11.603 | 
+2025-05-26 03:02:11.604 | INFO :      fit progress: (14, 3.6604385375976562, {'eval_loss': 3.6604385375976562, 'eval_model_preparation_time': 0.0042, 'eval_runtime': 339.0702, 'eval_samples_per_second': 4.424, 'eval_steps_per_second': 0.554}, 29952.781320637998)
+2025-05-26 03:02:11.604 | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-26 03:02:42.166 | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-26 03:02:42.166 | INFO :      
+2025-05-26 03:02:42.166 | INFO :      [ROUND 15]
+2025-05-26 03:02:42.166 | INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+2025-05-26 03:30:53.026 | INFO :      aggregate_fit: received 3 results and 0 failures
+2025-05-26 03:36:44.898 | 
+2025-05-26 03:36:44.899 | INFO :      fit progress: (15, 3.6953301429748535, {'eval_loss': 3.6953301429748535, 'eval_model_preparation_time': 0.0039, 'eval_runtime': 338.683, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.555}, 32023.989501717002)
+2025-05-26 03:36:44.899 | INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)
+2025-05-26 03:37:10.113 | INFO :      aggregate_evaluate: received 3 results and 0 failures
+2025-05-26 03:37:10.149 | INFO :      
+2025-05-26 03:37:10.149 | INFO :      [SUMMARY]
+2025-05-26 03:37:10.149 | INFO :      Run finished 15 round(s) in 32049.18s
+2025-05-26 03:37:10.151 | INFO :      	History (loss, distributed):
+2025-05-26 03:37:10.151 | INFO :      		round 1: 2.6637938022613525
+2025-05-26 03:37:10.151 | INFO :      		round 2: 2.7487284342447915
+2025-05-26 03:37:10.151 | INFO :      		round 3: 2.8675547440846763
+2025-05-26 03:37:10.151 | INFO :      		round 4: 2.971611420313517
+2025-05-26 03:37:10.151 | INFO :      		round 5: 3.097756862640381
+2025-05-26 03:37:10.151 | INFO :      		round 6: 3.1953511238098145
+2025-05-26 03:37:10.151 | INFO :      		round 7: 3.286209980646769
+2025-05-26 03:37:10.151 | INFO :      		round 8: 3.3710171381632485
+2025-05-26 03:37:10.151 | INFO :      		round 9: 3.4415787061055503
+2025-05-26 03:37:10.151 | INFO :      		round 10: 3.509397506713867
+2025-05-26 03:37:10.151 | INFO :      		round 11: 3.5977338949839273
+2025-05-26 03:37:10.151 | INFO :      		round 12: 3.6387876669565835
+2025-05-26 03:37:10.152 | INFO :      		round 13: 3.685723622639974
+2025-05-26 03:37:10.152 | INFO :      		round 14: 3.7509707609812417
+2025-05-26 03:37:10.152 | INFO :      		round 15: 3.784226099650065
+2025-05-26 03:37:10.152 | INFO :      	History (loss, centralized):
+2025-05-26 03:37:10.152 | INFO :      		round 0: 7.146307945251465
+2025-05-26 03:37:10.152 | INFO :      		round 1: 2.641244888305664
+2025-05-26 03:37:10.152 | INFO :      		round 2: 2.7185609340667725
+2025-05-26 03:37:10.153 | INFO :      		round 3: 2.8270370960235596
+2025-05-26 03:37:10.154 | INFO :      		round 4: 2.9223198890686035
+2025-05-26 03:37:10.154 | INFO :      		round 5: 3.034437894821167
+2025-05-26 03:37:10.154 | INFO :      		round 6: 3.1267292499542236
+2025-05-26 03:37:10.154 | INFO :      		round 7: 3.216376543045044
+2025-05-26 03:37:10.154 | INFO :      		round 8: 3.2982239723205566
+2025-05-26 03:37:10.154 | INFO :      		round 9: 3.370586633682251
+2025-05-26 03:37:10.154 | INFO :      		round 10: 3.4292421340942383
+2025-05-26 03:37:10.154 | INFO :      		round 11: 3.5106289386749268
+2025-05-26 03:37:10.154 | INFO :      		round 12: 3.558669328689575
+2025-05-26 03:37:10.154 | INFO :      		round 13: 3.6023032665252686
+2025-05-26 03:37:10.154 | INFO :      		round 14: 3.6604385375976562
+2025-05-26 03:37:10.154 | INFO :      		round 15: 3.6953301429748535
+2025-05-26 03:37:10.154 | INFO :      	History (metrics, centralized):
+2025-05-26 03:37:10.154 | INFO :      	{'eval_loss': [(0, 7.146307945251465),
+2025-05-26 03:37:10.154 | INFO :      	               (1, 2.641244888305664),
+2025-05-26 03:37:10.154 | INFO :      	               (2, 2.7185609340667725),
+2025-05-26 03:37:10.154 | INFO :      	               (3, 2.8270370960235596),
+2025-05-26 03:37:10.154 | INFO :      	               (4, 2.9223198890686035),
+2025-05-26 03:37:10.154 | INFO :      	               (5, 3.034437894821167),
+2025-05-26 03:37:10.154 | INFO :      	               (6, 3.1267292499542236),
+2025-05-26 03:37:10.154 | INFO :      	               (7, 3.216376543045044),
+2025-05-26 03:37:10.154 | INFO :      	               (8, 3.2982239723205566),
+2025-05-26 03:37:10.154 | INFO :      	               (9, 3.370586633682251),
+2025-05-26 03:37:10.154 | INFO :      	               (10, 3.4292421340942383),
+2025-05-26 03:37:10.154 | INFO :      	               (11, 3.5106289386749268),
+2025-05-26 03:37:10.154 | INFO :      	               (12, 3.558669328689575),
+2025-05-26 03:37:10.154 | INFO :      	               (13, 3.6023032665252686),
+2025-05-26 03:37:10.154 | INFO :      	               (14, 3.6604385375976562),
+2025-05-26 03:37:10.154 | INFO :      	               (15, 3.6953301429748535)],
+2025-05-26 03:37:10.155 | INFO :      	 'eval_model_preparation_time': [(0, 0.0048),
+2025-05-26 03:37:10.155 | INFO :      	                                 (1, 0.0039),
+2025-05-26 03:37:10.155 | INFO :      	                                 (2, 0.004),
+2025-05-26 03:37:10.155 | INFO :      	                                 (3, 0.0047),
+2025-05-26 03:37:10.155 | INFO :      	                                 (4, 0.0046),
+2025-05-26 03:37:10.155 | INFO :      	                                 (5, 0.0041),
+2025-05-26 03:37:10.155 | INFO :      	                                 (6, 0.004),
+2025-05-26 03:37:10.155 | INFO :      	                                 (7, 0.004),
+2025-05-26 03:37:10.155 | INFO :      	                                 (8, 0.0038),
+2025-05-26 03:37:10.155 | INFO :      	                                 (9, 0.0041),
+2025-05-26 03:37:10.155 | INFO :      	                                 (10, 0.0041),
+2025-05-26 03:37:10.155 | INFO :      	                                 (11, 0.004),
+2025-05-26 03:37:10.155 | INFO :      	                                 (12, 0.004),
+2025-05-26 03:37:10.155 | INFO :      	                                 (13, 0.0038),
+2025-05-26 03:37:10.155 | INFO :      	                                 (14, 0.0042),
+2025-05-26 03:37:10.156 | INFO :      	                                 (15, 0.0039)],
+2025-05-26 03:37:10.156 | INFO :      	 'eval_runtime': [(0, 356.4766),
+2025-05-26 03:37:10.156 | INFO :      	                  (1, 333.1465),
+2025-05-26 03:37:10.156 | INFO :      	                  (2, 334.7576),
+2025-05-26 03:37:10.156 | INFO :      	                  (3, 333.0029),
+2025-05-26 03:37:10.156 | INFO :      	                  (4, 334.8938),
+2025-05-26 03:37:10.156 | INFO :      	                  (5, 338.1122),
+2025-05-26 03:37:10.156 | INFO :      	                  (6, 340.6667),
+2025-05-26 03:37:10.156 | INFO :      	                  (7, 334.9205),
+2025-05-26 03:37:10.156 | INFO :      	                  (8, 339.0358),
+2025-05-26 03:37:10.156 | INFO :      	                  (9, 340.4432),
+2025-05-26 03:37:10.156 | INFO :      	                  (10, 346.4133),
+2025-05-26 03:37:10.156 | INFO :      	                  (11, 341.7797),
+2025-05-26 03:37:10.157 | INFO :      	                  (12, 338.5282),
+2025-05-26 03:37:10.157 | INFO :      	                  (13, 338.0093),
+2025-05-26 03:37:10.157 | INFO :      	                  (14, 339.0702),
+2025-05-26 03:37:10.157 | INFO :      	                  (15, 338.683)],
+2025-05-26 03:37:10.157 | INFO :      	 'eval_samples_per_second': [(0, 4.208),
+2025-05-26 03:37:10.157 | INFO :      	                             (1, 4.503),
+2025-05-26 03:37:10.157 | INFO :      	                             (2, 4.481),
+2025-05-26 03:37:10.157 | INFO :      	                             (3, 4.504),
+2025-05-26 03:37:10.157 | INFO :      	                             (4, 4.479),
+2025-05-26 03:37:10.157 | INFO :      	                             (5, 4.436),
+2025-05-26 03:37:10.157 | INFO :      	                             (6, 4.403),
+2025-05-26 03:37:10.157 | INFO :      	                             (7, 4.479),
+2025-05-26 03:37:10.157 | INFO :      	                             (8, 4.424),
+2025-05-26 03:37:10.158 | INFO :      	                             (9, 4.406),
+2025-05-26 03:37:10.158 | INFO :      	                             (10, 4.33),
+2025-05-26 03:37:10.158 | INFO :      	                             (11, 4.389),
+2025-05-26 03:37:10.158 | INFO :      	                             (12, 4.431),
+2025-05-26 03:37:10.158 | INFO :      	                             (13, 4.438),
+2025-05-26 03:37:10.158 | INFO :      	                             (14, 4.424),
+2025-05-26 03:37:10.158 | INFO :      	                             (15, 4.429)],
+2025-05-26 03:37:10.158 | INFO :      	 'eval_steps_per_second': [(0, 0.527),
+2025-05-26 03:37:10.158 | INFO :      	                           (1, 0.564),
+2025-05-26 03:37:10.158 | INFO :      	                           (2, 0.562),
+2025-05-26 03:37:10.158 | INFO :      	                           (3, 0.565),
+2025-05-26 03:37:10.158 | INFO :      	                           (4, 0.561),
+2025-05-26 03:37:10.158 | INFO :      	                           (5, 0.556),
+2025-05-26 03:37:10.158 | INFO :      	                           (6, 0.552),
+2025-05-26 03:37:10.159 | INFO :      	                           (7, 0.561),
+2025-05-26 03:37:10.159 | INFO :      	                           (8, 0.555),
+2025-05-26 03:37:10.159 | INFO :      	                           (9, 0.552),
+2025-05-26 03:37:10.159 | INFO :      	                           (10, 0.543),
+2025-05-26 03:37:10.159 | INFO :      	                           (11, 0.55),
+2025-05-26 03:37:10.159 | INFO :      	                           (12, 0.555),
+2025-05-26 03:37:10.159 | INFO :      	                           (13, 0.556),
+2025-05-26 03:37:10.159 | INFO :      	                           (14, 0.554),
+2025-05-26 03:37:10.159 | INFO :      	                           (15, 0.555)]}
+2025-05-26 03:37:10.159 | INFO :      
